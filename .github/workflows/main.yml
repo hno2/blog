@@ -20,20 +20,21 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       - name: Install Requirements
-        run: pip install -r requirements.txt
+        run:  pip install -r requirements.txt
       - name: Build HTML
         run: pelican -s publishconf.py
+      - name: Deploy to Server
+        uses: marcodallasanta/ssh-scp-deploy@v1.0.4
+        with:
+          local: './output/*'                                            # Local file path - REQUIRED false - DEFAULT ./
+          remote: '/var/www/simonklug.de/src'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
+          host: ${{secrets.HOST}}                                      # Remote server address - REQUIRED true
+          user: ${{secrets.USER}}                                      # Remote server user - REQUIRED true
+          key: ${{secrets.KEY}} 
 
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Deploy to Server
-      uses: easingthemes/ssh-deploy@v2.1.5
-      env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "dist/"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+
