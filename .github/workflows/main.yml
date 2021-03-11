@@ -31,8 +31,8 @@ jobs:
       - name: Deploy to Server
         uses: marcodallasanta/ssh-scp-deploy@v1.0.4
         with:
-          local: './output'                                            # Local file path - REQUIRED false - DEFAULT ./
-          remote: '~/'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
+          local: './output/*'                                            # Local file path - REQUIRED false - DEFAULT ./
+          remote: '/var/www/simonklug.de/src'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
           host: ${{secrets.HOST}}                                      # Remote server address - REQUIRED true
           user: ${{secrets.USER}}                                      # Remote server user - REQUIRED true
           key: ${{secrets.KEY}} 
