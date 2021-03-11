@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Page not found · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+Page does not exist at {{ SITENAME|striptags|e }} blog.
+{% endblock head_description %}
+{% block content %}
+<h1>That page doesn't exist!</h1>
+
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <p>Sorry, but the page you are looking for cannot be found. It seems that the page you were trying to reach
+            doesn't exist, or may be it has just moved, or it no longer exists.</p>
+    </div>
+</div>
+{% endblock content %}

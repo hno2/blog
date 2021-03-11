@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ article.title|striptags|e }} {% if article.subtitle %} - {{ article.subtitle|striptags|e }} {% endif %}
+{% endblock title %}
+
+{% block head_description %}
+{% if article.summary %}
+{{ article.summary|striptags|e }}
+{% endif %}
+{% endblock head_description %}
+
+
+{%block toc %}
+{% if article.toc %}
+<h1>Contents</h1>
+{{article.toc}}
+{{article.toc}}
+{%endif%}
+{%endblock toc %}
+
+
+{% block content %}
+<h1>{{ article.title }}
+    {% if article.subtitle %}
+    <small class="subtitle">
+        {{ article.subtitle }}
+    </small>
+    {% endif %}
+</h1>
+{{ article.content }}
+{% if article.bibliography %}
+{{ article.bibliography.rendered }}
+{% endif %}
+
+
+{% if article.tags and article.tags[0]|trim|count > 0 %}
+{% for tag in article.tags|sort %}
+#{{ tag }}
+{% endfor %}
+{% endif %}
+{% endblock content %}

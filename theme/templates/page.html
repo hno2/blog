@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ page.title|striptags|e }} {% if page.subtitle %} - {{ page.subtitle|striptags|e }} {% endif %}
+{% endblock title %}
+{%block toc %}
+{% if page.toc %}
+<h1>Contents</h1>
+{%endif%}
+{%endblock toc %}
+
+
+{% block content %}
+<h1>{{ page.title }}
+    {% if page.subtitle %}
+    <small class="subtitle">
+        {{ page.subtitle }}
+    </small>
+    {% endif %}
+</h1>
+{{ page.content }}
+{% if page.bibliography %}
+{{ page.bibliography.rendered }}
+{% endif %}
+{% endblock content %}
