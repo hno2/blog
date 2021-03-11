@@ -24,26 +24,17 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - name: See what is here 
-        run: ls 
       - name: Install Requirements
         run:  pip install -r requirements.txt
       - name: Build HTML
         run: pelican -s publishconf.py
-      - name: See what is here
-        run: ls
+      - name: Deploy to Server
+        uses: marcodallasanta/ssh-scp-deploy@v1.0.4
+        with:
+          local: './output'                                            # Local file path - REQUIRED false - DEFAULT ./
+          remote: '~/'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
+          host: ${{secrets.HOST}}                                      # Remote server address - REQUIRED true
+          user: ${{secrets.USER}}                                      # Remote server user - REQUIRED true
+          key: ${{secrets.KEY}} 
 
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: marcodallasanta/ssh-scp-deploy@v1.0.4
-      name: Deploy to Server
-      with:
-        local: './output'                                            # Local file path - REQUIRED false - DEFAULT ./
-        remote: '~/'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
-        host: ${{secrets.HOST}}                                      # Remote server address - REQUIRED true
-        user: ${{secrets.USER}}                                      # Remote server user - REQUIRED true
-        key: ${{secrets.KEY}} 
-
-    
 
