@@ -1,2 +1,3 @@
-# blog
-Personal Blog at simonklug.de
+# simonklug.de
+
+Personal Website
