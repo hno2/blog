@@ -8,7 +8,7 @@ import pelican_cite
 AUTHOR = "Simon Klug"
 SITENAME = "Today I learned..."
 SITESUBTITLE = "Learning Blog of Simon Klug"
-SITEURL = ""
+SITEURL = "https://simonklug.de"
 
 PATH = "content"
 
