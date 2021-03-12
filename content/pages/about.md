@@ -22,5 +22,5 @@ This is probably thing in
 <hr>
 
 ## About this blog
-If you have not noticed this blog loads fast. To much of the web is bloated by huge pages, so my approach is minimal and mostly text based. The Design this blog is heavily inspired by the  blog of the Amazing [Tom MacWright](https://macwright.com/).
+If you have not noticed this blog loads fast. To much of the web is bloated by huge pages, so my approach is minimal and mostly text based. The Design this blog is heavily inspired by the  blog of the amazing [Tom MacWright](https://macwright.com/).
 
