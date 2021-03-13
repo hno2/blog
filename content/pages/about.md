@@ -12,7 +12,7 @@ Moin!
 I'm Simon and this is my blog. 
 Why write a blog you might ask? 
 Mainly I want to document random things I learn.
-This is probably thing in 
+This is probably things in and around
 
 * **Tech**, especially Python, Machine Learning and fastai
 * **Karlsruhe** and my university the [Karlsruhe Institute for Technology](https://www.kit.edu/)
