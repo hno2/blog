@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="    
-{% if article and article.lang %}
-{{ article.lang }}
-{% else %}en
-{% endif %}">
+<html lang="{% if article and article.lang %}{{ article.lang }}{% else %}en{% endif %}">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link rel="icon" href="/static/favicon.svg">
     {% if article and article.author %}
     <meta name="author" content="{{ article.author }}" />
     {% elif page and page.author %}
