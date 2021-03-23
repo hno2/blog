@@ -1,12 +1,11 @@
 ---
 author: Simon Klug
 title: About Reading <del>52</del> <del>100</del> more Books a year
-slug: reading-52-books
+slug: reading
 Tags: life, reading, books
-summary: What happens when you start reading more ? My personal experience reading 100 Books in a year.
+summary: What happens when you start reading more? My personal experience reading more Books in a year.
 date: 2021-01-02 21:13:00
 ---
-
 
 ## Recap 2021
 Puuh, what a year. With this global pandemic, there was a lot of time for things you really want to do. So I read [104 books](https://www.goodreads.com/user/year_in_books/2020/102347383) (2 Books a week) with a total of 37836 pages. It was mostly a lot of fun but some books did not make it easy for me. I am not a person that writes reviews, but I want  to highlight my 3 favorite books this year: 
