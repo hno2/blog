@@ -1,10 +1,19 @@
 ---
 author: Simon Klug
-title: About Reading <del>52</del> 100 Books a year
+title: About Reading <del>52</del> <del>100</del> more Books a year
 slug: reading-52-books
 Tags: life, reading, books
 summary: What happens when you start reading more ? My personal experience reading 100 Books in a year.
+date: 2021-01-02 21:13:00
 ---
+
+
+## Recap 2021
+Puuh, what a year. With this global pandemic, there was a lot of time for things you really want to do. So I read [104 books](https://www.goodreads.com/user/year_in_books/2020/102347383) (2 Books a week) with a total of 37836 pages. It was mostly a lot of fun but some books did not make it easy for me. I am not a person that writes reviews, but I want  to highlight my 3 favorite books this year: 
+
+* **[Furchtbare Juristen](https://www.goodreads.com/book/show/28587707-furchtbare-juristen)** by Ingo Müller. A book on the German justice system and its role in the crimes of the Third Reich
+* **[Hologrammatica](https://www.goodreads.com/book/show/38356981-hologrammatica)** by Tom Hillenbrand. A consitently gripping Sci-Fi Thriller that has it all: Mind Uploading, AI, and a missing person case.
+* **[Kite Runner](https://www.goodreads.com/book/show/5291325-drachenl-ufer)** by Khaled Hosseini. AA not-so-classic tale of friendship, family, and war from a new perspective.
 
 
 ## Recap 2020
