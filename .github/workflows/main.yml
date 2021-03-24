@@ -21,10 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with: 
+         lfs: true
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-          lfs: true
       - name: Install Requirements
         run:  pip install -r requirements.txt
       - name: Build HTML
