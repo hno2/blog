@@ -77,6 +77,15 @@ a:visited {
     padding-top: 40px
 }
 
+table td {
+    border-bottom: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
 @media only screen and (min-width: 1025px) {
     .container {
         display: grid;
