@@ -13,6 +13,8 @@ pysvg
 tox
 pelican
 markdown
-pelican-cite
+git+https://github.com/VorpalBlade/pelican-cite.git
 pelican-katex
 pelican-sitemap
+pybtex-author-year-label
+mdx_include
