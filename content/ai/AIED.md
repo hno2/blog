@@ -1,6 +1,8 @@
 ---
 title: Notes on the Artificial Intelligence in Education Conference 2021 
 Tags: machine learning, artificial intelligence, conference, notes, education
+slug: aied
+date: 2021-06-22 12:11:00
 --- 
 Last week I participated in the AI in Education Conference (AIED) (virtually of course). Here are my semi-structured notes and comments.
 
