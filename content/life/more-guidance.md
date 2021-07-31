@@ -19,6 +19,7 @@ After a half-century of advocacy associated with instruction using minimal guida
 ## Cognitive Load Theory 
 Cognitive Load Theory [@@sweller1988cognitive] is built on the model of human information processing, where incoming information is processed (or discarded) by the sensory memory, passed to the working memory. To pass information to the long-term memory it is rehearsed and categorized into Schemas, to structure knowledge. As working memory has a limited capacity, but the capacity is different for different
 types of cognitive loads:
+
 * *Intrinsic cognitive load*, based on the complexity and difficulty of the material
 * *Extraneous cognitive load*, based on representation and design of information in the material
 * *Germane cognitive load*, imposed by the actual learning process e.g. to understand the material
@@ -33,8 +34,7 @@ Directly Instructed Learners not only learn faster, but the quality is also bett
 
 When we learn in a context of problem-based search we impose heavy demands on working memory, which is then unavailable for learning. This means one can search for extended periods with minimal alteration to long-term memory. Learners must construct a mental representation or schema irrespective of whether they are given complete or partial information, so complete information usually leads to a more accurate representation of information. When lacking proper schemas to integrate new information, incomplete or disorganized knowledge has negative effects to build new schemas
 
-One could argue that constructivist based learning approaches are based on the methods of scientific inquiry. But there has to be a clear distinction between learning a discipline and practicing a discipline. According to [@kyle1980distinction] "scientific inquiry is a systematic and investigative performance ability incorporating unrestrained thinking capabilities *after* a person has acquired a
-broad, critical knowledge of the particular subject matter through formal teaching processes." So cannot be equaled investigative learning.
+One could argue that constructivist based learning approaches are based on the methods of scientific inquiry. But there has to be a clear distinction between learning a discipline and practicing a discipline. According to [@kyle1980distinction] "scientific inquiry is a systematic and investigative performance ability incorporating unrestrained thinking capabilities *after* a person has acquired a broad, critical knowledge of the particular subject matter through formal teaching processes." So scientific inquiry cannot be equaled investigative learning.
 
 
 ## Worked Example 
