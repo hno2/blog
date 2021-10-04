@@ -2,6 +2,7 @@
 title: n-shot Learning for NLP
 Tags: machine learning, artificial intelligence, neuronal networks, nlp
 slug: n-shot
+date: 2021-09-10 14:23
 summary: Few-shot, one-shot and zero-shot learning allow us to train models with minimal data in a way even more similar to how we humans learn.
 --- 
 
