@@ -3,6 +3,7 @@ author: Simon Klug
 title: More Guidance, while Learning = More Better?
 slug: guidance-in-learning
 Tags: life, learning, teaching
+date: 2021-07-28 23:12
 
 ---
 
