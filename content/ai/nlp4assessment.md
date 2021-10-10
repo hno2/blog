@@ -2,6 +2,7 @@
 title: NLP for Code Assessment
 Tags: machine learning, artificial intelligence, neuronal networks, nlp,
 slug: nlp4assessment
+status: draft
 summary: TBD
 --- 
 
