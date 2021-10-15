@@ -2,7 +2,6 @@
 author: Simon Klug
 title: The University of the Future
 slug: future-uni
-status: draft
 Tags: change, university
 ---
 

@@ -2,7 +2,7 @@
 title: NLP for Programming Code
 Tags: machine learning, artificial intelligence, neuronal networks, nlp
 slug: nlp4code
-ate: 2021-06-21 18:23
+date: 2021-06-21 18:23
 summary: TBD
 --- 
 Natural Language Processing is the current hot topic for many machine learning practitioners. 
