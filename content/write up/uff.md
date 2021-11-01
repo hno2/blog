@@ -9,8 +9,8 @@ publications_src: content/til.bib
 Moin! Herzlich Willkommen zu den Ressoursen für meinen Talk *NLP - eine Interaktive Blitzeinführung* auf dem [University Future Festival 2021](https://festival.hfd.digital/en/open-for-discussion/conference-day/). Hier findet sich sowohl Links zu den Quellen meines Talks, Weiterführendes um sich intensiver zu beschäftigen als auch der Programmcode zum direkt kopieren und ausführen.
 Aber am Besten klickt man auf einen der Beiden Links um direkt in einer interaktiven Umgebung arbeiten zu können: 
 
-<a href='https://colab.research.google.com/github/hno2/uff/blob/main/Beispiele.ipynb' target="_blank"><img src='https://colab.research.google.com/assets/colab-badge.svg' style="width:10vw!important"alt='Open In Colab'></a>
-<a href='https://mybinder.org/v2/gh/hno2/uff/HEAD?filepath=Beispiele.ipynb' target="_blank"><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder' style="width:10vw!important"></a>
+<a href='https://colab.research.google.com/github/hno2/uff/blob/main/Beispiele.ipynb' target="_blank"><img src='/images/icons/colab-badge.svg' style="width:10vw!important"alt='Open In Colab'></a>
+<a href='https://mybinder.org/v2/gh/hno2/uff/HEAD?filepath=Beispiele.ipynb' target="_blank"><img src='/images/icons/binder-badge.svg' alt='Open In myBinder' style="width:10vw!important"></a>
 
 ## Was ist NLP?
 Natural Language Processing, die Kunst natürliche Sprache in Computern verstehen.
@@ -49,7 +49,7 @@ print(outputs)
 
 ## Zero-Shot Learning
 * Zero-Shot Learning beschreibt das "Erlernen" von Fähigkeiten ohne Trainingbeispiele. Da die NLP-Netze immer besser darin werden, Sprache zu verstehen können diese auch Anweisungen in natürlicher Sprache verstehen
-* Eine Kurzzusammenfassung zum n-shot learning finden sich in diesem Blogpost
+* Eine Kurzzusammenfassung zum n-shot learning finden sich in [diesem Blogpost](/uff)
 
 
 ```py
