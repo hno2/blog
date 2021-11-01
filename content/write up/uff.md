@@ -2,7 +2,6 @@
 title: Blitzeinführung in NLP
 slug: uff
 date: 2021-10-30 21:55:02 +0100
-lang: de
 publications_src: content/til.bib
 --- 
 
