@@ -16,6 +16,8 @@ After a two year hiatus, I was approached by a friend of mine, who asked me if I
 We completely reinterpreted and connected these broadly known sketches to tell a hilarious story of failing relationships, boredom, and media.
 So say at least I was hooked now. Immediately after playing the last show I went on to the next one.
 
+![Loriotesk Production](../images/theatre/loriotesk.jpeg) *Loriotesk: The TV is not why our relationship is in shambles*
+
 # Jugend Ohne Gott / The Age of Fishes
 The Age of Fishes was my first project with the Junges Staatstheater Karlsruhe and was directed by [Jakob Weiss](https://jakobweiss.de/). In this play, I was part of the speaking choir of pupils. The Age of Fishes by Horváth tells the story of a teacher and his fascist students.
 The Teacher is confronted with the unreflected ideology of the dictatorial system when the conflicts seething in camp get out of control and a murder is committed. This play depicts the coldness and mendacity of a fascist society, in which a lost youth grows up without freedom and ideals. The teacher's questions about responsibility, morality and the necessity of one's actions are more urgent today. 
@@ -31,14 +33,6 @@ Woyzeck was a production directed by Manuel Schüler with twelve young actors fr
 I portrayed the Hauptmann, Woyzecks Chief, who is regularly shaved by him and also puts sexual pressure on him. 
 Working on this role was challenging especially with a very short time for rehearsals. This play contained complex motives of oppression, mania and complicated relationships. Therefore a lot of character work and sensitivity were required to portrait this character naturally and truthfully. Getting an outside perspective is very unusual but Theater can be a way to learn how you appear to others.
 
-# Education
-Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
-The UniTheater Karlsruhe conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
-
-To learn more about how to lead theatre groups I regularly go to workshops by theatre professionals. I love to share my experiences with other students.
-
-![Workshop at the UniTheater Karlsruhe](../images/theatre/ot.jpg) *Workshop at the UniTheater Karlsruhe*
-
 
 # tick, tick... BOOM!
 tick, tick... BOOM! is a rock musical by the American Tony Award Winner and Pulitzer awardee Jonathan Larsons.
@@ -53,3 +47,24 @@ Jon sees turning thirty as the *"end of youth"* and must decide between his pass
 ![Jon and Micheal throwing paper over the band](../images/theatre/tick.JPG) *Jon and Micheal throwing paper over the band (Photo: Ramona Just)*
 > Cages or Wings, which do you prefer?
 
+
+# Honiefaith
+In the third height (?) of the Corona-Pandemic I was asked to direct the European Premiere of Honiefaith by Monty DiPietro.Honiefaith explores the shadowy world of Japanese "hostess clubs" through the eyes of the foreign women who work there.
+
+When a Filipino hostess‘ dismembered body is discovered in a locker in Tokio, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
+
+# Improtheater Karlsruhe
+The [Improtheater Karlsruhe](https://www.improtheater-karlsruhe.com/) is my current and happy theatre home. Together with a diverse cast of faboulous individuals we teach, train and present this art of spontanous creation. Improvisation is a lot. It not only is a great way to learn about yourself and others by listening being present in an environemn of trust and vulnerability. I think it is the spearhead of learning to lead and to follow..
+
+
+
+# Education
+Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
+The UniTheater Karlsruhe conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
+
+To learn more about how to lead theatre groups I regularly go to workshops by theatre professionals. I love to share my experiences with other students.
+I still regulary train and support other in both directing and acting. My current focus is on phyisical theatre and the use of the body as a tool for expression. 
+
+![Workshop at the UniTheater Karlsruhe](../images/theatre/ot.jpg) *Workshop at the UniTheater Karlsruhe*
+
+My personal directing style is naturalistic, fast, physical and expressive.
