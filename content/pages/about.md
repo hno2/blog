@@ -5,7 +5,7 @@ layout: page
 date: 2019-01-14 7:30:47 +0100
 status: hidden
 slug: about
-summary: Simon Klug lives and studies in Karlsruhe. He learns and teaches Machine Learning in the shadow of the night. 
+summary: Simon Klug lives and works in Karlsruhe. He learns and teaches Machine Learning in the shadow of the night. 
 ---
 Hey there!
 
@@ -17,7 +17,7 @@ I think in chaos there is power, as well as in structure. Therefore you will fin
 * **Tech**, especially Python and  Machine Learning
 * **Teaching** things I just learned and writing about Education 
 * **Karlsruhe** and my ex-university the [Karlsruhe Institute for Technology](https://www.kit.edu/)
-* to creativity, theatre, cooking, and other random things that float in my head
+* to creativity, [theatre]({filename}../life/theatre.md), cooking, and other random things that float in my head
 
 
 <hr>
