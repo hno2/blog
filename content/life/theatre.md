@@ -49,14 +49,19 @@ Jon sees turning thirty as the *"end of youth"* and must decide between his pass
 
 
 # Honiefaith
-In the third height (?) of the Corona-Pandemic I was asked to direct the European Premiere of Honiefaith by Monty DiPietro.Honiefaith explores the shadowy world of Japanese "hostess clubs" through the eyes of the foreign women who work there.
+In the third height (?) of the Corona-Pandemic I was asked to direct the European Premiere of Honiefaith by Monty DiPietro. Honiefaith explores the shadowy world of Japanese "hostess clubs" through the eyes of the foreign women who work there.
+
+![Reporter Balmori uncovers more of the background of the murder](../images/theatre/honiefaith.JPG) *Reporter Balmori uncovers more of the background of the murder (Photo: T. Schlinck)*
+
 
 When a Filipino hostess‘ dismembered body is discovered in a locker in Tokio, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
+
+
 
 # Improtheater Karlsruhe
 The [Improtheater Karlsruhe](https://www.improtheater-karlsruhe.com/) is my current and happy theatre home. Together with a diverse cast of faboulous individuals we teach, train and present this art of spontanous creation. Improvisation is a lot. It not only is a great way to learn about yourself and others by listening being present in an environemn of trust and vulnerability. I think it is the spearhead of learning to lead and to follow..
 
-
+![Performance with the Improtheater Karlsruhe](../images/theatre/impro.jpg) *Performance with the Improtheater Karlsruhe (Photo: Arthur Leon)*
 
 # Education
 Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
