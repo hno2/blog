@@ -51,7 +51,7 @@ Jon sees turning thirty as the *"end of youth"* and must decide between his pass
 # Honiefaith
 In the third height (?) of the Corona-Pandemic I was asked to direct the European Premiere of Honiefaith by Monty DiPietro. Honiefaith explores the shadowy world of Japanese "hostess clubs" through the eyes of the foreign women who work there.
 
-![Reporter Balmori uncovers more of the background of the murder](../images/theatre/honiefaith.JPG) *Reporter Balmori uncovers more of the background of the murder (Photo: T. Schlinck)*
+![Reporter Balmori uncovers more of the background of the murder](../images/theatre/honiefaith.jpg) *Reporter Balmori uncovers more of the background of the murder (Photo: T. Schlinck)*
 
 
 When a Filipino hostess‘ dismembered body is discovered in a locker in Tokio, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
