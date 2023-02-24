@@ -12,7 +12,7 @@ Hey there!
 I'm Simon and this is my blog. 
 Why write a blog you might wonder? 
 Honestly, I just googled something for the fifth time, so I needed a way to document random things I learn.
-I think in chaos there is power, as well as in structure. Therefore you will find different topics on here. These range from 
+I think there is a sweet spot between the order of daily life and work and the chaos of living in it. Therefore you will find different topics on here. These range from 
 
 * **Tech**, especially Python and  Machine Learning
 * **Teaching** things I just learned and writing about Education 
