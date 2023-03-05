@@ -12,12 +12,6 @@ status: draft
 
 
 
-!!!note "Langes Zusammenkommen"
-    Partner finden, zufällig verteilt im Raum, über einen Song Blickkontakt halten und zusammenkommen. Wenn zusammen umarmen und halten. 
-
-!!!note "Kiss or Kill"
-    Partner, Maximaler Abstand 
-
 !!!note "Zoo"
     6 TN einer Reihe stehen, verschiedene Figuren, Nicht direkt zurückgeben 
     a) Löwe - *Rawr*
@@ -28,19 +22,34 @@ status: draft
     f) Wurm - Finger wiggle - *Wiggle Wiggle*
 
 
-
-
-
 !!!note Negative Space
+    Zwei 
+
 ### Konzept Grenzen
-Grenzen ändern sich, deine Grenzen sind so perfekt wie sie für dich heute sind.
-Konzept von 0 
+
+
+Wenn wir mit Consent, also einvernehmlich arbeiten wollen, müssen wir unsere eigenen Grenzen und die unserer SpielpartnerInnen bewusst machen.
+Deine Grenzen sind deine Grenzen, die sich jederzeit ändern können. Deine Grenzen sind so perfekt wie sie für dich heute sind. Grenzen von anderen zu akzeptieren ist die Basis für unsere gemeinsame Arbeit.
+Consent geben wir nach dem Consent kann es nur geben wenn:
+
+* Freiwillig gegeben: Alle haben die Freiheit, zuzustimmen. Es gibt keinen Druck, keine Gewalt oder Manipulation.
+* Reversibel: Jeder kann jederzeit seine Meinung ändern und darum bitten, aufzuhören, selbst wenn man sich mitten in der Handlung befindet.
+* Informiert: Alle Partner müssen genau wissen, worauf sie sich einlassen.
+* Enthusiastisch: Alle Partner sollten begeistert sein und sich auf das Geschehen einlassen. *Ja, ok*, *Wenns sein muss* gelten nicht
+* Spezifisch: Jede Handlung erfordert jedes Mal eine Zustimmung, auch wenn man sie schon einmal gemacht hat.
+
+Grundsetzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachschärfen.
+!!!note "Consent zu zweit"
+    Setze dich deinem SpielpartnerIn gegenüber. Abwechselnd Fragt einer den Anderen, 
+
+    1. Wir müssen akzeptieren, das Nein keine Ablehnung mir gegenüber ist, sondern wollen dankbar sein für die Offenheit. Gleichzeitig üben wir spezifisch zu sein. Daher folgende Grundstruktur A fragt: Darf ich XY (spezifisch, Ort, Dauer, Art)? B: Nein A: Atmen+Danke (das du mir deine Grenze mitteilst) B: Atmen Danke (für deine Akzeptanz)
+    2. Ihr dürft jetzt auch zustimmen. Jederzeit Stop oder Button sagen. 
+
 Button – Stop oder Pause zu groß, wir wollen nicht begründen, Return to neutral, Pause
-Fries 
 
 
 !!!note "Simon Says"
-    Klassisches Simon say in drei Stufen. 
+    Klassisches Simon say in drei Stufen.
 
     1. Du kannst jederzeit Nein sagen, und auf neutral zurückkehren.
     2. Reflektion, wie fühlt es sich an nein zu sagen
@@ -50,8 +59,8 @@ Fries
     TN im Kreis, Impuls weitergeben. Blickkontakt aufnehmen, affirmative Geste zu anderer Person und *Ja* Sagen dann Platzwechsel. Alternativ *Button* sagen
 
 T: Zaun Fences
-Show, then Tell. Neutrale Begriffe linke Brust. 
-Nicht persönlich. Ein Zaun ist nur da, nicht eine explizite Anti-Nachbar-Barriere. Nicht du darfst hier nicht anfassen, sondern ich habe hier einen Zaun. 
+Show, then Tell. Neutrale Begriffe linke Brust.
+Nicht persönlich. Ein Zaun ist nur da, nicht eine explizite Anti-Nachbar-Barriere. Nicht du darfst hier nicht anfassen, sondern ich habe hier einen Zaun.
 
 T: Gate – Tor
 Statt generelle Erlaubnis, zum Beispiel Umarmung. Nicht Gesicht an die Brust.
@@ -72,7 +81,6 @@ Statt generelle Erlaubnis, zum Beispiel Umarmung. Nicht Gesicht an die Brust.
     Partnerwechsel 
     Aus [@@pace2020staging]
 
-!!!note "Consent mit Nein"
 
 !!!note "3 min Wheel of Consent"
 
@@ -83,6 +91,7 @@ Statt generelle Erlaubnis, zum Beispiel Umarmung. Nicht Gesicht an die Brust.
     4. Jetzt darfst du auf Stimmungen eingehen *Du bist verwirrt"  
 
 !!! note 
+
 ## 10 Parameter von Intimitätskoodrination
 Aus [@pace2020staging]. 
 
@@ -95,52 +104,92 @@ Aus [@pace2020staging].
     * Schließen Sie den Abstand mit der rechten Hand, während Sie gleichzeitig mit der linken Hand schließen.
     * Den Abstand mit der linken Hand schließen, und kurz bevor sich die Hände berühren, den Abstand mit der rechten Hand öffnen.
     * Denken Sie sich ein paar eigene Kombinationen aus und schauen Sie, ob Sie ihnen eine Geschichte oder einen Charakter verleihen können.
-### Ebenen der Berührung
-#### Level 1: Puder
-!!!note 
+
+!!!note "Kiss or Kill"
+    Findet einen Partner, steht euch mit maximaler Abstand im Raum gegenüber, Blickkontakt. A geht auf B in beliebigen Tempo zu. Im letzten Moment entscheidet A ob er B umbringt oder Küsst (auf die Backe oder Umarmung)
+### Stufen der Berührung
+Verschiende Arten von Berühren, erzählen andere Geschichten. Der Druck spielt dabei eine große Rolle, wir unterscheiden hier innerhalb von 3 Stufen an Hand der Vorstellung eines anatomischen Merkmals in das wir es hineindrücken. 
+
+!!!note "Level 1: Haut/Puder/Berühren"
     Fahren Sie mit Ihrer eigenen Hand auf Ihrem Arm mit den Fingern über die Haut. Spüren Sie dieses Gefühl. Stellen Sie sich nun vor, dass Sie mit einem feinen Puder über die Haut streichen. Verwenden Sie Ihre Fingerspitzen, den Handrücken und die Handfläche, um die Berührungsebene 1 zu erkunden. Versuchen Sie es nun an einem Wandstück. Nähern Sie sich der Wand und berühren Sie sie auf Stufe 1 mit den Fingerspitzen, dann mit der Schulter, dann mit der Hüfte und dann mit dem Oberschenkel. Halten Sie den Kontakt leicht.
 
-#### Level 2: Muskel
-!!!note 
+!!!note "Level 2: Muskel/Farbe/Bewegen"
     Mit der eigenen Hand, am eigenen Arm, denke in die Muskeln deines Arms hinein. Die Berührung der Stufe 2 ist etwas schwerer, und es gibt mehr Reibung zwischen den Fingern und der Haut. Du denkst in die Muskeln hinein und versuchst nicht, die Muskeln zu greifen. Die Haut oder der Ärmel deines Hemdes bewegt sich durch die Reibung. Stellen Sie sich vor, Sie streichen Ihren Arm mit dicker Farbe. Der Druck ist vielleicht ähnlich wie bei einer Massage, aber es gibt nicht unbedingt eine knetende Bewegung. Versuchen Sie, Stufe 2 mit Ihren Handflächen auf Ihren Oberschenkeln oder mit Ihrer Schulter auf Ihrer Wange zu berühren.
 
-### Level 3: Knochen
-!!!note 
+!!!note "Level 3: Knochen/Ton/Ziehen"
     Dies ist die tiefste Ebene des Kontakts. Anstatt also zu versuchen, die Knochen tatsächlich zu berühren, sollten sich die Schauspieler in die Knochen ihres Partners hineindenken. Es ist eine imaginäre Verbindung. Es geht darum, die Geschichte einer tiefen Knochenverbindung zu erzählen, nicht darum, tatsächlich eine tiefe Knochenverbindung herzustellen. Das ist ein kleiner, aber wichtiger Unterschied, der einen großen Unterschied bei der Vermeidung von Blutergüssen ausmachen kann.
 
     Denken Sie mit Ihrer eigenen Hand, an Ihrem eigenen Arm, in Ihre Knochen hinein. Stellen Sie sich vor, Sie könnten sie fühlen. Stellen Sie sich vor, Sie würden Ton formen. Stellen Sie sich vor, Sie drücken oder ziehen Ihren Körper oder Ihre Kleidung mit Ihrer Berührung.
 
-3. Tempo und Zählungen
-4. Formen
-5. Ziel
-6. Augenkontakt
-7. Sichtbare Machtverschiebungen
-8. Atmung und Klang
-9. Schwerkraft und Gewicht
-10. Küssen
 
-Tag 2 Intimität
-Stage Flirting, 
-jede Berührung ist extrem wie feuer.
-Kiss or Kill Bühnenküsse
+!!!note "Spielen"
+    * Bewegen oder Statisch bleibe
+    * Andere Körperteile außer der Hand ausprobieren
+    * An Objekten ausprobieren
+
+!!!note "Welchseln zwischen Ebenen"
+    * Verringere den Abstand zwischen deinen Fingerspitzen und einer Oberfläche, komm in Hautkontakt
+    * Vergrößere die Distanz über einen Atmer und komm Muskelkontakt mit deiner Hand
+    * Jetzt in Knochenkontakt. 
+### Tempo und Zählen
+!!!note "Zählen"
+    Verringere die Distanz über 2 Zähler oder 12 Zähler
+
+!!!note "Zählen und Kontakt"
+    * Starte mit ein bisschen Abstand von einem Stuhl, über 5 Zähler, gehe auf den Stuhl zu und gehe in Hautkontakt für 5 Zähler, Vergößer über einen
+    * Starte wieder mit Abstand, über 8 Zähler verringern, Hautkontakt für 2, Vergößern über 10
+    * Muskel, Kontakt mit dem Stuhl, vergößer vom Becken geführt über 12 Zähler aber bleibe in Kontakt
+
+!!!note "Langes Zusammenkommen"
+    Partner finden, zufällig verteilt im Raum, über einen Song Blickkontakt halten und zusammenkommen. Wenn zusammen umarmen und halten.
+### Formen
+* Gerade Linie
+* Kurve
+* Acht-Form
+### Ziel
+Können anders sein, als im Wahren leben, Desexualisierung
+### Blickkontakt
+Suchen oder Vermeiden
+!!!note 
+    Mit den Händen vor dir, Distanz vergrößern verringern, spiel mit dem Blickkontakt
+
+!!!note "Kein Blickkontakt" 
+    Zwei SpielerInnen spielen stumme Szenen bei denen man den anderen anschaut aber die Blicke sich nicht treffen dürfen.
+### Sichtbare Statusveränderungen
+Sichtbar = Physikalisch Bermerkbar
+!!!note "Hände"
+    Rechte Hand hat den Hochstatus, Statuswechsel zur Linken hand, Wie kan die rechte Hand deiner Linken Stauts geben? Wie können Berührungslevel und Abstandsveränderung dazu funktionieren.
+### Atmung und Klang
+* Kurz oder Lang
+* Flach oder Tief
+* Hoch oder Tief
+* Scharf, Konsonanten vs. Vokale
+
+!!!note "OffStage Intimität"
+### Schwerkraft und Gewicht
+Finetuning, Das Gewicht des Beckens vergößern
+### Küssen
+Grundregel: geschlossener Mund, keine Zunge, kein Kuss wenn jemand krank ist. 
+Bringt alles vorherige zusammen. 
+Vorher mit der Hand ausprobiern. 
+
+### Coreographie
+!!!note Beispielcoreo aus dem Buch
+
+!!!note "Eigene Coreo"
+
+### Stage Flirting
+Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem Partner
+!!!note "meet cute"
+
+!!!note "Stumme Szenen mit Berührung"
+    Macht jede Berührung extrem, wie Feuer
 
 ## Physical Theatre & Viewpoints
-!!!note "Energizer Klatzschen"
+!!!note "Energizer Klatschen"
     Nach links/recht klatschen, immer doppelte Anzahl
 
 
-!!!note "Raumlauf"
-    1. Ich stoppe
-    2. Jeder an der Gruppe kann stoppen/starten
-    3. Gemeinsam Springen 
-    4. Dinge die jemand anderes gemacht hat (Objekt-Interaktion nachmachen)
-    5. Gemeinsam bis 21 Zählen
-
-!!!note "Achtsamkeit für die Gruppe"
-    1. Im Kreis, Anzahl genannt, Anzahl muss in die Mitte gehen
-    2. Gemeinsma Springen, wer gibt den Impus
-    3. Im Kreis verbinden, person spiegeln
-    4. Augen zu, nach beliebiger Zeit augen auf, beliebige Person mit offenen Augen spiegeln
 
 !!!note "Zusammenkommen - Negative Space"
     A+B rennen los, abwechselnd Pose
@@ -149,20 +198,75 @@ Kiss or Kill Bühnenküsse
     2. Mit Berührung
     3. Mit Lean
 
-!!!note "Kurze Coreo"
-    Wiederholende Coreo mit 5 Elementen 
 
+!!!note "Kurze Coreo"
+    Wiederholende Coreo mit 5 Elementen
     1. Normal
-    2. Jeder kann Tempo verädnern
+    2. Jeder kann Tempo verändern
     3. Desyncro & Syncro
+
+!!!note "gemeinsame Choreo mit 5 Elementen"
+    Hand heben, geräuschvolles Ausatmen, Beine überschlagen, nach Links schauen, nach rechts schauen
 
 !!!note "Statue nachbauen"
     Gruppe A baut Statue, Gruppe B muss mit geschlossenen Augen verbinden und nachbauen. 
 
 
-!!!note "Statuen aus Bewegung"
+!!!note "Indiana Jones/Mission Impossible"
+    TN betreten Raum, jeder fügt ein Hinderniss hinzu und durchläuft die gleichen Hindernisse/Fallen der Vorgänger um zum Objekt der Begierde zu gelangen. 
 
 
+
+Choreographiertes Dinge tun, 4 counts rein, 4 counts raus.
+Alice Momente
+
+!!!note "ChiGong"
+    1. ChiGong fließende Bewegungen
+    2. Repetitive Alltagstätigkeit pantomimisch darstellen 100%-0% ChiGong-Tätigkeit
+
+
+
+
+### Frantic Method
+
+Cite Frantic Assembly
+
+!!!note "Handdrücken"
+
+    * Person A stellt sich hin und streckt ihre Hand mit der Handfläche nach unten aus.
+    * Person B kommt diesem Angebot nach, indem sie den Handrücken in die Hand von A drückt und den Druck fest anlegt: eine einfache Erinnerung daran, dass B aktiv A folgen sollte, anstatt nur zu führen. (Druck und Gegendruck)
+    * A bewegt dann seine Hand, während B versucht, den Druck und den Kontakt beizubehalten: Es ist kein Tanz, sondern eine Übung, bei der man lernt,  mit seinem Körper und über Kontakt zuzuhören. Mit zunehmendem Fortschritt kann A schneller werden und sich im Raum bewegen. Versucht nicht, euch gegenseitig zu überrumpeln! Vermeidet es, sich unter dem Arm zu drehen oder auf den Boden zu gehen. Konzentrieren dich auf die Ökonomie der Bewegung, anstatt zu versuchen, sie schön aussehen zu lassen. Geht ins Risiko, bemerke das du ins Denken kommt und lass los
+    * B schließt die Augen
+
+
+!!!note "Lifts"
+    Wer nach oben will muss nach unten denken, ich werde nicht passiv hochgehoben sondern meine Partner sind Felsen auf denen ich aktiv nach oben komme. 
+
+    * **Flying Lift** U Form um Person, ich gehe nach vorne Hände auf die Schultern vom Person am Ende der U. Nach vorne und oben ich drücke mich hoch. Ein Bein geht automatisch nach oben. 1x nur Anzeichnen 1x ausführen wechseln.
+        * 2 Felsen vorne Arme nach vorne, Felsen bringen Brust hoch Gewicht geht über deine Knochen nicht deine Muskeln. 
+        * Anzahl reduzieren, aber immer Starten mit 
+        * der Flyer entscheidet, wohin willst du? Was siehtst du?  Kommunikation über Kontakt 
+        * Eine beliebige Person im Kreis. Drück dich an uns hoch. 
+    * **Jet Pack Lift**. Wir wollen gemeinsam die Illusion von Schwerelosigkeit erzeugen. Flyer Ellenbogen nahe am Körper, Schultern nach unten drücken. Als 4er: Zwei an den Ellenbogen einer an den Beinen.  In die Knie gehen und nach oben drücken. Wenn der Flyer es verkauft dann wird die Arbeit des ganzen versteckt.
+    * **An der Wand laufen**. Die Bases erzeugen Schwerkraft richtung Wand, nicht nach oben. A: Hand auf Schulter und Hand in Achsel. B: Hüfte C: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
+
+
+!!!note "Drunter & Drüber"
+    2er: Abwechselnd unter und über den Körper gehen. Findet Dynamik (Geschwindigkeit auch in der Bewegung, Blickkontakt), damit die Schnitte sich reduzieren.
+    * Umrunden, (drunter) Durch, beiseite (Round, by, Through)
+    * Dynamik über Gewicht des eigenen Körpers, Im Kontakt Kommunizieren den anderen Bewegen können, Findet wege für Lifts, Bewegen des anderen.
+
+!!!note "Lied der Hände"
+    * Blickkontakt. Eigene Hand oder die des Partners bewegen. Am eigenen Körper oder am andern. 
+    * Augenkontakt mit dritter Person. Die Bewegung machen zu können bzw. mit jemand anderes in der Beziehung zu sein obwohl man wo anders hinschaut.
+    * Langsam schaue auf die Hand. 
+
+!!!note "Freiee Körper"
+Findet eine neue Bewegungsform als Gruppe, was soll diese Ausdrücken. 
+
+
+
+## Ensemble Gruppe
 
 !!!note "Viewpoints Raster Raumlauf"
     Nur im Raster laufen, keine Diagonalen, keine Kurven (soft focus, entspannt, kein Ausdruck)
@@ -170,27 +274,49 @@ Kiss or Kill Bühnenküsse
     1. Gleiches Tempo
     2. Stoppen wann du willst
     3. Rennen wann du willst
-   
+
+!!!note "Fokus geben"
+    Jeder TN bekommt eine Nummer und sucht sich eine Aufgabe im Bewegung im gegeben Raum (z.B. Schiff). Wenn Nummer gerufen, dramatisch in Ohnmacht fallen, während von 10 runtergezählt wird. Die anderen müssen zur hilfe eilen, bevor er zu Boden geht. 
 
 
-A+B Aufteilen, 
-1. Ich Impuls 
-2. Gruppe Impuls gemeinsam, durch anhalten 
-3. Zusaätzlich bis 21 Zählen. wenn einer Klatsch klatschen alle. Springen. Finde das ding. 
-Gruppe zusammen Arme raus, wie lange dauert das?
 
-Hebefiguren, gemeinsam (NTLive)
-Choreographiertes Dinge tun, 4 counts rein, 4 counts raus.
-Alice Momente
 
-Szene mit nur 5 Bewegung raising your
-hand, looking right, looking left, crossing your leg, and sighing
 
-Fokus geben und bekommen 
-Schiff
-Weisen Sie jedem Schauspieler eine Nummer zu und laden Sie die Schauspieler in den Spielraum ein, der nun das Deck eines Schiffes ist. 
-Bitten Sie jeden, sich eine Aufgabe auf dem Schiff zu suchen und sich im Raum zu bewegen, um diese Aufgabe zu erfüllen (das Deck schrubben, Hissen der Segel usw Wenn du die Nummer eines Schauspielers aufrufst, muss dieser Schauspieler dramatisch in Ohnmacht fallen, während Sie von zehn rückwärts zählen. Das Ensemble muss ihm zu Hilfe eilen
-und verhindern, dass er zu Boden geht, wenn Sie bei eins angekommen sind. Sobald Sie das geschafft haben, sollten alle an ihre Arbeitsplätze auf dem Schiff zurückkehren. Fahren Sie fort, bis die Nummer aller aufgerufen wurde. 
+!!!note "Raumlauf"
+    1. Ich stoppe
+    2. Jeder an der Gruppe kann stoppen/starten
+    3. Gemeinsam Springen, Klatschen
+    4. Findet das Ding, Macht nach was andere nachgemacht haben (Objekt-Interaktion nachmachen)
+    5. Gemeinsam bis 21 zählen, beim Gleichzeitigen Sprechen von vorne Anfangen
+
+!!!note "Raumlauf II"
+    * Von einer stehenden gemeinsam auf die höchste Geschwindigkeit, die ihr sicher gemeinsam erreichen könnt und wieder zurück zum Stehen als Gruppe
+    * Den Geschwindigkeiten Nummern geben (0 Stehen, 1 Slow Motion, Rennen Slow Motion)
+    * Isolieren: Nur eine person rennt oder Differnz in Nummern.
+
+!!!note "Raumlauf III"
+    * Alle laufen 1-n gleichzeitig stehen. (Make it fun, it's just a game! Don't think! Take risks!)
+    * jeder Fokus auf 1-4 Personen (nicht verfolgen)
+
+
+!!!note "Achtsamkeit für die Gruppe"
+    1. Im Kreis, Anzahl genannt, Anzahl muss in die Mitte gehen
+    2. Gemeinsam Springen, wer gibt den Impuls
+    3. Im Kreis verbinden, person spiegeln
+    4. Augen zu, nach beliebiger Zeit augen auf, beliebige Person mit offenen Augen spiegeln
+
+!!!note Familienfoto
+
+!!!note Diamond Dance
+    In der Periphärie findet jemand wenn du niemand siehst kannst du annehmen das du führst. Bewegung alle machen nach/gemeinsam. Bewegung wiederholen und präzisieren.
+
+!!!note "Object Work"
+    * Suche dir ein Objekt aus mit dem du die nächste halbe Stunde spielt. Probiere ein paar Minuten rum mit den Ding, wie fühlt es sich an, welche Geräusche kann es machen.
+    * Finde drei Dinge, die das Objekt seien könnte
+    * Finde eine Logik, finde eine Routine, finde 4 Bewegungen. Finde etwas was du loppen kannst. Groß und Prezise, wenig Details. Aus der Wiederholung raus, wiederholen. 
+    * Gemeinsames Papier 4 Counts eigenes, 5 pick 6 hoch 7 runter 
+    * Einzelne Isolieren, Zeitlupe Einzelne Personen. Make it bigger
+
 
 
 Teilen Sie Ihre Schauspieler in fünf Gruppen ein und weisen Sie jeder Gruppe einen Platz auf dem Schiff zu. Die Gruppen müssen
