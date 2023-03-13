@@ -1,13 +1,27 @@
 ---
 author: Simon Klug
 title: Workshop Let's get physical
-summary:
+summary: Zusammenfassung zum Workshop mit den Themen Intimitätskoordination, Körperbewusstsein und Physical Theatre beim UniTheater Karlsruhe im März 2023
 slug: physical
-status: draft
 ---
 [TOC]
 
+!!!note Hinweis
+    Dies ist eine Sammlung von Übungen und Hinweisen zum Workshop "Let's get physical" vom 10-12.03.2023 beim UniTheater Karlsruhe. Ohne den Workshop besucht zu haben, ist vieles vermutlich schwierig zu verstehen. Bei Rückfragen darf man mir aber gerne schreiben
+
+## Wichtige Zitate
+> Dein Körper gehört dir, verlasse deine Komfortzone aber gehe nicht über deine Grenze
+
+> Bühnenintimität ist desexualisiert
+
+> Zensiere dich nicht selbst, dein Partner kann immer nein sagen
+
+> Präzision & Geschwindigkeit 
+
+> Deine Grenzen sind immer anders. Deine Grenzen sind so perfekt wie sie für dich heute sind.
+
 ## Energizer/Warm Up
+
 
 !!!note "Energizer Bob die Ente"
     Im Kreis stehen, Schulter an Schulter, ein TN in der Mitte. Die TN im Kreis geben ein Kuscheltier/Ente versteckt hinter dem Rücken weiter und sprechen dabei gemeinsam *Bob die Ente, gib Sie weiter, gib Sie weiter*. Nach Belieben wird die Ente hochgestreckt und ein anderer TN sagt ich habe sie gesehen.
@@ -31,16 +45,12 @@ status: draft
 !!!note "Warmup - Acro"
     * Pull-Ups zu Dritt
     * Contact Improv
-    * Affee- Baum 
-## Thema Consent
-
-
-### Konzept Grenzen
-
+    * Affe- Baum 
+## Consent & Grenzen
 
 Wenn wir mit Consent, also einvernehmlich arbeiten wollen, müssen wir unsere eigenen Grenzen und die unserer SpielpartnerInnen bewusst machen.
 Deine Grenzen sind deine Grenzen, die sich jederzeit ändern können. Deine Grenzen sind so perfekt wie sie für dich heute sind. Grenzen von anderen zu akzeptieren ist die Basis für unsere gemeinsame Arbeit.
-Consent geben wir nach dem FRIES Prinzip, denn Consent kann es nur geben wenn:
+Consent geben wir nach dem *FRIES* Prinzip, denn Consent kann es nur geben wenn:
 
 * Freiwillig gegeben: Alle haben die Freiheit, zuzustimmen. Es gibt keinen Druck, keine Gewalt oder Manipulation.
 * Reversibel: Jeder kann jederzeit seine Meinung ändern und darum bitten, aufzuhören, selbst wenn man sich mitten in der Handlung befindet.
@@ -48,7 +58,7 @@ Consent geben wir nach dem FRIES Prinzip, denn Consent kann es nur geben wenn:
 * Enthusiastisch: Alle Partner sollten begeistert sein und sich auf das Geschehen einlassen. *Ja, ok*, *Wenns sein muss* gelten nicht
 * Spezifisch: Jede Handlung erfordert jedes Mal eine Zustimmung, auch wenn man sie schon einmal gemacht hat.
 
-Grundsetzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachschärfen.
+Grundsätzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachschärfen.
 
 !!!note "Consent zu zweit"
     Setze dich deinem SpielpartnerIn gegenüber. Abwechselnd Fragt einer den Anderen, nach einer Physikalischen 
@@ -58,11 +68,9 @@ Grundsetzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachs
 
 **Button** – Stop oder Pause zu groß, wir wollen nicht begründen. Mit Button, gehen wir auf Null/Neutral zurück.
 
-!!! note "Auf Null Zurück - Harlemshake"
-
 **Fences/Zaun** - Umranden Bereiche unseres Körpers an dem wir nicht berührt werden wollen. Wir verwenden neutrale Begriffe und Desexualisieren. Ein Zaun ist nicht persönlich, denn er ist einfach nur da. Wir habe keine explizite Anti-Nachbar-Barriere. Es ist eben nicht *du* darfst hier nicht anfassen, sondern ich habe hier einen Zaun.
 
-**Gate – Tor** Für Bestimmte bereiche wollen wir keine generelle Erlaubnis geben aber eine Berührung ist ok mit bestimmten Körperteilen. (z.B. Umarmung Brust an Brust ok, Gesicht an Brust nok)
+**Gate – Tor** Für Bestimmte Bereiche wollen wir keine generelle Erlaubnis geben aber eine Berührung ist ok mit bestimmten Körperteilen. (z.B. Umarmung Brust an Brust ok, Gesicht an Brust nok)
 
 
 !!!note "Simon Says"
@@ -125,7 +133,7 @@ Grundsetzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachs
     4. Jetzt darfst du auf Stimmungen eingehen *Du bist verwirrt* 
 
 
-## 10 Parameter von Intimitätskoodrination
+## 10 Parameter von Intimitätskoordination
 Aus [@pace2020staging]. 
 
 ### Abstand öffnen/schließen Öffnungs- und Schließabstand
@@ -141,7 +149,7 @@ Aus [@pace2020staging].
 !!!note "Kiss or Kill"
     Findet einen Partner, steht euch mit maximaler Abstand im Raum gegenüber, Blickkontakt. A geht auf B in beliebigen Tempo zu. Im letzten Moment entscheidet A ob er B umbringt oder Küsst (auf die Backe oder Umarmung)
 ### Stufen der Berührung
-Verschiende Arten von Berühren, erzählen andere Geschichten. Der Druck spielt dabei eine große Rolle, wir unterscheiden hier innerhalb von 3 Stufen an Hand der Vorstellung eines anatomischen Merkmals in das wir es hineindrücken. 
+Verschiedene Arten von Berühren, erzählen andere Geschichten. Der Druck spielt dabei eine große Rolle, wir unterscheiden hier innerhalb von 3 Stufen an Hand der Vorstellung eines anatomischen Merkmals in das wir es hineindrücken. 
 
 !!!note "Level 1: Haut/Puder/Berühren"
     Fahren Sie mit Ihrer eigenen Hand auf Ihrem Arm mit den Fingern über die Haut. Spüren Sie dieses Gefühl. Stellen Sie sich nun vor, dass Sie mit einem feinen Puder über die Haut streichen. Verwenden Sie Ihre Fingerspitzen, den Handrücken und die Handfläche, um die Berührungsebene 1 zu erkunden. Versuchen Sie es nun an einem Wandstück. Nähern Sie sich der Wand und berühren Sie sie auf Stufe 1 mit den Fingerspitzen, dann mit der Schulter, dann mit der Hüfte und dann mit dem Oberschenkel. Halten Sie den Kontakt leicht.
@@ -197,7 +205,7 @@ Suchen oder Vermeiden
 !!!note "Kein Blickkontakt" 
     Zwei SpielerInnen spielen stumme Szenen bei denen man den anderen anschaut aber die Blicke sich nicht treffen dürfen.
 ### Sichtbare Statusveränderungen
-Sichtbar = Physikalisch Bermerkbar
+Sichtbar = Physikalisch Bemerkbar
 !!!note "Hände"
     Rechte Hand hat den Hochstatus, Statuswechsel zur linken Hand, Wie kann die rechte Hand deiner Linken Status geben? Wie können Berührungslevel und Abstandsveränderung dazu funktionieren.
 ### Atmung und Klang
@@ -207,12 +215,13 @@ Sichtbar = Physikalisch Bermerkbar
 * Scharf, Konsonanten vs. Vokale
 
 !!!note "OffStage Intimität"
+    Wie können wir nur mit Atmung und Klang eine Intime-Szene darstellen? Wann wirkt es echt, wann nicht? Welche Laute sind intim gelesen?
 ### Schwerkraft und Gewicht
-Finetuning, Das Gewicht des Beckens vergößern
+Finetuning, Das Gewicht des Beckens vergrößern
 ### Küssen
 Grundregel: geschlossener Mund, keine Zunge, kein Kuss wenn jemand krank ist. 
 Bringt alles vorherige zusammen.
-Vorher mit der Hand ausprobiern.
+Vorher mit der Hand als Platzhalter ausprobieren mit Zählzeiten, Kontaktlevel etc.
 
 ### Coreographie
 !!!note "Umarmungen"
@@ -232,8 +241,10 @@ Vorher mit der Hand ausprobiern.
 
 !!!note "Eigene Coreo"
 
-Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem Partner
-!!!note "meet cute"
+Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem Partner.
+
+!!!note "Meet cute"
+    Welche Situationen von [*Schockverliebt*  (Meet Cute)](https://tvtropes.org/pmwiki/pmwiki.php/Main/MeetCute) gibt es? Wie funktionieren diese?
 
 !!!note "Stumme Szenen mit Berührung"
     Macht jede Berührung extrem, wie Feuer
@@ -264,27 +275,18 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
 
 
 !!!note "Indiana Jones/Mission Impossible"
-    TN betreten Raum, jeder fügt ein Hinderniss hinzu und durchläuft die gleichen Hindernisse/Fallen der Vorgänger um zum Objekt der Begierde zu gelangen. 
-
-
-
-Choreographiertes Dinge tun, 4 counts rein, 4 counts raus.
-Alice Momente
+    TN betreten Raum, jeder fügt ein Hindernis hinzu und durchläuft die gleichen Hindernisse/Fallen der Vorgänger um zum Objekt der Begierde zu gelangen. 
 
 !!!note "ChiGong"
     1. ChiGong fließende Bewegungen
     2. Repetitive Alltagstätigkeit pantomimisch darstellen 100%-0% ChiGong-Tätigkeit
 
-
-
-
 ### Frantic Method
-
-Cite Frantic Assembly
+Übungen von [@graham2014frantic]
 
 !!!note "Quad"
     * Mehrere Reihen, runterzählen
-    * Runde im Raum drehen 90 Grad Drehung an Ecken, Lift
+    * Alternative: Runde im Raum drehen 90 Grad Drehung an Ecken, Lift
 
 
 !!!note "Körperfakt und Zeichensprache"
@@ -304,28 +306,39 @@ Cite Frantic Assembly
 
 
 !!!note "Contact Impro"
-    * Rollen einzeln: Arme und Beine nahe am Boden, von Bein überschlagen rollen, Nacken, Kopf entspannt
-    * Rollen zu zweit, es ist ungewohnt, A auf den Bauch, B über Kreuz darauf, A rollt
-        * Nebeneinader liegen, Anker Fuß oder Arm über den Anderen darüber rollen
-    * Rücken an Rücken und Rollen: Hinsetzen, aufstehen
+    Empfehlung zum Verständnis (Videos [1](https://www.youtube.com/watch?v=dwYNNL8pDec), [2](https://www.youtube.com/watch?v=80mMW1H8xkc), [3](https://www.youtube.com/watch?v=oecMvZAfI_M&t=555s), [4](https://www.youtube.com/watch?v=wqMPCsancYE), [5](https://www.youtube.com/watch?v=H8JiB2Nv5Qo&t=417s) )
+
+    **Alleine**
+
+    * Klebende Hand - Hand bleibt fest an einem Punkt, wie darum bewegen?
+    * Finger führt
+    * Auf dem Boden Rollen: Arme und Beine nahe am Boden, von Bein überschlagen her rollen, Nacken, Kopf entspannt, Fühlt die Gravitation
+
+    **Mit den PartnerIn**
+
+    * Finger an Finger
+    * Akrobatengriff
+    * Rollen zu zweit
+        * A auf den Bauch, B über Kreuz darauf, A rollt oder B rollt
+        * Nebeneinander liegen, Anker Fuß oder Arm über den Anderen darüber rollen
+    * Rücken an Rücken und Rollen: Hinsetzen, aufstehen Counterbalance oder seitliches Rollen
     * Vierfüßler nebenander
       * Gewicht hin und her schwappen, in der Bewegung übereinander
       * Alleine, Versuche dich zu drehen, auf einen Ellenbogen, ein Bein nach hinten ziehn
       * Seitlich darüber Rollen
       * Quer Surfen
       * Rollen wie am Boden
-    * Abdrücken aus der Hüfte
     * Hoher Tisch, im Stehen
     * Reverse Hüfte an Hüfte - Lift, gegengesetzte Blickrichtung, Hand umgreift Hüfte
-    * Hochheben auf Brustebene - Brust zu Brust, Schwehrpunkt nah, nicht springen
-    * Hüfte an Hüfte - Flyer hand um Schulter, Base hand um Hüfte, tieferer schwehrpunkt
-    * Klebende Hand, Hand an Objekt fest
-    * Hand zu Hand
+    * Hochheben auf Brustebene - Brust zu Brust, Schwerpunkt nah, nicht springen
+    * Hüfte an Hüfte - Flyer hand um Schulter, Base hand um Hüfte, tieferer Schwerpunkt
     * Counterbalance, Cunterbalance heranholen zu lift
+    * [Acrobatikpositionen](https://www.christiangieger.de/acroyoga-poses/)
 
 !!!note "Ziehen/Schieben"
     1. Erstelle eine Abfolge von Bewegungen, die eine Übertragung der Kontrolle zeigen mit Push/Pull und Start/Stop-Bewegungen - A bewegt B, hält ihn aber an, bevor seine A bewegt B, stoppt ihn aber, bevor seine Bewegung ihren natürlichen Weg beendet hat. Das können große Bewegungen sein, die die den ganzen Körper betreffen, oder kleinere Bewegungen, die nur einen einzelnen Teil des Körpers betreffen. Wichtig ist, dass der Fokus auf der Kontrolle des anderen liegt. sowohl bei der ersten Bewegung als auch beim Stoppen. Nach ein paar Bewegungen gewinnt B die Kontrolle und die Kontrolle verschiebt sich. Erstelle eine Reihe von 12 Zügen. Das ist einfach ein Austausch von Kontrolle, mehr nicht.
     2. Füge diesen speziellen Bewegungen einen Kontext hinzu. Du fügst nichts Zusätzliches zu der Sequenz hinzu. Nur eine Art, die Bewegungen auszuführen.
+
         * brutalisieren
         * mach es zärtlich
         * mach es spielerisch
@@ -333,23 +346,23 @@ Cite Frantic Assembly
     Überlege, wie sich das auf die Kraft, das Tempo, die Ausdehnung und die Energie der Bewegung auswirken kann. In diesem Stadium ist das Gesicht noch nicht in die Bewegung eingebunden. Es hat noch keinen Charakter und keine Geschichte.
 
     3. Jetzt wird eine bestimmte Richtung vorgegeben. Versuche, etwas durch die Choreografie zu sagen Choreografie etwas zu sagen, anstatt durch Sprechen
-       * Es tut mir leid
-       * Ich bin immer noch wütend auf dich
-       * Du kommst nicht so leicht um mich herum
-       * Du gehörst mir
+
+          * Es tut mir leid
+          * Ich bin immer noch wütend auf dich
+          * Du kommst nicht so leicht um mich herum
+          * Du gehörst mir
 
 !!!note "Flight Paths"
     * A und B gegenüber, Finger einen Flugpfad von Körperteil zu anderm Körperteil. 3-5 max. Wechsel, beide Gleichzeitig. 
 
 
-
-
-
 !!!note "Drunter & Drüber"
     2er: Abwechselnd unter und über den Körper gehen. Findet Dynamik (Geschwindigkeit auch in der Bewegung, Blickkontakt), damit die Schnitte sich reduzieren.
 
-    * Umrunden, (drunter) Durch, beiseite (Round, by, Through)
+    * Umrunden, (drunter) Durch, beiseite (Round, By, Through)
     * Dynamik über Gewicht des eigenen Körpers, Im Kontakt Kommunizieren den anderen Bewegen können, Findet wege für Lifts, Bewegen des anderen.
+
+    [[Quelle Over&Under]](https://www.youtube.com/watch?v=47QhuLMLDL8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG)[[Quelle Round, By, Through]](https://www.youtube.com/watch?v=gUqZPfGIX6U&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=3)
 
 
 !!!note "Lied der Hände (sitzen)"
@@ -361,6 +374,8 @@ Cite Frantic Assembly
     * Augen voneinander wegdrehen. 
     * Couch Potato Physikalität hinzufügen, die Präzison bleibt.
 
+    [Quelle](https://www.youtube.com/watch?v=PB-9LERsyY8)
+
 !!!note "Lied der Hände"
     * Blickkontakt. Eigene Hand oder die des Partners bewegen. Am eigenen Körper oder am andern. 
     * Augenkontakt mit dritter Person. Die Bewegung machen zu können bzw. mit jemand anderes in der Beziehung zu sein obwohl man wo anders hinschaut.
@@ -369,10 +384,7 @@ Cite Frantic Assembly
 !!!note "Freie Körper"
     Findet eine neue Bewegungsform als Gruppe, was soll diese Ausdrücken. 
 
-
-
-
-## Regeln fürs Liften
+### Regeln fürs Liften
 
 1. Base niedriger Schwerpunkt als Flyer
 2. Gib als Flyer dein Gewicht, versuche nicht zu schonen. Mehr Drücke nach unten & in den Partner, nach unten um nach oben zu kommen.
@@ -392,9 +404,11 @@ Cite Frantic Assembly
         * Eine beliebige Person im Kreis. Drück dich an uns hoch. 
     * **Jet Pack Lift**. Wir wollen gemeinsam die Illusion von Schwerelosigkeit erzeugen. Flyer Ellenbogen nahe am Körper, Schultern nach unten drücken. Als 4er: Zwei an den Ellenbogen einer an den Beinen.  In die Knie gehen und nach oben drücken. Wenn der Flyer es verkauft dann wird die Arbeit des ganzen versteckt.
     * **An der Wand laufen**. Die Bases erzeugen Schwerkraft richtung Wand, nicht nach oben. A: Hand auf Schulter und Hand in Achsel. B: Hüfte C: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
+    
+    [[Quelle]](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
 
 
-## Ensemble Gruppe
+### Ensemble Gruppe
 
 !!!note "Viewpoints Raster Raumlauf"
     Nur im Raster laufen, keine Diagonalen, keine Kurven (soft focus, entspannt, kein Ausdruck)
@@ -441,7 +455,10 @@ Cite Frantic Assembly
     3. Im Kreis verbinden, person spiegeln
     4. Augen zu, nach beliebiger Zeit augen auf, beliebige Person mit offenen Augen spiegeln
 
-!!!note Familienfoto
+!!!note "Familienfoto"
+    Art von Familie vorgeben, Gruppe innerhalb 5 Sekunden Familienfoto stellen. Verschiedene Altergruppen etc, immer Bezug auf andere Nehmen.
+
+    Alternativ: Nacheinander aufbauen
 
 !!!note "Diamond Dance"
     In der Periphärie findet jemand wenn du niemand siehst kannst du annehmen das du führst. Bewegung alle machen nach/gemeinsam. Bewegung wiederholen und präzisieren.
@@ -455,21 +472,13 @@ Cite Frantic Assembly
 
 
 !!!note "Schiff Aufgabe"
-    Teilen Sie Ihre Schauspieler in fünf Gruppen ein und weisen Sie jeder Gruppe einen Platz auf dem Schiff zu. Die Gruppen müssen
-    Die Gruppen müssen ihre Räume (und alle Personen oder Gegenstände, die sich darin befinden könnten) nur mit ihren Körpern darstellen. Außerdem müssen sie
-    den Weg zu ihrem Raum gestalten (siehe unten):
-    - Ort: Die Gangway mit der Schwingtür; Weg: durch eine Luke
-    - Ort: Spielerkabine; Weg: Enger Durchgang mit vielen Türen
-    - Ort: Kapelle; Pfad: Enger Durchgang mit vielen Türen
-    - Standort: Kapitänskajüte; Weg: Enger Durchgang mit vielen Türen
-    - Standort: Bilge; Weg: hinunter durch eine elende Tür
-    Nachdem die Gruppen ihre Standorte und Wege erstellt haben, führen sie sich gegenseitig durch die Räume
-    der Reihe nach durch die Räume und rufen dabei "Schnell! Zum..." vor jedem neuen Raum. Sobald jeder Raum geteilt wurde, bestimmen Sie
-    wo auf der Bühne jeder dieser Räume sein könnte, und gehen Sie erneut durch sie. Diesmal weisen Sie das Ensemble an
-    zu jedem Weg hinzuzufügen, so dass alle beteiligt sind.
+    Teilen Sie Ihre Schauspieler in fünf Gruppen ein und weisen Sie jeder Gruppe einen Platz auf dem Schiff zu. Die Gruppen müssen ihre Räume (und alle Personen oder Gegenstände, die sich darin befinden könnten) nur mit ihren Körpern darstellen. Außerdem müssen sie den Weg zu ihrem Raum gestalten (siehe unten):
 
+    * Ort: Die Gangway mit der Schwingtür; Weg: durch eine Luke
+    * Ort: Spielerkabine; Weg: Enger Durchgang mit vielen Türen
+    * Ort: Kapelle; Pfad: Enger Durchgang mit vielen Türen
+    * Standort: Kapitänskajüte; Weg: Enger Durchgang mit vielen Türen
+    * Standort: Bilge; Weg: hinunter durch eine elende Tür
 
-Person in der Mitte Fokus geben
-
-Fokus als Gruppe
+    Nachdem die Gruppen ihre Standorte und Wege erstellt haben, führen sie sich gegenseitig durch die Räume der Reihe nach durch die Räume und rufen dabei "Schnell! Zum..." vor jedem neuen Raum. Sobald jeder Raum geteilt wurde, bestimmen Sie wo auf der Bühne jeder dieser Räume sein könnte, und gehen Sie erneut durch sie. Diesmal weisen Sie das Ensemble an zu jedem Weg hinzuzufügen, so dass alle beteiligt sind.
 
