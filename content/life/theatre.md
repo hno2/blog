@@ -54,15 +54,18 @@ In the third height (?) of the Corona-Pandemic I was asked to direct the Europea
 ![Reporter Balmori uncovers more of the background of the murder](../images/theatre/honiefaith.jpg) *Reporter Balmori uncovers more of the background of the murder (Photo: T. Schlinck)*
 
 
-When a Filipino hostess‘ dismembered body is discovered in a locker in Tokio, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
+When a Filipino hostess‘ dismembered body is discovered in a locker in Tokyo, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
 
 
 
-# Improtheater Karlsruhe
-The [Improtheater Karlsruhe](https://www.improtheater-karlsruhe.com/) is my current and happy theatre home. Together with a diverse cast of faboulous individuals we teach, train and present this art of spontanous creation. Improvisation is a lot. It not only is a great way to learn about yourself and others by listening being present in an environemn of trust and vulnerability. I think it is the spearhead of learning to lead and to follow..
+# Improvisation
+I love Improvisation. Together with a diverse cast of fabulous individuals I teach, train and present this art of spontaneous creation. Improvisation is a lot. It not only is a great way to learn about yourself and others by listening being present in an environment of trust and vulnerability. I think it is the spearhead of learning to lead and to follow..
 
 ![Performance with the Improtheater Karlsruhe](../images/theatre/impro.jpg) *Performance with the Improtheater Karlsruhe (Photo: Arthur Leon)*
 
+
+List of my Trainers: 
+*Julius Anton, Zacharias Heck, Zohra Ighli, Manuel Speck, Hila Di Castro, Anna Preminger, Jun Imai, Delia Riciu, Stephen Davidson, Andrew Hefler, Laura Doorneweerd-Perry, Gael Doorneweerd-Perry, Jutta Tivlis, Jacob Banigan, Mario Müller*
 # Education
 Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
 The UniTheater Karlsruhe conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
