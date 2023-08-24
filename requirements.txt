@@ -11,7 +11,7 @@ flake8
 pysvg
 tox
 pelican
-markdown
+pybtex
 git+https://github.com/VorpalBlade/pelican-cite.git
 pelican-katex
 pelican-sitemap
