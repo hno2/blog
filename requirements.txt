@@ -8,7 +8,6 @@ typogrify
 peru
 cssutils
 flake8
-misspellings
 pysvg
 tox
 pelican
