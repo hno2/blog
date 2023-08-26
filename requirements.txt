@@ -15,5 +15,5 @@ pybtex
 git+https://github.com/VorpalBlade/pelican-cite.git
 pelican-katex
 pelican-sitemap
-pybtex-author-year-label
+git+https://github.com/hno2/pybtex-author-year-label
 mdx_include
