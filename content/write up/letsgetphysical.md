@@ -3,6 +3,7 @@ author: Simon Klug
 title: Workshop Let's get physical
 summary: Zusammenfassung zum Workshop mit den Themen Intimitätskoordination, Körperbewusstsein und Physical Theatre beim UniTheater Karlsruhe im März 2023
 slug: physical
+date: 2023-03-13
 ---
 [TOC]
 
