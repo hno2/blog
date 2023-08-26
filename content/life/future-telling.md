@@ -32,6 +32,8 @@ After this soul-baring opening, we dived into some acting basics. You know what'
 
 As the sun set, the international party was just getting started. We reconnected with the other workshop people, hit the beach, explored the town, and had a blast discovering each other's quirks.
 
+![Decision Making](../images/ft/ft2.jpg)
+
 ## Day 2: Blindfolded Trust and Senses Anew
 You can't spell "connection" without trust, right? And guess what the secret trust-building ingredient is? Blindfolds! We started with a blindfolded huddle, and let me tell you, it's like a sensory puzzle where everyone's wearing a blindfold. A it awkward, but super fun!
 
@@ -43,6 +45,8 @@ Imagine that – a room full of near-strangers suddenly tasked with crafting poi
 
 Allow me to unveil "THE FOUNTAIN" – a breathtaking marvel nestled within the heart of the city park. Picture this: every hour, the waters erupt into a symphony of liquid melodies, a dance orchestrated by the very spirit of aqua. And if the legends are true, it's practically encoded in the DNA of Future Tellers like us to plunge into its watery embrace. Yep, just like the adventurers who came before, we too couldn't resist the siren call, leaping in with the grace of exuberant kids, ready to stage a 20-minute spectacle of expressive aqua-dance extravagance.
 Each evening, as the clock approached the appointed hour, anticipation would crackle in the air like electricity, igniting our inner performers. The park would become our theater, the fountain our stage, and the aquatic choreography a language unspoken yet universally understood. 
+
+![Blindfolded Excercises](../images/ft/ft3.jpg)
 
 ## Day 3 - Blindfolds, Burek, and Emotional Rollercoasters
 Fuelled by a buttery Burek courtesy of a quick bakery dash (Slovenian breakfast? White bread and musli, of course! Not my jam.), I embarked on a frantic mission. Balancing a piece of Burek like it held the secrets to the universe, I perched on a staircase, contorting myself to capture emotions on camera while chomping away. The result? A true masterpiece – an unedited, unfiltered one-take burst of feeling that flowed out like a cosmic monologue.
@@ -61,6 +65,8 @@ Again the day closed with a surprise video task. This time we waltzed into our c
 
 While finding my confidence to create another video - I can't seem to loose the awkardness of seeing and hearing myself - the sun began its evening descent, a renewed mission beckoned – "Fountain Time." The mandate was as clear as a drop of dew – seize the fountain's aquatic stage again.
 
+![Counterbalance](../images/ft/ft4.jpg)
+
 ## Day 4 - Echoes of Creation
 As the sun danced its ascent, Day 4 of our theatrical escapade unfolded, an echo of the creative cadence we'd embraced. If there was one thing we were growing accustomed to, it was the rhythm of exploration, expression, and connection.
 
@@ -70,8 +76,10 @@ And so, with a rope symbolizing our boundaries and inhibitions, we walk that fin
 
 But then, like a soft sigh, the second question hung in the air: What are you afraid of? A question that sent ripples through my soul. As my mind wandered into the realm of fears unspoken, I recognized the familiar tango between apprehension and courage. There we were, facing our fears once again.
 
+![Hugs](../images/ft/ft5.jpg)
 
-## Day 5 - 
+
+## Day 5 - Unveiling Limits and Reimagining Freedom
 Day 5 kicked off with a trusty Burek boost, setting the tone for what was to come. Little did I know, it was going to be a day of surprises and realizations, each turn packing its own punch.
 
 "What's the point?" This question tiptoed through my thoughts, casting a shadow over the familiarity of our routine. Were we merely traversing a loop, a circle of similar challenges with different flavors, but all emotionally heartbreaking? An unresolved echo whispered, taunting the sense of purpose that had guided me so far. Getting caught up in heady talk wasn't the path I needed today – I was seeking a connection to myself, to what I felt deep inside. Combine this with emotional exhaustion of the past days hitting hard, and you get my impromptu solo timeout. Amidst the whirlwind of emotions, I found myself craving a moment to regroup and reflect alone. Something that I had not allowed myself to have - hello again trusted friend FOMO.
@@ -82,6 +90,7 @@ In an other playful twist, a task to reintroduce ourselves gave me a chance to s
 
 The day wrapped up with us finally starting to put the puzzle together - a performance that wove together all the stories we'd shared. Directed by Halil and using our videos and previous performances we started creating an exploration of the digital landscape's influence on human emotions, an compelling montage that showed how the virtual world tinkers with real-life struggles.
 
+![10 people standing in line and looking at the distance](../images/ft/ft6.jpg)
 
 ## Day 6 - Grand Finales and Bittersweet Goodbyes
 Day 6 unfolded with a crescendo of energy as we meticulously rehearsed our performances. Each time we seemed to tip-toe on the brink of emotional exhaustion, a testament to the depth we had ventured into on this journey.
@@ -96,6 +105,8 @@ And then, the day segued into a burek-powered party – a finale punctuated by l
 
 As the sun set on this remarkable week, I found myself grappling with a whirlwind of emotions, ready to face the world with more depth and sincerity, to infuse my days with the same vigor, the same human connection that had coursed through every second of this theatrical odyssey.
 
+
+![Goodbye](../images/ft/ft7.jpg)
 
 ## Epilogue: The Theatrical Odyssey of a Lifetime
 From the moment I stumbled upon that Instagram post, my life took a thrilling detour into the world of Future Telling – a week-long rollercoaster of emotions, self-discovery, and boundless creativity.
@@ -115,3 +126,6 @@ As the final curtain falls on this unforgettable journey of Future Telling, my h
 >For if I give it all, I may end up empty.</br>
 >but if I don't give everything, then I can never know what I am given.</br>
 >I alone am the master of my destiny.
+
+![Group Picture](../images/ft/group.jpg)
+
