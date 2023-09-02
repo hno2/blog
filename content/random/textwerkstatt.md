@@ -3,7 +3,7 @@ author: Simon Klug
 title: Textwerkstatt
 subtitle: An Texten Werkeln
 tags: creative,writing, deutsch, schreiben, text
-date: 2023-09-30
+date: 2023-08-30
 lang: de
 ---
 
