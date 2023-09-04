@@ -1,14 +1,15 @@
 ---
 author: Simon Klug
-title: A review of the Shows at Improvfestival Karlsruhe 2023
-summary: Relive the magic of the annual Improvfestival Karlsruhe, where improvisers from around the globe showcased their talents in 15 unforgettable shows. Discover the unique formats, heartwarming narratives, and quirky setups that made each performance shine. Get insights and subjective ratings as we dive into the world of improvisational theater, offering laughter, inspiration, and creativity at its finest. Whether you're an improv enthusiast or new to the scene, this post takes you on a journey through the captivating world of spontaneous storytelling.
+title: Improfestival Karlsruhe 2023
+subtitle: An opinionated review and intro to the formats presented
+summary: Relive the magic of the annual Improfestival Karlsruhe, where improvisers from around the globe showcased their talents in 15 unforgettable shows. Discover the unique formats, heartwarming narratives, and quirky setups that made each performance shine. Get insights and subjective ratings as we dive into the world of improvisational theater, offering laughter, inspiration, and creativity at its finest. Whether you're an improv enthusiast or new to the scene, this post takes you on a journey through the captivating world of spontaneous storytelling.
 ---
 
-The annual Improvfestival Karlsruhe has just been concluded, leaving behind a trail of laughter, creativity, and unforgettable moments. As the curtain closes and the last echoes of applause fade away, it's time to share with you an in-depth overview of the 15 sensational shows that graced the stage. These performances brought together improvisers from across the globe, each contributing their unique talents and perspectives to create a diverse tapestry of entertainment.
+The annual [Improfestival Karlsruhe](https://www.improfestival-karlsruhe.com/) has just been concluded, leaving behind a trail of laughter, creativity, and unforgettable moments. As the curtain closes and the last echoes of applause fade away, it's time to share with you an in-depth overview of the 15 sensational shows that graced the stage. These performances brought together improvisers from across the globe, each contributing their unique talents and perspectives to create a diverse tapestry of entertainment.
 
 In this post, I'll not only delve into the essence of each show but also provide insights into the format that fueled their brilliance. From the heart-pounding narratives to the quirky setups and remarkable improvisational skills, we'll explore it all. And, of course, I'll be sharing my personal, subjective ratings for each performance, offering you a glimpse into what made these shows shine or where they may have faltered.
 
-So, whether you're an avid fan of improvisational theater or simply curious about the magic that unfolds on the stage, join me on this journey as we relive the moments, emotions, and creativity that defined the Improvfestival Karlsruhe this year. Get ready to laugh, be moved, and perhaps even inspired by the boundless world of improvisational storytelling.
+So, whether you're an avid fan of improvisational theater or simply curious about the magic that unfolds on the stage, join me on this journey as we relive the moments, emotions, and creativity that defined the Improfestival Karlsruhe this year. Get ready to laugh, be moved, and perhaps even inspired by the boundless world of improvisational storytelling.
 
 
 
@@ -20,7 +21,7 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 
 **How it works:** A friend group is sitting getting together in a common setting, telling each other of tales they all remember. The story is told by a collective, with players seamelessly switching between 3rd-person perspective nerrators and characters. After each story, they discuss the common lesson of that story. 
 
-**Rating:** 3.5/5 -  It stands as a commendable display of shared storytelling. While a few tales might have leaned a touch too heavily into the realm of the fantastical it was a really enjoyable overall show. I already saw this format at Improvfestival Amsterdam, where they additionally used some basic props. I think this can help to push that show to the next level, as it opens new ways for physicialty. 
+**Rating:** 3.5/5 -  It stands as a commendable display of shared storytelling. While a few tales might have leaned a touch too heavily into the realm of the fantastical it was a really enjoyable overall show. I already saw this format at [Impro Amsterdam](https://impro-amsterdam.nl/), where they additionally used some basic props. I think this can help to push that show to the next level, as it opens new ways for physicialty. 
 
 
 
