@@ -81,13 +81,13 @@ CATEGORY_SAVE_AS = ""
 USE_SHORTCUT_ICONS = True
 
 # SEO
-SITE_DESCRIPTION = "Simon documents his daily learnings in this Blog"
+SITE_DESCRIPTION = "Explore the personal blog of Simon Klug where everyday experiences transform into valuable lessons. Join me as I delve into the worlds of theatre, master the art of leading a good workshop, dive into AI topics, and unravel the mysteries of education. Follow along on my journey of continuous learning and discovery."
 
 
 AUTHORS = {
     "Simon Klug": {
         "url": "https://simonklug.de/",
-        "blurb": "studies at the Karlsruhe Institute, specializes in Machine Learning. He loves Theatre, Cooking and learning new things.",
+        "blurb": "In the world of Artificial Intelligence and digitalization, I'm Simon Klug, a passionate explorer and a day-to-day learner, located in Karlsruhe. By day, I bring my love for AI to life at Bosch, leading the charge in training our teams for the future. But my journey doesn't stop there. When I am not immersed in the world of technology and work, you'll find me on a theatre stage, running, cooking or failing in new acrobatic skills.",
         "avatar": "/images/avatars/simonklug.jpeg",
     }
 }
