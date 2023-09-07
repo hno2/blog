@@ -5,41 +5,29 @@ layout: page
 date: 2019-01-14 7:30:47 +0100
 status: hidden
 slug: about
-summary: Simon Klug lives and works in Karlsruhe. He learns and teaches Machine Learning in the shadow of the night. 
+summary: Explore the boundless curiosity of Simon Klug's blog, where learning knows no bounds and curiosity reigns supreme. Join the journey through AI adventures at Bosch, the thrill of theatre, culinary escapades, and the fascinating world of acrobatics. Dive into tech marvels, teaching tales, and the cultural tapestry of Karlsruhe. Experience a delightful dance of learning, passion, and the beautiful messiness of existence on this captivating digital voyage.
 ---
-Hey there!
+**Welcome, Fellow Explorers of the Curious Mind!**
 
-I'm Simon and this is my blog. 
-Why write a blog you might wonder? 
-Honestly, I just googled something for the fifth time, so I needed a way to document random things I learn.
-I think there is a sweet spot between the order of daily life and work and the chaos of living in it. Therefore you will find different topics on here. These range from 
+I'm Simon Klug, your guide through the eclectic corridors of my blog, where curiosity runs wild and learning knows no bounds.
 
-* **Tech**, especially Python and  Machine Learning
-* **Teaching** things I just learned and writing about Education 
-* **Karlsruhe** and my ex-university the [Karlsruhe Institute for Technology](https://www.kit.edu/)
-* to creativity, [theatre]({filename}../life/theatre.md), cooking, and other random things that float in my head
+Now, you might be wondering, "*Why another blog in the vast expanse of the internet?*" Well, let me share my secret: I've lost count of how many times I've Googled the same thing for the fifth, or was it the fifteenth, time? So, I decided it's high time to create a digital sanctuary where I can corral all the intriguing and quirky tidbits I stumble upon.
 
+By day, I'm the AI aficionado at Bosch, igniting the flames of knowledge to train our teams for the ever-evolving future. But my journey doesn't halt at the doors of technology. When I'm not immersed in the digital realm, you'll find me living life on the thrilling edge.
 
-<hr>
+Picture me on a theatre stage, ad-libbing my way through captivating stories, or sprinting through landscapes, my feet pounding out the rhythms of exhilaration. In the kitchen, I'm a culinary alchemist, conjuring up culinary delights. And then there's my unyielding passion for acrobatics; let's just say, gravity and I have an ongoing debate.
 
-## Profile
+But my blog isn't just about my pursuits. It's a testament to the sweet spot between order and chaos. Within these virtual pages, you'll embark on a journey spanning:
 
-**In ♥️ with AI**
-I am currently bringing my love of AI and digitalization to my day job at Bosch, where I am creating and coordinating the efforts to train employess in these fields. But I also offer regular internal coachings and workshops both technical as well as soft skills related like Presentation Training, Storytelling or Teambuilding.  
+- **Tech Marvels**: Delve into the wonders of everyday automation, Python sorcery, and the captivating world of Machine Learning.
+- **Learning Tales**: I'll unravel the secrets of what I've recently learned and share my musings on the ever-evolving landscape of education.
+- **Karlsruhe Chronicles**: This is where I reminisce about the days at my alma mater, the [Karlsruhe Institute for Technology](https://www.kit.edu/), and dive into the cultural tapestry of Karlsruhe itself.
+- And then there's the canvas of creativity, the allure of [theatre]({filename}../life/theatre.md), gastronomic escapades, and those whimsical thoughts that float through my ever-curious mind.
 
-![Venn of my profile - Humans - Technical Challenges - Innovation](../images/venn.png)
+So, if you're ready to embark on a journey of endless curiosity, explore the captivating chaos that is life, and perhaps pick up a trick or two along the way, then you've found your digital haven. Join me in this delightful dance of learning, passion, and the beautiful messiness of existence.
 
-I learned that I work best in environments that have three key factors: 
-
-* **Humans** - I need regular interaction with others to function, I love helping and facilitating others and reaching goals together.
-* **Technical Challenges** on a high level - I am not a code monkey or the best programmer, but I understand concepts and technical details fast. I enjoy learning new things and to familiarize myself with complex topics.
-* **Innovation** - Creativity and rapid prototyping are my jam. I love to work on new ideas and to bring them to life.
-
-I look forward to combine my in-depth experience in different topics of Machine Learning and Artificial Intelligence with a human touch. How can I help you fall in love with Artificial Intelligence?
-
-Download my full CV [here](/images/CV_Klug_en.pdf) or connect with me on [LinkedIn](https://www.linkedin.com/in/simon-klug/). Either way feel free to [send me a message](mailto:simon@simonklug.de). 
-
-<hr>
+!!!note "Work with me"
+    Oh, and if you're looking for someone to enable you, give a talk, or direct a play, [check out](learning) what I am offering.
 
 ## About this blog
 If you have not noticed this blog is extremly lightweight. Too much of the web is bloated by huge and overly complex pages, so my approach is minimal and mostly text-based. The design of this blog is heavily inspired by the blog of the amazing [Tom MacWright](https://macwright.com/).
