@@ -70,8 +70,8 @@ List of my Trainers:
 Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
 The UniTheater Karlsruhe conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
 
-To learn more about how to lead theatre groups I regularly go to workshops by theatre professionals. I love to share my experiences with other students.
-I still regulary train and support other in both directing and acting. My current focus is on phyisical theatre and the use of the body as a tool for expression. 
+To learn more about how to lead theatre groups I regularly go to workshops by theatre professionals. [I love to share my experiences with other students.](https://simonklug.de/playing)
+I still regulary train and support other in both directing and acting. My current focus is on physical theatre and the use of the body as a tool for expression. 
 
 ![Workshop at the UniTheater Karlsruhe](../images/theatre/ot.jpg) *Workshop at the UniTheater Karlsruhe*
 
