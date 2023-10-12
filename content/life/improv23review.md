@@ -3,6 +3,7 @@ author: Simon Klug
 title: Improfestival Karlsruhe 2023
 subtitle: An opinionated review and intro to the formats presented
 summary: Relive the magic of the annual Improfestival Karlsruhe, where improvisers from around the globe showcased their talents in 15 unforgettable shows. Discover the unique formats, heartwarming narratives, and quirky setups that made each performance shine. Get insights and subjective ratings as we dive into the world of improvisational theater, offering laughter, inspiration, and creativity at its finest. Whether you're an improv enthusiast or new to the scene, this post takes you on a journey through the captivating world of spontaneous storytelling.
+date: 2023-09-23
 ---
 
 The annual [Improfestival Karlsruhe](https://www.improfestival-karlsruhe.com/) has just been concluded, leaving behind a trail of laughter, creativity, and unforgettable moments. As the curtain closes and the last echoes of applause fade away, it's time to share with you an in-depth overview of the 15 sensational shows that graced the stage. These performances brought together improvisers from across the globe, each contributing their unique talents and perspectives to create a diverse tapestry of entertainment.
@@ -137,6 +138,8 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 **What it is about:** Inspired by the poignant book of the same name, "Brother Lionheart" is a heart-wrenching story of sibling love and loss. It begins with the heartbreaking scene of a young, terminally ill child being cared for by their family, accompanied by a somber musical backdrop. The elder brother gently shares the reality of his sibling's impending passing, promising that death is not the end but the beginning of a fantastical journey into the Afterhelm.
 
 In this world between life and death, the Afterhelm reveals itself as a place of wonder. Here, sweet rivers hold the power to heal, flying squirrels and colossal trees abound, and bushes bear cakes. Collecting tears from creatures reveals the true nature of those around them. We meet the two brothers again — one already departed and the other teetering on the edge of death. In this seemingly perfect world, an unsettling change occurs as the Salt Queen and her walking fishes threaten to transform paradise. Cotton candy clouds dissipate, and sweet rivers turn salty. When the elder brother is captured, who will emerge to save this fragile world?
+
+![image of the set](../images/theatre/brotherslionheart.jpg)
 
 **How it works:** The show unfolds with the ill sibling in bed, supported by family, and underscored by a melancholic guitar soundtrack. The elder brother delivers the fantastical tale of the Afterhelm with the help of his younger brother and a supporting cast of two, who take on various roles. Different colored cloths symbolize characters and locations, while the bed serves as a versatile prop. After a heroic journey around the younger brother through the Afterhelm, the narrative returns to the mortal world, revealing the poignant morning of a child's passing.
 
