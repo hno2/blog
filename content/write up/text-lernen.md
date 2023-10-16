@@ -1,6 +1,6 @@
 ---
 title: 5 Übungen um Dialoge zu lernen
-subtitle: Inspirationen von Stanford Meisner
+subtitle: Inspirationen von Sanford Meisner
 lang: de 
 description: Entdecke 5 Übungen für flüssiges Dialogspiel ohne Textverkrampfung inspiriert von der Meisner Technik.
 date: 2023-10-16
