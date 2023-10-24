@@ -65,7 +65,7 @@ I love Improvisation. Together with a diverse cast of fabulous individuals I tea
 
 
 List of my Trainers: 
-*Julius Anton, Zacharias Heck, Zohra Ighli, Manuel Speck, Hila Di Castro, Anna Preminger, Jun Imai, Delia Riciu, Stephen Davidson, Andrew Hefler, Laura Doorneweerd-Perry, Gael Doorneweerd-Perry, Jutta Tivlis, Jacob Banigan, Mario Müller*
+*Julius Anton, Zacharias Heck, Zohra Ighli, Manuel Speck, Hila Di Castro, Anna Preminger, Jun Imai, Delia Riciu, Stephen Davidson, Andrew Hefler, Laura Doorneweerd-Perry, Gael Doorneweerd-Perry, Jutta Tivlis, Jacob Banigan, Mario Müller, Nicole Erichsen*
 # Education
 Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others. 
 The UniTheater Karlsruhe conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
