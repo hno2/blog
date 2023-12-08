@@ -1,12 +1,13 @@
 ---
 author: Simon Klug
 title: Tension and Resistance
-summary:
+summary: Achieving personal excellence by navigating life's natural tensions with clarity.
 ---
 
 Picture this: a bright summer day, a room buzzing with anticipation, and a workshop led by the charismatic [Andrew Hefler](https://www.andrewhefler.com/). Little did I know that this improv workshop would become a profound life lesson.
 
-As I walked into that room, I was ready for a fun day of improv. But, what transpired over the course of the workshop was far more than regular improv antics. It was a journey of self-discover and learning. Andrew was about to teach us more than the art of improvisation; he was about to teach us about the art of living.
+As I walked into that room, I was ready for a fun day of improv. But, what transpired over the course of the workshop was far more than regular improv antics. It was a journey of self-discovery and learning. Andrew was about to teach us more than the art of improvisation; he was about to teach us about the art of living.
+
 
 ## A quest for comfortable life
 
@@ -14,7 +15,7 @@ In our quest for a more comfortable life, we often find ourselves seeking the pa
 
 By definition, convenience is easy. It's the effortless choice, the quick solution to everyday dilemmas. While this can save time and have its benefits, it might also lead us into a subtle trap. Consider how often, in making decisions, we gravitate towards the convenient, easy way out, without much thought. We externalize our decision-making, opting for the path of least resistance, and in doing so, we unknowingly set ourselves on a course that might not align with our true desires.
 
-Each day, we make countless decisions, but how often do we reflect on the outcomes of those choices? A pivotal shift in perspective occurs when we stop to contemplate whether a decision was automatic, a result of fast thinking (read Kanemann Fast Thinking - Slow Thinking), or a product of mindful consideration. Mindful decision making may not always guarantee we'll reach the perfect destination, but it is about more than the endpoint; it's about the journey itself.
+Each day, we make countless decisions, but how often do we reflect on the outcomes of those choices? A pivotal shift in perspective occurs when we stop to contemplate whether a decision was automatic, a result of fast thinking (read Kahneman Fast Thinking - Slow Thinking), or a product of mindful consideration. Mindful decision making may not always guarantee we'll reach the perfect destination, but it is about more than the endpoint; it's about the journey itself.
 
 Think about it. If we pad our lives with cushions, ensuring there's no challenge involved in achieving our goals, what happens when we finally reach them? There's no spark of joy, no sense of relief or accomplishment. We don't get excited by neither success or failure. It's as if we've missed the point of it all.
 
@@ -28,7 +29,8 @@ I'm not suggesting we should all set unreachable, unrealistic life goals. But we
 
 
 ## 1. Be Suspicious of Convenience and Boredom
-> The only problem in your life is your mind’s resistance to life as it unfolds. - Dan Millmann
+> The only problem in your life is your mind’s resistance to life as it unfolds. <cite>- Dan Millmann</cite>
+
 We've grown accustomed to immediate gratification and ease, but this comfort comes at a cost – a potential detriment to our personal growth and fulfillment. It's time we reevaluate our relationship with convenience and also consider how boredom plays a role in our lives.
 
 ### The Seduction of Convenience
@@ -43,11 +45,13 @@ Research has shown that seeking out and confronting new challenges is crucial fo
 
 ### (Not) Giving Up
 
-When in the midst of a challenging task, we question whether to persevere or give up Growth and learning occur when we venture beyond our comfort zone, so quitting because something becomes difficult is counterproductive. Instead of constantly questioning whether you're on the right path, maintain an optimistic dialogue with yourself.
+When in the midst of a challenging task, we question whether to persevere or give up. Growth and learning occur when we venture beyond our comfort zone, so quitting because something is difficult is counterproductive. Instead of constantly questioning whether you're on the right path, maintain an optimistic dialogue with yourself. Otherwise this combination of Loss Aversion and trying to keep all your options lees to Analysis Paralysis, where you don't want to try anything. We think hard about all the different options we might like, dream about our future self, but we dont do anything. As long as you are doing something you are learning, even it is only what works or what does not work for you right now.
+
+> Someone who is optimistic expects the best while actively working to bring it about. Wishing externalizes responsibility and hopes that everything lines up according to plan, but doesn’t do anything to actively bring about the desired change. Someone who operates from a place of wishful thinking is - in essence - a closet pessimist. <cite>- Todd Henry </cite>
 
 In many instances, there's a natural stopping point, and you'll instinctively know when it's time to pause or continue. It's the discomfort and tension that often indicate you're on the right track.
 
-> The emotion of boredom is always self-concious, but when your attention is attracted to a new activity you may have little reflective apprication. - Angela Duckworth 
+> The emotion of boredom is always self-concious, but when your attention is attracted to a new activity you may have little reflective appreciation. <cite>- Angela Duckworth</cite>
 
 On the other hand, boredom is a telltale sign that you're not challenging yourself enough. It's a symptom of avoidance tactics, whether you're seeking instant gratification or avoiding discomfort, responsibility, self-reflection, or change. The emotion of boredom is self-conscious, while the allure of a new activity often lacks that reflective awareness.
 
@@ -63,7 +67,7 @@ In summary, when you feel tension, suspicion, or boredom, take a moment to intro
 
 
 ### 2. Aim for Precision
-> With everything perfect, we do not ask how it came to be. [Instead] we rejoice in the present fact as though it came out of ground like magic -- Nietsche
+> With everything perfect, we do not ask how it came to be. [Instead] we rejoice in the present fact as though it came out of ground like magic <cite>- Nietsche</cite>
 
 **We must be interested in precision.**
 
@@ -85,10 +89,11 @@ To ensure productive Deliberate Practice sessions, a few quick rules come into p
 *    Repeat with reflection and refinement.
 *    Limit sessions to a maximum of 90 minutes.
 
-Therefore esisting the urge to revert to our lowest impulses and desires is key. This requires establishing routines, embracing discipline, and building a system that supports our quest for excellence. Grit, or the ability to sustain effort without quitting, becomes our guiding light. By finding systems that enhance productivity and promote disciplined practice, we can make more intentional and effective use of our time. Without these systems, we risk falling back to the lowest common denominator. It is crucial to cut distractions for example social media, constant emails, and  messaging notifactions. Always ask yourself if immediate response and distraction are necessary or if you can transform these into routine proactive session. 
+Mental load, or cognitive load, is a phenomenon that occurs when we switch between different tasks or activities. When we shift our attention from one task to another, our brains must adapt to new demands, and this transition incurs a cognitive cost. This mental load can manifest in various ways, such as a decrease in productivity, a rise in stress levels, and a potential decline in the quality of our work.
 
+To manage and reduce this mental load, strategies like time blocking, batching similar tasks, and setting boundaries for digital distractions can be immensely helpful. These approaches allow for more focused and sustained attention on a specific task, ultimately leading to improved productivity and reduced cognitive fatigue.
 
-** Rework Mental Load
+Therefore esisting the urge to revert to our lowest impulses and desires is key. This requires establishing routines, embracing discipline, and building a system that supports our quest for excellence. Grit, or the ability to sustain effort without quitting, becomes our guiding light. By finding systems that enhance productivity and promote disciplined practice, we can make more intentional and effective use of our time. Without these systems, we risk falling back to the lowest common denominator. It is crucial to cut distractions for example social media, constant emails, and  messaging notifications. Always ask yourself if immediate response and distraction are necessary or if you can transform these into routine proactive session. 
 
 ### Motivation Equation
 If you never get started nothing will happen, motivation is key. There are many formulas for motivation, I like Brian Johnsons motivational equation: 
@@ -96,7 +101,8 @@ If you never get started nothing will happen, motivation is key. There are many 
 > Motivation = Energy x (Value x Expectancy / Impulsivity x Delay)
 
 Let's digest this: 
-* **ENERGY:** Energy in this equation refers to the physical and mental energy or stamina you have available to pursue your goals.
+
+* **Energy:** Energy in this equation refers to the physical and mental energy or stamina you have available to pursue your goals.
 * **Value**: This variable represents how much you value or desire the outcome or goal you are trying to achieve. 
 * **Expectancy**: Expectancy here refers to your belief or confidence in your ability to achieve the desired goal. 
 * **Impulsivity**: Impulsivity refers to the tendency to act on immediate desires or urges without considering long-term consequences or short how easily distracted you get. In this context, lower impulsivity indicates that you can delay immediate gratification for a long-term goal, which is essential for motivation.
@@ -106,14 +112,13 @@ Let's digest this:
 
 ### 3. Aim for Clarity
 
-> Nothing in life is as important as you think it is when you are thinking about it. - Daniel Kahneman
+> Nothing in life is as important as you think it is when you are thinking about it. <cite>- Daniel Kahneman</cite>
 
 Aiming for clarity takes us out from the relentless pursuit of an unknown future and a recognition that nothing in life is as important as we make it out to be when we're caught up in the moment. As the renowned psychologist Daniel Kahneman points out, our mood is shaped by what captures our attention, and our experiences of pleasure or displeasure arise from what we dwell on.
 
 In our daily lives, we often find ourselves trapped in defensive and deflective behaviors, suspecting the intentions of others. This hyperactive intentionality, ingrained in our evolutionary history, compels us to see intention and acting agents even where none exist. It's a survival instinct that still lingers within us, a remnant of our hominid ancestry.
 
 Acknowledging our mistakes and correcting them constitute a critical aspect of clarity. This process may be uncomfortable, as it challenges our comfort zones, dispels illusions, and forces us to confront reality. Clarity compels us to face the present, pushing us to take action instead of idly waiting. It means relinquishing the mental gymnastics of crafting elaborate rationalizations and justifications for our inaction. Doing something - anything - means taking meaningful steps toward progress.
-
 
 Pressure can be both a motivating and paralyzing force. When we focus on our goals and the future and lose touch with the present and the past, we risk disconnecting from the now. Being in the present means not waiting for something to happen but participating in making it happen. It's not about washing a dish to have a clean plate but about finding moments of clarity in which we invest our full attention and intention.
 
@@ -126,7 +131,7 @@ In this quest for clarity, it's essential to remember that shame does not constr
 
 In the intricate dance of life, sensitivity is a double-edged sword. With heightened sensitivity, we gain the remarkable capacity to discern both the beauty and the painful aspects of the world. However, it comes at a cost. 
 
->In imagination we feel sure that it would be lovely to live with a full and rich awareness of the world. But in practice sensitiveness hurts. It is not possible to develop the capacity to see beauty without developing also the capacity to see ugliness, for they are the same capacity. The capacity for joy is also the capacity for pain. We soon find that any increase in our sensitiveness to what is lovely in the world increases also our capacity for being hurt. That is the dilemma in which life has placed us. We must choose between a life that is thin and narrow, uncreative and mechanical, with the assurance that even if it is not very exciting it will not be intolerably painful; and a life in which the increase in its fullness and creativeness brings a vast increase in delight, but also in pain and hurt. - John Macmurray
+>In imagination we feel sure that it would be lovely to live with a full and rich awareness of the world. But in practice sensitiveness hurts. It is not possible to develop the capacity to see beauty without developing also the capacity to see ugliness, for they are the same capacity. The capacity for joy is also the capacity for pain. We soon find that any increase in our sensitiveness to what is lovely in the world increases also our capacity for being hurt. That is the dilemma in which life has placed us. We must choose between a life that is thin and narrow, uncreative and mechanical, with the assurance that even if it is not very exciting it will not be intolerably painful; and a life in which the increase in its fullness and creativeness brings a vast increase in delight, but also in pain and hurt. <cite>- John Macmurray</cite>
 
 ## Conclusion: Embrace the Challenge for a More Fulfilling Life
 
