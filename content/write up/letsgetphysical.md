@@ -3,12 +3,14 @@ author: Simon Klug
 title: Workshop Let's get physical
 summary: Zusammenfassung zum Workshop mit den Themen Intimitätskoordination, Körperbewusstsein und Physical Theatre beim UniTheater Karlsruhe im März 2023
 slug: physical
-date: 2023-03-13
+date: 2024-06-21
 ---
 [TOC]
 
 !!!note Hinweis
-    Dies ist eine Sammlung von Übungen und Hinweisen zum Workshop "Let's get physical" vom 10-12.03.2023 beim UniTheater Karlsruhe. Ohne den Workshop besucht zu haben, ist vieles vermutlich schwierig zu verstehen. Bei Rückfragen darf man mir aber gerne schreiben
+    Dies ist eine Sammlung von Übungen und Hinweisen zum Workshop "Let's get physical" vom 10-12.03.2023 beim UniTheater Karlsruhe. Ohne den Workshop besucht zu haben, ist vieles vermutlich schwierig zu verstehen. Bei Rückfragen darf man mir aber gerne schreiben. 
+    
+    **Update 2024:** Ich habe weitere Übungen aus meiner Frantic Assembly Masterclass hinzugefügt.
 
 ## Wichtige Zitate
 > Dein Körper gehört dir, verlasse deine Komfortzone aber gehe nicht über deine Grenze
@@ -250,7 +252,7 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
 !!!note "Stumme Szenen mit Berührung"
     Macht jede Berührung extrem, wie Feuer
 
-## Physical Theatre & Viewpoints
+## Physical Theatre
 
 
 !!!note "Zusammenkommen - Negative Space"
@@ -283,12 +285,96 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
     2. Repetitive Alltagstätigkeit pantomimisch darstellen 100%-0% ChiGong-Tätigkeit
 
 ### Frantic Method
-Übungen von [@graham2014frantic]
+Ich hatte die Ehre im Sommer 2024 an einer Masterclass von Frantic Assembly in London teilnehmen zu dürfen. 
+Übungen von [@graham2014frantic] und [@evans2021frantic].
+
+Wichtige Konzepte sind: 
+
+* Statt über das Ergebniss oder das "gewünschte" Ergebniss nachzudenken (**Endgaming**) konzentriere dich auf die aktuelle Aufgabe. Vermeide in Geschichten, Emotionen oder Sinn zu denken. Das Ergebniss entsteht aus den Übereinanderschichten (layering) von einfachen Aufgaben (**Building Blocks**). Im Fokus steht der persönliche kreative Input. 
+* Always forward, never backwards
+* Effizienz und Mühelosigkeit sind zentrale Prinzipien (**Effortless of Movement**). Es geht darum, die effektivste Herangehensweise an physische Herausforderungen zu finden und sich auf die Aufgabe zu konzentrieren.
+* Nimm die Welt und den Raum vor jeder physischen Berührung wahr. Denke als wäre es das erste (oder letzte) Mal, das das passiert. 
+* Es geht nicht um Sicherheit um jeden Preis, sondern einen Raum akzeptabler Risiken zu schaffen. Als Trainer keine Überbordende Höflichkeit sondern aktiv zeigen und erklären was passieren wird. Eine physische Aufforderung ist ein Angebot (z.B. "Ich falle in eine Richtung"), das akzeptiert und beantwortet werden muss. 
+* Wiederstehe der Musik.
+
+#### Warm Up
+
+!!!note "8-6-4-2"
+    * Abwechselnd 8 counts gehen, springen (dann 6 usw.), wichtig klarerer Wechsel zwischen gehen und springen
+    * Bei 6 Springen, Hand auf die Schulter einer anderenden Person, bei 4 Liegestütze, bei 2 nach unten
+    * Zwei Gruppen, a) 8-6-4-2 b) 2-4-6-8 (gegengleich)
 
 !!!note "Quad"
-    * Mehrere Reihen, runterzählen
+    * Mehrere Reihen hintereinander, von vorne runterzählen (8-6-4-2)
+    * Kombination mit Wuuh, 
     * Alternative: Runde im Raum drehen 90 Grad Drehung an Ecken, Lift
 
+!!!note "Namenskreis" 
+    * Die Gruppe ordnet sich im Kreis an und Namen kennenlernen. a) Gleiches Sprechtempo ohne Pause b) Anfangen sobald die Person vor dir angefangen hat zu sprechen. 
+    * A läuft im Kreis auf B zu. B muss den Namen von A sagen und läuft dann selbst los auf eine andere Person. B stellt sich an den Platz von A
+    * Namen durch *Go* ersetzen, Geschwindigkeit und Anzahl der gleichzeitigen Personen erhöhen. In der Mitte gemeinsam hochspringen. 
+
+!!!note "7-5-3-1/Lightning Walk"
+    * Gruppe in einer Reihe anordnen
+    * 7 Counts in eine Richtung, 5 andere etc. 
+    * auf 1 Ellenbogen raus, 2 Hand nach Oben, 3 Klatschen etc. 
+    * Für Lighning Walk: nicht gerade Linien
+
+!!!note "BB (Beatiful Burnout) Warmup"
+    To a beat
+
+    * Jumping Jacks
+    * Merkelraute Twist
+    * Jump Rope
+    * Cheerleader
+
+
+#### Gruppe
+
+!!!note "Slalom/Relay"
+    * Gruppe in Linie angeordnet, Stühle im Slalommuster durchlaufen
+    * Mit 2 Personen und Stühlen
+    * Über Schulter blicken in Mitte
+    * Ohne Stühle
+    * Mit Geschwindigkeit spielen
+  
+
+!!!note "Bodyguards"
+    * In Gruppen von 4-5 Personen aufteilen
+    * Eine Person (später rotieren) ist ein VIP der beschützt werden muss. Nach klarem Zeichen lässt sich der VIP in eine Richtung fallen. 
+    * Findet wege in Lifts
+    * Findet Wege nahtlos/organisch zu wechseln
+
+!!!note "Gruppen Lifts"
+    * **Flying Lift** U Form um Person, ich gehe nach vorne Hände auf die Schultern vom Person am Ende der U. Nach vorne und oben ich drücke mich hoch. Ein Bein geht automatisch nach oben. 1x nur Anzeichnen 1x ausführen wechseln.
+        * 2 Felsen vorne Arme nach vorne, Felsen bringen Brust hoch Gewicht geht über deine Knochen nicht deine Muskeln. 
+        * Anzahl reduzieren, aber immer Starten mit 
+        * der Flyer entscheidet, wohin willst du? Was siehtst du?  Kommunikation über Kontakt 
+        * Eine beliebige Person im Kreis. Drück dich an uns hoch. 
+    * **Jet Pack Lift**. Wir wollen gemeinsam die Illusion von Schwerelosigkeit erzeugen. Flyer Ellenbogen nahe am Körper, Schultern nach unten drücken. Als 4er: Zwei an den Ellenbogen einer an den Beinen.  In die Knie gehen und nach oben drücken. Wenn der Flyer es verkauft dann wird die Arbeit des ganzen versteckt.
+    * **An der Wand laufen**. Die Bases erzeugen Kraft richtung Wand, nicht nach oben. (Sideplank) A: Hand auf Schulter und Hand in Achsel. B: Hüfte, Kraft in die WandC: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
+    * Überschläge, Seitlich etc. Mit vielen Leuten ist alles und mit allen Körpern möglich
+    
+    [[Quelle]](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
+
+
+!!!note "Lift Tips"
+    1. Base niedriger Schwerpunkt als Flyer
+    2. Gib als Flyer dein Gewicht, versuche nicht zu deine Base zu schonen. Wer nach oben will muss nach unten denken, ich werde nicht passiv hochgehoben sondern mein(e) Partner sind Felsen auf denen ich aktiv nach oben komme.
+    3. Schaue nicht auf deine Füße, die werden nicht ohne dich weitergehn. 
+    4. Wenn du viel Kraft brauchst machst du es nicht richtig
+    5. Sei sicher, 
+    6. Atmen.
+    7. Rucksack, Hochheben ist kein Kampf gegen etwas
+    8. Als Flyer: Steuere deinen Flug indem du deinen Oberkörper rotierst
+    9. Finde einen anderen Ausgang als der Eingang, nicht doppeln. Daraus wird aus einem Lift eine Geschichte.
+    
+
+!!!note "Zeichensprache"
+    *  Alleine: In einem Fenstergroßen Auschnitt vor der Brust, zeige einen Satz in Zeichensprache (5-15 Elemente)
+    *  In einer Gruppe kombiniert die Zeichen
+    *  Findet Momente der Bewegung, findet Momente der Explosion des Tauschens, Lifts?
+#### Partner
 
 !!!note "Körperfakt und Zeichensprache"
     A steht, B findet etwas über den Körper, das A nicht weiß
@@ -296,15 +382,20 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
     * Visueller Eindruck
     * Berührung, Skelett
     * Messen mit dem eigenen Körper
-    1 Fakt mit Händen darstellen, beide Hände, nur ein Fernsehgroßer Ausschnitt vor der Brust
 
-!!!note "Handdrücken"
+!!!note "Handdrücken/Push Hands"
 
-    * Person A stellt sich hin und streckt ihre Hand mit der Handfläche nach unten aus.
-    * Person B kommt diesem Angebot nach, indem sie den Handrücken in die Hand von A drückt und den Druck fest anlegt: eine einfache Erinnerung daran, dass B aktiv A folgen sollte, anstatt nur zu führen. (Druck und Gegendruck)
-    * A bewegt dann seine Hand, während B versucht, den Druck und den Kontakt beizubehalten: Es ist kein Tanz, sondern eine Übung, bei der man lernt,  mit seinem Körper und über Kontakt zuzuhören. Mit zunehmendem Fortschritt kann A schneller werden und sich im Raum bewegen. Versucht nicht, euch gegenseitig zu überrumpeln! Vermeidet es, sich unter dem Arm zu drehen oder auf den Boden zu gehen. Konzentrieren dich auf die Ökonomie der Bewegung, anstatt zu versuchen, sie schön aussehen zu lassen. Geht ins Risiko, bemerke das du ins Denken kommt und lass los
+    * Person A streckt ihre Hand mit der Handfläche nach unten aus.
+    * Person B drückt den Handrücken in die Handfläche von A 
+    * Die Person mit der Hand oben bewegt dann seine Hand, während B versucht, den Druck und den Kontakt beizubehalten: Es ist kein Tanz, sondern eine Übung, bei der man lernt,  mit seinem Körper und über Kontakt zuzuhören. Mit zunehmendem Fortschritt kann A schneller werden und sich im Raum bewegen. Versucht nicht, euch gegenseitig zu überrumpeln! Vermeidet es, sich unter dem Arm zu drehen oder auf den Boden zu gehen. Konzentrieren dich auf die Ökonomie der Bewegung, anstatt zu versuchen, sie schön aussehen zu lassen. Geht ins Risiko, bemerke das du ins Denken kommt und lass los. (Effortless of Movement)
     * B schließt die Augen
 
+!!!note "Squeeze Duetts"
+
+    * Jeder Partner findet 5 Orte zu drücken  (Hand, Schulter, Bein etc.), auch mit anderen Körperteilen als der Hand, Wiederholung bis mühelos verinnerlicht
+    * Beide Choreos werden miteinander verflochten, aber nicht abwechelnd sondern chaotisch (1213234...)
+    * Findet Momente euren Partner zu bewegen oder euch um euren Partner zu bewegen
+    * Findet Momente gewicht abzugeben- 
 
 !!!note "Contact Impro"
     Empfehlung zum Verständnis (Videos [1](https://www.youtube.com/watch?v=dwYNNL8pDec), [2](https://www.youtube.com/watch?v=80mMW1H8xkc), [3](https://www.youtube.com/watch?v=oecMvZAfI_M&t=555s), [4](https://www.youtube.com/watch?v=wqMPCsancYE), [5](https://www.youtube.com/watch?v=H8JiB2Nv5Qo&t=417s) )
@@ -358,10 +449,11 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
 
 
 !!!note "Drunter & Drüber"
-    2er: Abwechselnd unter und über den Körper gehen. Findet Dynamik (Geschwindigkeit auch in der Bewegung, Blickkontakt), damit die Schnitte sich reduzieren.
+    Abwechselnd unter und über den Körper des Partners gehen. Findet Dynamik (Geschwindigkeit auch in der Bewegung, Blickkontakt), damit die Schnitte sich reduzieren.
 
     * Umrunden, (drunter) Durch, beiseite (Round, By, Through)
     * Dynamik über Gewicht des eigenen Körpers, Im Kontakt Kommunizieren den anderen Bewegen können, Findet wege für Lifts, Bewegen des anderen.
+    * Beliebige simple Aufgaben (Anziehung Abstoßen) können genutzt werden
 
     [[Quelle Over&Under]](https://www.youtube.com/watch?v=47QhuLMLDL8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG)[[Quelle Round, By, Through]](https://www.youtube.com/watch?v=gUqZPfGIX6U&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=3)
 
@@ -382,34 +474,20 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
     * Augenkontakt mit dritter Person. Die Bewegung machen zu können bzw. mit jemand anderes in der Beziehung zu sein obwohl man wo anders hinschaut.
     * Langsam schaue auf die Hand. 
 
-!!!note "Freie Körper"
-    Findet eine neue Bewegungsform als Gruppe, was soll diese Ausdrücken. 
 
-### Regeln fürs Liften
+!!!note "Optionen"
+    Diese Alternativen können helfen den Kontext zu verändern oder neue Wege zum Austesten anzubieten
 
-1. Base niedriger Schwerpunkt als Flyer
-2. Gib als Flyer dein Gewicht, versuche nicht zu schonen. Mehr Drücke nach unten & in den Partner, nach unten um nach oben zu kommen.
-3. Schaue nicht auf deine Füße, die werden nicht ohne dich weitergehn. 
-4. Wenn du Kraft benutzt machst du es nicht richtig
-5. Sei sicher, 
-6. Atmen.
-7. Rucksack, Hochheben ist kein Kampf gegen etwas
-
-!!!note "Lifts"
-    Wer nach oben will muss nach unten denken, ich werde nicht passiv hochgehoben sondern meine Partner sind Felsen auf denen ich aktiv nach oben komme. 
-
-    * **Flying Lift** U Form um Person, ich gehe nach vorne Hände auf die Schultern vom Person am Ende der U. Nach vorne und oben ich drücke mich hoch. Ein Bein geht automatisch nach oben. 1x nur Anzeichnen 1x ausführen wechseln.
-        * 2 Felsen vorne Arme nach vorne, Felsen bringen Brust hoch Gewicht geht über deine Knochen nicht deine Muskeln. 
-        * Anzahl reduzieren, aber immer Starten mit 
-        * der Flyer entscheidet, wohin willst du? Was siehtst du?  Kommunikation über Kontakt 
-        * Eine beliebige Person im Kreis. Drück dich an uns hoch. 
-    * **Jet Pack Lift**. Wir wollen gemeinsam die Illusion von Schwerelosigkeit erzeugen. Flyer Ellenbogen nahe am Körper, Schultern nach unten drücken. Als 4er: Zwei an den Ellenbogen einer an den Beinen.  In die Knie gehen und nach oben drücken. Wenn der Flyer es verkauft dann wird die Arbeit des ganzen versteckt.
-    * **An der Wand laufen**. Die Bases erzeugen Schwerkraft richtung Wand, nicht nach oben. A: Hand auf Schulter und Hand in Achsel. B: Hüfte C: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
-    
-    [[Quelle]](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
+    * Überraschende Musik
+    * An der Wand/auf dem Boden: ein Körperteil muss immer die Wand/Boden berühren.
+    * Auf einem Tisch (die Hände müssen immer auf dem Tisch sein)
+    * Gruppen mischen
+    * Personen (Beabachtend oder interagierend) hinzufügen
+    * Blicke lenken (die Person die Angeschaut wird oder ins Publikum schaut wird zum Protagonisten)
+ 
 
 
-### Ensemble Gruppe
+### Ensemble Building
 
 !!!note "Viewpoints Raster Raumlauf"
     Nur im Raster laufen, keine Diagonalen, keine Kurven (soft focus, entspannt, kein Ausdruck)
