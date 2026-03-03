@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with: 
+        with:
          lfs: true
       - uses: actions/setup-python@v4
         with:
@@ -37,6 +37,4 @@ jobs:
           remote: '/var/www/simonklug.de/src'                          # Remote file path - REQUIRED false - DEFAULT ~/
           host: ${{secrets.HOST}}                                      # Remote server address - REQUIRED true
           user: ${{secrets.USER}}                                      # Remote server user - REQUIRED true
-          key: ${{secrets.KEY}} 
-
-
+          key: ${{secrets.KEY}}

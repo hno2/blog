@@ -1,0 +1,65 @@
+[project]
+name = "Personal Blog"
+version = "0.0.1"
+description = "Writings of Simon"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pelican-cite",
+    "pelican-katex>=1.8.2",
+    "pelican-sitemap>=1.2.2",
+    "pelican[markdown]>=4.11.0.post0",
+    "pybtex-author-year-label",
+    "typogrify>=2.1.0",
+]
+
+[tool.uv.sources]
+pelican-cite = { git = "https://github.com/VorpalBlade/pelican-cite.git" }
+pybtex-author-year-label = { git = "https://github.com/hno2/pybtex-author-year-label" }
+
+[dependency-groups]
+dev = [
+    "prek>=0.3.4",
+    "ruff>=0.15.4",
+]
+
+[tool.ruff]
+fix = true
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+extend-select = [
+  "ANN",  # flake8-annotations
+  "B",    # flake8-bugbear
+  "C4",   # flake8-comprehensions
+  "C90",  # mccabe
+  "CPY",  # flake8-copyright
+  "D",    # pydocstyle
+  "FURB", # refurb
+  "I",    # isort
+  "N",    # pep8-naming
+  "PERF", # Perflint
+  "PL",   # pylint
+  "RUF",  # Ruff-specific rules
+  "S",    # flake8-bandit
+  "SIM",  # flake8-simplify
+  "UP",   # pyupgrade
+  "W",    # pycodestyle (warning)
+]
+ignore = [
+  "D100",   # Missing docstring in public module
+  "D104",   # Missing docstring in public package
+  "PLR",    # pylint refactor
+]
+preview = true
+
+[tool.ruff.lint.per-file-ignores]
+
+"tests/*" = [
+  "PLC2701", # Private name import from external module
+  "S101", # Use of assert detected
+  "ANN",
+]
+[tool.ruff.lint.pydocstyle]
+convention = "google"
