@@ -103,7 +103,13 @@ table {
 @media only screen and (min-width: 1025px) {
     .container {
         display: grid;
-        grid-template-columns: 20% auto 20%
+        grid-template-columns: 20% auto 20%;
+        column-gap: 2rem
+    }
+
+    .nav {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        padding-right: 1.5rem
     }
 }
 
@@ -122,6 +128,7 @@ table {
         margin-right: auto
     }
 }
+
 .admonition {
     border-left: 0.2rem solid grey;
     background: white;
@@ -149,43 +156,233 @@ p.admonition-title {
 
 
 .project-box {
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-gap:30px
-  }
-  .project-box a.project {
-    text-decoration:none;
-    color:#666
-  }
-  .project-box a.project:hover,
-  a {
-    color:#000
-  }
-  .project-box a.project img {
-    display:block;
-    margin-bottom:10px;
-  }
-  @media screen and (max-width:480px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px
+}
+
+.project-box a.project {
+    text-decoration: none;
+    color: #666
+}
+
+.project-box a.project:hover,
+a {
+    color: #000
+}
+
+.project-box a.project img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:480px) {
     .project-box {
-      grid-template-columns:repeat(1,1fr)
+        grid-template-columns: repeat(1, 1fr)
     }
-  }
-  @media screen and (max-width:640px) {
+}
+
+@media screen and (max-width:640px) {
     .limiter {
-      width:auto
+        width: auto
     }
+
     .project-box {
-      grid-template-columns:repeat(2,1fr)
+        grid-template-columns: repeat(2, 1fr)
     }
-  }
-  blockquote {
-    margin-left:0;
+}
+
+blockquote {
+    margin-left: 0;
     border-left: 3px solid grey;
     font-style: italic;
     padding-left: 0.5em;
     position: relative
+}
 
-  }
-  blockquote cite {
+blockquote cite {
     display: block;
-  }
+}
+
+.ft {
+    margin-top: 1em;
+    font-family: inherit
+}
+
+.ft details {
+    margin: 0
+}
+
+.ft summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.ft summary::-webkit-details-marker {
+    display: none
+}
+
+.ft summary:hover,
+.ft a:hover {
+    color: #111
+}
+
+.ft summary::before {
+    content: '';
+    width: .75em;
+    height: .75em;
+    margin-right: .2em;
+    flex-shrink: 0;
+    background: no-repeat center/contain url("data:image/svg+xml,%3Csvg viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 2l4 3-4 3' fill='none' stroke='%23888' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    transition: transform .15s
+}
+
+.ft details[open]>summary::before {
+    transform: rotate(90deg)
+}
+
+.ft ul,
+.ft li {
+    padding: 0;
+    margin: 0
+}
+
+.ft ul {
+    list-style: none
+}
+
+.ft a {
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    gap: .35em
+}
+
+.ft a.ft-active {
+    color: #111;
+    font-weight: 600
+}
+
+.ft details>ul,
+.ft details details {
+    padding-left: .2em;
+    border-left: 1.5px solid rgba(0, 0, 0, .08);
+    margin-left: .55em
+}
+
+/* Graph panel – hidden on small screens */
+.graph-panel {
+    display: none
+}
+
+@media only screen and (min-width: 1025px) {
+    .graph-panel {
+        display: block;
+        position: sticky;
+        top: 20px;
+        align-self: start
+    }
+
+    .graph-title {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #999;
+        margin-bottom: 0.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .graph-title button {
+        background: none;
+        border: 1px solid rgba(0,0,0,0.15);
+        border-radius: 4px;
+        padding: 2px 4px;
+        cursor: pointer;
+        color: #aaa;
+        line-height: 1;
+        display: flex;
+        align-items: center
+    }
+
+    .graph-title button:hover {
+        color: #555;
+        border-color: rgba(0,0,0,0.3)
+    }
+
+    #graph-canvas {
+        width: 100%;
+        display: block;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        background: #fafafa
+    }
+}
+
+/* Full-graph overlay */
+#graph-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center
+}
+
+#graph-overlay-inner {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    width: min(92vw, 1100px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column
+}
+
+#graph-overlay-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #777
+}
+
+#graph-overlay-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #999;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 4px
+}
+
+#graph-overlay-close:hover {
+    background: rgba(0,0,0,0.06);
+    color: #333
+}
+
+#graph-overlay-canvas {
+    width: 100%;
+    display: block;
+    background: #fafafa
+}
