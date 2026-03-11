@@ -8,9 +8,9 @@ summary: Simon Klugs personal blog exploring tech, Python, machine learning, edu
 **Welcome!**
 
 ## About this blog
-I'm Simon Klug any you might be wondering, "*Why another blog?*" Honestly, I lost count of how many times I've Googled or llmed (is that a word?) the same thing for the n-th-time? So, I decided it's good time to create a digital place to collect them, to refind and share what I have learned. 
+I'm Simon Klug any you might be wondering, "*Why another blog?*" Honestly, I lost count of how many times I've Googled or llmed (is that a word?) the same thing for the n-th-time? So, I decided it's good time to create a digital place to collect them, to refind and share what I have learned.
 
-By day, I am [[working]] at Bosch as *the AI guy*, which is mostly a Software Engineering, with some [[enabling]], [[Data Governance]] and [[Architecture]] topics sprinkeled in.  
+By day, I am [[working]] at Bosch as *the AI guy*, which is mostly a Software Engineering, with some [[enabling]], [[Data Governance]] and [[Architecture]] topics sprinkeled in.
 
 In the other time, I'm a [[theatre]] performer and director, runner, home cook, and acrobat. Really I like learning new stuff, therefore the topics on here will be as diverse as I am.
 

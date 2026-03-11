@@ -64,7 +64,7 @@ CATEGORY_FEED_RSS = None
 # Elegant theme
 STATIC_PATHS = ["static", "images"]
 EXTRA_PATH_METADATA = {
-    #"static/fonts": {"path": "fonts"},
+    # "static/fonts": {"path": "fonts"},
     "static/favicon.ico": {"path": "favicon.ico"},
     "static/robots.txt": {"path": "robots.txt"},
 }

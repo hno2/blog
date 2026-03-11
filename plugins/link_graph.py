@@ -1,13 +1,13 @@
-"""
-Pelican plugin: link_graph
+"""Pelican plugin: link_graph
 Scans all article content for internal links and builds a graph data
 structure (nodes + edges) that is injected into the Jinja2 template
 context as the variable GRAPH_DATA (JSON string).
 """
 
-import re
-import json
 import html
+import json
+import re
+
 from pelican import signals
 
 _TAG_RE = re.compile(r"<[^>]+>")
@@ -18,7 +18,7 @@ def clean_title(s):
     return html.unescape(_TAG_RE.sub("", s))
 
 
-def build_graph(generator):
+def build_graph(generator) -> None:
     # Include hidden articles (status: hidden) alongside published ones
     articles = list(generator.articles) + list(getattr(generator, "hidden_articles", []))
     if not articles:
@@ -55,5 +55,5 @@ def build_graph(generator):
     generator.context["GRAPH_DATA"] = graph_json
 
 
-def register():
+def register() -> None:
     signals.article_generator_finalized.connect(build_graph)

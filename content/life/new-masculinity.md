@@ -5,14 +5,14 @@ Tags: life,men, self-finding, schreiben, text
 lang: de
 ---
 
-Beta, Alpha Bullshit. 
+Beta, Alpha Bullshit.
 
 
 Intemancy
 “A familiar hell over an unknown heaven”
 
-Ich möchte auch zwei Dinge klarstellen, du hast nach einer ehrlichen Meinung gefragt und du hast mir nie gesagt, dass dich das verletzt hat. Das fällt mir sehr schwehr zu akzeptieren und macht mich sehr traurig. 
-Ich kann nur sagen, das ich das eine unglaublich traurige und egoistische Sicht finde, aber dsa dsa dein Weg ist. 
+Ich möchte auch zwei Dinge klarstellen, du hast nach einer ehrlichen Meinung gefragt und du hast mir nie gesagt, dass dich das verletzt hat. Das fällt mir sehr schwehr zu akzeptieren und macht mich sehr traurig.
+Ich kann nur sagen, das ich das eine unglaublich traurige und egoistische Sicht finde, aber dsa dsa dein Weg ist.
 
 
 Great Storytellers are great documentors of stories
@@ -35,12 +35,12 @@ I'm just exhausted from watching myself and every other man contort themselves j
 
 Ken doing Beach, Ken doing desk
 
-Body and Facial Hair, 
+Body and Facial Hair,
 
 Urinals
 
 
-Ihn gab es nur einmal, also enttäuschte er lieber sich, als andere 
+Ihn gab es nur einmal, also enttäuschte er lieber sich, als andere
 Alle Gefühle sind da um Gefühlt zu werden. Es ist nicht die Aufgabe sich glücklich zu fühlen, Schmerz ist keine Schwäche sonder ein Gefühl das gefühlt werden muss. Ganz zu sein hat nicht damit zu tun sich immer glücklich zu fühlen, sondern alles zu fühlen was es zu fühlen gibt.
 
 Wenn ich weiter das "Richtige" tue, wird mein leben daraus bestehen, die Anleitungen anderer zu befolgen, statt meine eigenen.

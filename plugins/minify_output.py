@@ -1,5 +1,4 @@
-"""
-Pelican plugin: minify_output
+"""Pelican plugin: minify_output.
 
 Post-processes generated HTML files after Pelican finished writing output:
 1) Minify HTML/CSS/JS with minify_html.
@@ -29,17 +28,23 @@ CSS_LINK_RE = re.compile(
 )
 
 
-def _run(cmd):
+def _run(cmd: list[str]) -> subprocess.CompletedProcess:
+    # Validate that only trusted commands are executed
+    allowed_commands = {"npx", "terser", "purgecss"}
+    if not cmd or cmd[0] not in allowed_commands:
+        raise ValueError(f"Untrusted command: {cmd[0] if cmd else 'empty'}")
     return subprocess.run(cmd, check=True, capture_output=True, text=True)
 
 
-def _minify_inline_js_with_terser(html_text):
+def _minify_inline_js_with_terser(html_text: str) -> tuple[str, int]:
+    """Minifies inline JavaScript blocks using terser via npx. Returns (transformed_html, count_of_blocks_minified)."""
     if not shutil.which("npx"):
         return html_text, 0
 
     changed = 0
 
-    def repl(match):
+    def repl(match: re.Match) -> str:
+        """Replacement function for re.sub to minify inline JavaScript."""
         nonlocal changed
         open_tag, js_body, close_tag = match.groups()
         if not js_body.strip():
@@ -76,7 +81,8 @@ def _minify_inline_js_with_terser(html_text):
     return SCRIPT_RE.sub(repl, html_text), changed
 
 
-def _resolve_local_css(output_path, html_path, href):
+def _resolve_local_css(output_path: str, html_path: str, href: str) -> pathlib.Path | None:
+    """Resolves a local CSS file path from an HTML link href. Returns the absolute Path if valid and exists, otherwise None."""
     parsed = urlsplit(href)
     if parsed.scheme or parsed.netloc:
         return None
@@ -104,14 +110,15 @@ def _resolve_local_css(output_path, html_path, href):
     return css_abs
 
 
-def _purge_css_for_page(output_path, html_path, html_text):
+def _purge_css_for_page(output_path: str, html_path: str, html_text: str) -> tuple[str, int]:
+    """Purges unused CSS for the given HTML page using purgecss."""
     if not shutil.which("npx"):
         return html_text, 0
 
     replaced = 0
     html_dir = pathlib.Path(html_path).parent
 
-    def repl(match):
+    def repl(match: re.Match) -> str:
         nonlocal replaced
         prefix, href, suffix = match.groups()
         css_file = _resolve_local_css(output_path, html_path, href)
@@ -162,7 +169,8 @@ def _purge_css_for_page(output_path, html_path, html_text):
     return CSS_LINK_RE.sub(repl, html_text), replaced
 
 
-def minify_all_html(pelican):
+def minify_all_html(pelican) -> None:
+    """Minifies all HTML files in the Pelican output directory."""
     output_path = pelican.output_path
     total_before = 0
     total_after = 0
@@ -211,5 +219,6 @@ def minify_all_html(pelican):
         )
 
 
-def register():
+def register() -> None:
+    """Pelican plugin registration."""
     signals.finalized.connect(minify_all_html)

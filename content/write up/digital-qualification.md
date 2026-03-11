@@ -1,13 +1,13 @@
-This is blueprints and what I have learned in the last two years as Digitial Qualification Manager at Bosch. 
+This is blueprints and what I have learned in the last two years as Digitial Qualification Manager at Bosch.
 
 
 
 ## Cooperation is Key
-Between the experts defining relevant content and HR departments, taking care of the organisational 
+Between the experts defining relevant content and HR departments, taking care of the organisational
 
 University for content
 
-## 
+##
 Understand the functional roles, and do not forget about the management
 
 Do not forget the business
@@ -15,12 +15,12 @@ Project-driven, application
 
 ## Follow a curator principle
 
-In ever faster changing world, it becomes increasingly difficult to ensure competencies. In some cases a official certificate like a university degreee of a Meister might be necessary, but especially in 
+In ever faster changing world, it becomes increasingly difficult to ensure competencies. In some cases a official certificate like a university degreee of a Meister might be necessary, but especially in
 
 Companies prohibit
 code interviews
 
-nicht mehr nachweisbar, see one do one teach one. Nur durch eigene Anwendung wird es aktiv das wissen. 
+nicht mehr nachweisbar, see one do one teach one. Nur durch eigene Anwendung wird es aktiv das wissen.
 Ich glaube nicht an das Gatekeeping einer vermeintlichen Zertifizierung/Professionalisierung. Rein durch das Zeigen von Können zeigt sich ein Kompetenzerwerb
 
 ## Samuel
@@ -55,9 +55,9 @@ Affen Code Monkeies, soft skills getting more important but how can you show off
 
 Transformation must be accopanied by qualificaiton
 
-Qualification is the way to future-proof yourself and your area. 
+Qualification is the way to future-proof yourself and your area.
 
-War of Talents, self-driven Qualification, Lifelong learning is part of modern life and the Self-realisation of many people , flexibel fit to individual needs. 
+War of Talents, self-driven Qualification, Lifelong learning is part of modern life and the Self-realisation of many people , flexibel fit to individual needs.
 
 Computational Thinking, AI- or data.driven Organisations
 
@@ -80,13 +80,13 @@ Enable other to enable themself. Future Skill Learning
 
 # Qualifying the Digital Transformation - An Engineers Perspective
 
-  
+
 
 Knowledge Workers such as Engineers are as involved in a change of their working process as any other working group. Currently their work is done "in the system" instead of "on the system" to exploit the full potential of Digitalisation.
 
-  
-  
-  
+
+
+
 
 Coporate Culture with technology sprinkeld in does not mean digital culture.
 
@@ -94,23 +94,23 @@ Midset as filter, from which you see the world. Firefighters do not knwo what ki
 
 --> Disrupt yourself
 
-  
+
 
 The risk is not that companies sleep on digitalsation completly but the risk is that they take it with missing speed and traditional methods.
 
-  
+
 
 Companies can only chang e if the people working in them are chaninging both in their Thinking as well as in their Behavior.
 
-  
-  
+
+
 
 Not about technology it is about people
 
 Therefore for the DT to succeed. amost importance that we have to take the people with us, not only in terms of technicals skills but also in mindset skills.
 
-  
-  
+
+
 
 Overcome risk avers, embcrace staes and learning  
 
@@ -120,7 +120,7 @@ Once we confront ourselfs with new, actually try it out and make new experiences
 
 To actually change the mindset of a organisation, we need more than just not wearing ties. Its true that without thight ties, blood can circulate better to your brain, thats it for the cuasality between fresh thiniking. Mental Models are important, they shape how we interpret our environment to make decisions and act upon them.
 
-  
+
 
 Fixed Mindset, I am sure that my personality and intellegence are more or less fixed.
 
@@ -128,11 +128,11 @@ Growth Mindset, I am open for new things as I believe I can change.
 
 Quelle: Dweck - Mindset: The new psychology of success.
 
-  
+
 
 Is there a process that allows a random employee to test a idea, without a bureaucratic approval and budgeting process. Not Company suggestion system.
 
-  
+
 
 Just Self-organisation and Agility and you are done. No it requires a different culture and mindest first. You get what you pay for. If you pay and therefore reward for Routine, given Communication and Responsiblity and mostly efficiency innovation, you will not get agility.
 
@@ -140,17 +140,17 @@ Freedom comes with Chaos. Order is Hierarchy. Experimenting vs. Risk Aware. Cont
 
 Create free and open spaces from chaos. Balance between order and chaos.
 
-  
+
 
 Doing things right vs. doing the right things
 
-  
+
 
 Digital Intelligence is the systematic engagement and critical questioning of our models of thinking and reality
 
 Software is eating the world, we might not need more software but we have to think of the transformation process as software: an instrument to reduce friction. Dematerialisierung. Digitalisation != more computers
 
-  
+
 
 Useful new technologies generally follow a sigmoid curve.
 

@@ -4,7 +4,7 @@ title: Playing
 slug: playing
 layout: page
 date: 2023-09-4
-description: Dive into the world of theatre with Simon Klug — actor, director, and theatre enthusiast. Elevate your craft through coaching and movement workshops. Let's embrace the magic of the stage! 
+description: Dive into the world of theatre with Simon Klug — actor, director, and theatre enthusiast. Elevate your craft through coaching and movement workshops. Let's embrace the magic of the stage!
 status: hidden
 ---
 
@@ -15,7 +15,7 @@ Ahoy, fellow Players on life's grand stage!
 
 In the vast theatre of existence, the words of William Shakespeare echo profoundly for me. Theatre has been a wellspring of wisdom, laughter, and growth, and it fills me with joy to share these enriching experiences with you.
 
-I'm Simon, a theatre enthusiast, actor, and director, deeply rooted in this vibrant world that has not only been [[theatre|my playground]] but also my mentor. Now, I stand here, eager to give back and extend my knowledge to all those seeking it. 
+I'm Simon, a theatre enthusiast, actor, and director, deeply rooted in this vibrant world that has not only been [[theatre|my playground]] but also my mentor. Now, I stand here, eager to give back and extend my knowledge to all those seeking it.
 
 Whether you picture me embodying a character, guiding a show, providing coaching, or leading an engaging workshop, I am thrilled to be at your side. [Let's set sails!](mailto:simon@simonklug.de)
 
@@ -42,7 +42,7 @@ Dealing with tricky scenes as a director is no easy feat, no matter your level o
 - **Technical Challenges**: If you're wrestling with the technical aspects of theatre, be it lights, audio, stage management, set design & changeovers, or other behind-the-scenes tasks, I'm more than willing to assist. I thrive in bringing all the trades together under a shared vision, allowing you to focus on what matters most to you. Ultimately, this collaboration results in a flawlessly executed show from a coordination perspective.
 
 ## For Theatres and Groups
-I'm on the hunt for directing gigs and super excited to collaborate with amateur groups, dive into musicals, and get into movement-heavy plays. Let's team up to bring your theatrical vision to life and create unforgettable experiences for your audience. 
+I'm on the hunt for directing gigs and super excited to collaborate with amateur groups, dive into musicals, and get into movement-heavy plays. Let's team up to bring your theatrical vision to life and create unforgettable experiences for your audience.
 
 My directing style is a mix of down-to-earth storytelling, a fast-paced narrative, and the expressive power of movement.
 I am working on the question of how our bodies influence and shape our expression on stage?
@@ -57,4 +57,4 @@ I, Simon Klug, a freelancer, offer workshops infused with the magic of the stage
 
 
 ### Applied Improv for Corporate Growth
-Applied Improv, can transform your business environment. I bring the art of improv off the stage and into the boardroom, fostering creativity, teamwork, and effective communication within your corporate team. Learn to think on your feet, adapt, and encourage creativity. Improv techniques can transform brainstorming, communication, and problem-solving Unleash the power of drama to bring out the best in your business dynamics. 
+Applied Improv, can transform your business environment. I bring the art of improv off the stage and into the boardroom, fostering creativity, teamwork, and effective communication within your corporate team. Learn to think on your feet, adapt, and encourage creativity. Improv techniques can transform brainstorming, communication, and problem-solving Unleash the power of drama to bring out the best in your business dynamics.

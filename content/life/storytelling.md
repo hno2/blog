@@ -2,22 +2,22 @@
 
 ## Know your Audience
 ## Know why you need a story
-Concept, Humans are the only storytelling animal. 
+Concept, Humans are the only storytelling animal.
 Stories shape how we see ourselves and the world around us. Frame your work as an epic adventure.
 
 ## Know where to find your story
 ## Concept
 Heros Journey
 ### Dragon and the City
-Front: 
+Front:
 Explain your project as if it’s an epic adventure. Get people excited about your plan of action.
-There’s a dragon outside the city walls. Your world is no longer safe. What should you do? 
+There’s a dragon outside the city walls. Your world is no longer safe. What should you do?
 a) Escape: find a safer place to live.
 d) Defend: strengthen the city walls.
 c) Attack: take on the dragon before he gets stronger.
 Each option has risks and rewards. Just like your project.
 
-Back: 
+Back:
 You need to get people excited about your work. Turn your project goals into an epic story about a City (the status quo, safe but limited) and a Dragon (threatening but full of potential).
 1. What is your City?
 * What is good and valuable in the status quo?
@@ -29,11 +29,11 @@ You need to get people excited about your work. Turn your project goals into an 
 * Is there an opportunity here? (Dragons hoard gold!)
 3. Escape
 * Where would you go?
-* What should you take with you? 
+* What should you take with you?
 * What’s the cost of abandoning the city?
 4. Defend
 * What is worth defending in the old city?
-* How can you strengthen your walls? 
+* How can you strengthen your walls?
 * Walls protect, but they also restrict. What’s the cost of staying put?
 5. Attack
 * What's your best line of attack?

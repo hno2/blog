@@ -24,4 +24,4 @@ I'm excited about the prospect of merging my extensive knowledge in various face
 
 📄 **Connect with Me**
 
-You can download my full CV [here](/images/CV_Klug_en.pdf) or connect with me on [LinkedIn](https://www.linkedin.com/in/simon-klug/). Feel free to [shoot me a message](mailto:simon@simonklug.de) either way. 
+You can download my full CV [here](/images/CV_Klug_en.pdf) or connect with me on [LinkedIn](https://www.linkedin.com/in/simon-klug/). Feel free to [shoot me a message](mailto:simon@simonklug.de) either way.
