@@ -20,7 +20,7 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v3
         with:
          lfs: true
       - uses: astral-sh/setup-uv@v7
@@ -29,7 +29,7 @@ jobs:
       - name: Install Requirements
         run:  uv sync --no-dev
       - name: Build HTML
-        run: uv run pelican -s publishconf.py
+        run: uv run pelican -s publishconf.py content
       - name: Deploy to Server
         uses: marcodallasanta/ssh-scp-deploy@v1.2.0
         with:

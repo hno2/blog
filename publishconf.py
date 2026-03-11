@@ -1,3 +1,7 @@
-from pelicanconf import *  # noqa: F403
+import os
+import sys
+
+sys.path.append(os.curdir)
+from pelicanconf import *
 
 SITEURL = "https://simonklug.de"

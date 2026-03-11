@@ -1,4 +1,5 @@
-TIMEZONE = "Europe/Paris"
+from pathlib import Path
+IMEZONE = "Europe/Paris"
 AUTHOR = "Simon Klug"
 SITENAME = "Today I learned..."
 SITESUBTITLE = "Learning Blog of Simon Klug"
@@ -95,4 +96,4 @@ AUTHORS = {
 # Graph panel: how many hops from the current article to show (1 = direct links only)
 GRAPH_DEPTH = 2
 
-KATEX_PATH = "./katex.min.js"
+KATEX_PATH = str(Path(__file__).parent/"katex.min.js")
