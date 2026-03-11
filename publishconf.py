@@ -1,6 +1,3 @@
-import sys
-
-sys.path.append(".")
-from pelicanconf import *
+from pelicanconf import *  # noqa: F403
 
 SITEURL = "https://simonklug.de"

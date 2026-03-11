@@ -1,1 +1,1 @@
-A simple theme based on Tom McWrights Blog. 
+A simple theme based on Tom McWrights Blog.

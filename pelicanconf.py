@@ -1,15 +1,8 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-import os
-import pelican_cite
-
-
+TIMEZONE = "Europe/Paris"
 AUTHOR = "Simon Klug"
 SITENAME = "Today I learned..."
 SITESUBTITLE = "Learning Blog of Simon Klug"
 SITEURL = ""
-
 PATH = "content"
 
 PUBLICATIONS_SRC = "content/bibliography.bib"
@@ -29,10 +22,14 @@ MARKDOWN = {
     }
 }
 
+PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     "sitemap",
     "pelican_cite",
     "pelican_katex",
+    "link_graph",
+    "obsidian",
+    "minify_output",
     # "extract_toc",
 ]
 SITEMAP = {
@@ -67,7 +64,7 @@ CATEGORY_FEED_RSS = None
 # Elegant theme
 STATIC_PATHS = ["static", "images"]
 EXTRA_PATH_METADATA = {
-    "static/fonts/": {"path": "fonts/"},
+    #"static/fonts": {"path": "fonts"},
     "static/favicon.ico": {"path": "favicon.ico"},
     "static/robots.txt": {"path": "robots.txt"},
 }
@@ -94,4 +91,8 @@ AUTHORS = {
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Graph panel: how many hops from the current article to show (1 = direct links only)
+GRAPH_DEPTH = 2
+
 KATEX_PATH = "./katex.min.js"

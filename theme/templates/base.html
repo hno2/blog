@@ -19,9 +19,9 @@
         content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
     <title>{% block title %}{% endblock title %}</title>
     <style>
-        {% include "style.min.css"%}
+        {% include "style.css"%}
         {% if article and article.content and '<code>' in article.content or page and page.content and '<code>' in page.content%}
-        {% include "pygment.min.css"%}
+        {% include "pygment.css"%}
         {%endif%}
         {% if article and article.content and 'class="katex"' in article.content or page and page.content and 'class="katex"' in page.content%}
         {% include "katex.min.css"%}
@@ -35,15 +35,64 @@
             <nav class="nav">
                 <div class="header main">
                     <h1 style="line-height: 1.6;font-size: 1rem;margin: 0 0 0.25em 0;">Simon Klug</h1>
-                    <ul style="list-style:none;padding:0;margin:0">
-                        <li><a href="/">Writing</a></li>
-                        <li><a href="/offering">Offering</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/impressum">Impressum</a></li>
+                    <nav class="ft">
+                        {% set root_arts = articles|selectattr('relative_dir','equalto','')|list %}
+                        {% if root_arts %}
+                        <ul>
+                            {% for art in root_arts|sort(attribute='title') %}
+                            <li><a href="/{{ art.url }}"{% if article and article.slug == art.slug %} class="ft-active"{% endif %}>{{ art.title }}</a></li>
+                            {% endfor %}
+                            <li><a href="/">Writing</a></li>
+                        </ul>
+                        {% endif %}
+                        {% set top_dirs = [] %}
+                        {% for art in articles %}
+                            {% set top = art.relative_dir.split('/')[0] %}
+                            {% if top and top not in top_dirs %}{% set _ = top_dirs.append(top) %}{% endif %}
+                        {% endfor %}
+                        {% for top_dir in top_dirs|sort %}
+                            {% set direct_arts = articles|selectattr('relative_dir','equalto',top_dir)|list %}
+                            {% set sub_dirs = [] %}
+                            {% for art in articles %}
+                                {% set parts = art.relative_dir.split('/') %}
+                                {% if parts[0] == top_dir and parts|length > 1 and parts[1] not in sub_dirs %}
+                                    {% set _ = sub_dirs.append(parts[1]) %}
+                                {% endif %}
+                            {% endfor %}
+                            {% set top_active = article and article.relative_dir.split('/')[0] == top_dir %}
+                        <details{% if top_active %} open{% endif %}>
+                            <summary>{{ top_dir }}</summary>
+                            {% if direct_arts %}
+                            <ul>
+                                {% for art in direct_arts|sort(attribute='title') %}
+                                <li><a href="/{{ art.url }}"{% if article and article.slug == art.slug %} class="ft-active"{% endif %}>{{ art.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                            {% for sub_dir in sub_dirs|sort %}
+                                {% set sub_active = article and article.relative_dir == top_dir + '/' + sub_dir %}
+                            <details{% if sub_active %} open{% endif %}>
+                                <summary>{{ sub_dir }}</summary>
+                                <ul>
+                                    {% for art in articles|sort(attribute='title') %}
+                                        {% if art.relative_dir == top_dir + '/' + sub_dir %}
+                                        <li><a href="/{{ art.url }}"{% if article and article.slug == art.slug %} class="ft-active"{% endif %}>{{ art.title }}</a></li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </details>
+                            {% endfor %}
+                        </details>
+                        {% endfor %}
+                        <ul>
+                        <li><a href="/impressum/">Impressum</a></li>
                     </ul>
+                    </nav>
                     {%block toc%}
                     {%endblock toc%}
+
                 </div>
+            
             </nav>
 
             <div class="main content">
@@ -51,6 +100,29 @@
                 {% block content %}
                 {% endblock content %}
             </div>
+            {% if article and GRAPH_DATA %}
+            <aside class="graph-panel">
+                <div class="graph-title">
+                    Link Graph
+                    <button id="graph-popout-btn" title="Show full graph" aria-label="Show full graph">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1h4v4M11 1L6.5 5.5M5 11H1V7M1 11l4.5-4.5"/></svg>
+                    </button>
+                </div>
+                <canvas id="graph-canvas"></canvas>
+            </aside>
+            <div id="graph-overlay" role="dialog" aria-modal="true" aria-label="Full link graph">
+                <div id="graph-overlay-inner">
+                    <div id="graph-overlay-header">
+                        <span>Full Link Graph</span>
+                        <button id="graph-overlay-close" aria-label="Close">&#x2715;</button>
+                    </div>
+                    <canvas id="graph-overlay-canvas"></canvas>
+                </div>
+            </div>
+            <script>
+                {% include "graph.js" %}
+            </script>
+            {% endif %}
         </div>
     </div>
 </body>
