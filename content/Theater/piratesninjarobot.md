@@ -7,9 +7,9 @@ Tags: life, theatre, improv, personality
 summary: This classification of Improv Personalities is also transferarble to any context of your life.
 ---
 
-In Improv there is a model that classifies people on the spectrum of Pirates, Ninjas, and Robots.
+In Improv [[theatre]] there is a model that classifies people on the spectrum of Pirates, Ninjas, and Robots.
 
-## Pirates 
+## Pirates
 > A pirate is happiest when he swings on board a boat ready to attack and has no idea what will happen next. &mdash; <cite>Billy Merritt</cite>
 
 Pirates jump into scenes with bold ideas and high energy, are playful and their credo is *Just do it!*.
@@ -24,7 +24,7 @@ Robots try to understand a scene and their character deeply, they add necessary 
 
 > The ninja is the one who steers the scene here or there, the great justifier, the one with no ego. A ninja-like player edits and you never see them edit. The ninja is the one who connects all the scenes together. &mdash; <cite>Billy Merritt</cite>
 
-Ninjas can do both, they make bold choices to connect strings and go in and out of scenes stealthily. 
+Ninjas can do both, they make bold choices to connect strings and go in and out of scenes stealthily.
 
 ## Conclusio
 
@@ -33,5 +33,5 @@ Ninjas can do both, they make bold choices to connect strings and go in and out 
 Good Improv needs all three types of personalities. Think about what personality type you are and if this model influences your behavior.
 
 ### Further Reading
-[Interview with Billy Merrit](http://www.laweekly.com/pirate-robot-or-ninja-ucb-vet-billy-merritts-theory-on-the-three-types-of-improv-performers/)  
+[Interview with Billy Merrit](http://www.laweekly.com/pirate-robot-or-ninja-ucb-vet-billy-merritts-theory-on-the-three-types-of-improv-performers/)
 [Find out what type of improviser you are!](https://quiz.tryinteract.com/#/5c9549ce5ff0cb00143f9c31)

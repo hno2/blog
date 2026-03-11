@@ -3,7 +3,7 @@ title: Enhancing LLM Performance with Retrieval Augmented Generation (RAG)
 Tags: machine learning, artificial Intelligence, ai, rag, agents, search, llm, Retrieval-Augmented-Generation
 date: 2024-05-19 20:30:00
 slug: rag
-summary: Enhance the performance of large language models (LLMs) using Retrieval Augmented Generation (RAG) with our comprehensive guide. Learn how to effectively build a RAG system by mastering key steps: loading, indexing, storing, and querying.
+summary: "Enhance the performance of large language models (LLMs) using Retrieval Augmented Generation (RAG) with our comprehensive guide. Learn how to effectively build a RAG system by mastering key steps: loading, indexing, storing, and querying."
 ---
 Over the past six months, I've been working hard to improve the performance of large language models (LLMs) using corporate text data through a technique known as Retrieval Augmented Generation (RAG). RAG uses pre-trained models such as [GPT-3.5](https://openai.com/research/gpt-3), [LLaMA](https://ai.facebook.com/blog/large-language-models-are-having-their-stable-diffusion-moment/) or [Mistral](https://www.mistral.ai/) and dynamically incorporates relevant data into the query so that the model has the necessary context. It's important to remember that a prompt is essentially a long string; RAG systems append relevant information to this string. Importantly, this process does not change the training or hyperparameters of the model.
 
@@ -21,6 +21,27 @@ There are six main steps to building a RAG system:
 
 In this article I will focus on the first four steps of creating a RAG system. The operational aspects and evaluation of such a system are complex and will be covered in a future article.
 
+But first to give you a tl;dr of this post here is a table of all design decision you can or have to take. Must Takes are marked in Bold.
+
+
+| **Step**   | **Parameter/Decision**    | **Recommendation**                                                                               | **Description**                                                                                                                                                                     |
+| ---------- | ------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Loading    | Loading Libraries         | depends on your data                                                                             | Load your data. Libraries like LangChain, LLaMAIndex, txtai, and haystack can help.                                                                                                 |
+| Indexing   | **Chunking Method**       | Recursive Chunking                                                                               | Breaks text into contextually relevant pieces, improving retrieval quality. Options include fixed-length, sentence-based,recursive document-specific, semantic or agentic chunking. |
+| Indexing   | **Embedding Model**      | OpenAI Embeddings or local [(Model Leaderboard)](https://huggingface.co/spaces/mteb/leaderboard) | Choose based on cost, computational requirements, performance, and output vector length.                                                                                            |
+| Indexing   | Keyword Search  | SPLADEv3                                                                                         | Optional, recommended if your data contains abbreviations or domain specific                                                                                                        |
+| Storing    | **Vector Database**       | Milvus or FAISS for local                                                                        | Used for storing embeddings and associated text, optimized for high-dimensional vectors.                                                                                            |
+| Storing    | Document Store            |                                                                                                  | Optional, if whole documents are required in retrieval.                                                                                                                             |
+| Retrieval  | Query Transformation      |                                                                                                  | Optional techniques to improve retrieval for complex questions and use-cases                                                                                                        |
+| Retrieval  | Metadata Enhanced Search  | User-defined Metadata Filters | Optional, use available metadata                                                                                                                                                   |
+| Retrieval  | Text/Keyword Search       |                                                                                                  | Required if keyword search is combined with semantic search                                                                                                                         |
+| Retrieval  | Context Enrichment        | Auto Merging Retriever                                                                           | Enhances search results by adding surrounding context.                                                                                                                              |
+| Retrieval  | Query Routing             | LLM Agent                                                                                        | Directs queries to appropriate data sources                                                                                                                                         |
+| Retrieval  | Reranking & Compression   | Cross-Encoder                                                                                    | Techniques to refine retrieved chunks                                                                                                                                               |
+| Generation | **Generation Model**      | GPT4o/GPT35-turbo or other models availabe                                                       | Choose a model that can handle the retrieved context length with good generation quality.                                                                                           |
+| Generation | System Prompt             | Description of Data Usage                                                                        | Instructions on how the model should use the retrieved data, potentially including references.                                                                                         |
+
+
 ## 1. Loading
 
 This step is essentially about data engineering and its complexity can vary considerably. It can range from reading CSV files with text to loading various types of files, including Office documents or even OCR processed images. There is a wide range of libraries available to help with these tasks. Some of the more notable ones are
@@ -28,8 +49,9 @@ This step is essentially about data engineering and its complexity can vary cons
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [LLaMAIndex](https://github.com/jerryjliu/llama_index)
 - [txtai](https://github.com/neuml/txtai)
-* [haystack](https://github.com/deepset-ai/haystack)
-These libraries provide robust tools for dealing with the various challenges associated with loading data into a RAG system. In my experience, Langchain has the most advanced RAG features available with a simple architecture. 
+- [haystack](https://github.com/deepset-ai/haystack)
+
+These libraries provide robust tools for dealing with the various challenges associated with loading data into a RAG system. In my experience, Langchain has the most advanced RAG features available with a simple architecture.
 ## 2. Indexing
 
 Indexing involves first chunking—splitting—the documents and then embedding them. Depending on your data, it often makes sense to select and describe additional metadata.
@@ -45,14 +67,14 @@ Chunking, also known as text splitting, breaks up texts that are too long to emb
 
 ### Embedding
 
-Embedding is the process of converting chunks into numerical representations also known as  vectors or embeddings. 
+Embedding is the process of converting chunks into numerical representations also known as  vectors or embeddings.
 
 - **Model Selection**: Choosing the right embedding model is critical. Factors to consider include the cost of the model, computational requirements (local vs. remote deployment), the maximum chunk size it can handle, performance, and the length of the output vectors. Resources such as the [Massive Text Embedding Benchmark (MTEB) Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) can help you compare models based on these factors.
 - **Dimensionality**: The dimensionality of the embedding vectors (e.g., 128, 256, 768 dimensions) affects both the performance and the computational load in the query step. Higher dimensions typically provide more nuanced representations but require more resources for storage and computation.
 - **Training Data Similarity**: Ensure that the embedding model is trained on data similar to your use case to improve its relevance and accuracy. Pre-trained models can be fine-tuned on your specific dataset for better performance.
 - **Multi-Embeddings**: In many cases it can be useful to index not only based on semantic similarity but also based on keywords or phrases that contain a specific string. The advantage is that abbreviations or domain-specific terms can be matched directly. While semantic similarity search usually uses dense vectors, keyword search uses sparse vectors - one dimension equals one token. These text search models must be applied to your corpus before they can be used.  You have the following options for keyword search
-	* BM25 works on a normalised frequency analysis of words. 
-	* [SPLADE](https://github.com/naver/splade?tab=readme-ov-file#playing-with-the-model) 
+	* BM25 works on a normalised frequency analysis of words.
+	* [SPLADE](https://github.com/naver/splade?tab=readme-ov-file#playing-with-the-model)
 
 Note that you will need the same model(s) at runtime to create embeddings of the query. This can be either via the API or via a locally running model.
 
@@ -62,13 +84,18 @@ Including additional metadata can enhance the retrieval process:
 
 - **Document Metadata**: Additional document metadata such as abstract, keywords, file names and titles may contain relevant additional information, need to be created and a decision made on how to include them. For example, titles can be added at the beginning of each chunk and embedded with the text, or they can be embedded separately their own index. If a LLM should select the right Metadata field clarify the range and describe each attribute (e.g. use Langchain [`AttributeInfo`](https://api.python.langchain.com/en/latest/chains/langchain.chains.query_constructor.schema.AttributeInfo.html))
 - **Hypothetical Questions**: Generate questions for each chunk, perform queries against these questions, match them with the original chunks, and send the results to the LLM.
-- **Hierarchical Indexing**:  If you have many long documents, organise them into several levels of granularity. A broad primary index for high-level categories or document summaries, combined with (multiple) indexes for fine-grained searches that contain document chunks at the lowest level.  
+- **Hierarchical Indexing**:  If you have many long documents, organise them into several levels of granularity. A broad primary index for high-level categories or document summaries, combined with (multiple) indexes for fine-grained searches that contain document chunks at the lowest level.
 ## 3. Storing
 Efficient storage and retrieval of embeddings and documents are crucial for fast and accurate information access.
 ### Vector Database
-In most cases you need a vector database to store your embeddings andand associated text. These are optimised for storing and retrieving high-dimensional vectors (embeddings) and allow fast similarity searches using metrics such as cosine similarity or Euclidean distance. A simple library for local storing is [Facebooks Faiss](https://github.com/facebookresearch/faiss), but in production you want to switch to a remote database like, [Milvus](https://milvus.io/) (open source) or [Weaviate](https://weaviate.io/)(open source), [Pinecone](https://www.pinecone.io/)(fully managed service) [qdrant](https://qdrant.tech/), [chromadb](https://www.trychroma.com/) or [pgvector](https://github.com/pgvector/pgvector) (vector-capable SQL database). The functionality and performance varies slightly between them,  so choose one that suits your needs and stick with it.
+In most cases you need a vector database to store your embeddings andand associated text. These are optimised for storing and retrieving high-dimensional vectors (embeddings) and allow fast similarity searches using metrics such as cosine similarity or Euclidean distance. A simple library for local storing is [Facebooks Faiss](https://github.com/facebookresearch/faiss), but in production you want to switch to a remote database like, [Milvus](https://milvus.io/) (open source) or [Weaviate](https://weaviate.io/) (open source), [Pinecone](https://www.pinecone.io/) (fully managed service), [qdrant](https://qdrant.tech/), [chromadb](https://www.trychroma.com/) or [pgvector](https://github.com/pgvector/pgvector) (vector-capable SQL database). The functionality and performance varies slightly between them,  so choose one that suits your needs and stick with it.
 ### Document Store
 Unlike vector stores, document stores are optimised for storing and retrieving whole documents or textual data. They provide indexing and querying capabilities for text-based search and retrieval. Documents up to a scale can be stored locally or in memory as is. Databases of this type are also known as full-text search databases. Examples are [elasticsearch](https://www.elastic.co/de/elasticsearch) or [OpenSearch](https://opensearch.org/).
+
+### Graph Store
+Storing structured Data in Graph form can have benefits. One option can be to store/retrieve embeddings seperate from the graph, but graph datbase Neo4j introduced vector indexes in version 5.13., so you can use it directly for semantic/hybrid search as well. If your data has some inherent structure this can be used to build the graph, otherwise you can use an LLM to map the text contents to entities and relationships in the database. ([GraphRAG](https://microsoft.github.io/graphrag/))
+
+> The GraphRAG process involves extracting a knowledge graph out of raw text, building a community hierarchy, generating summaries for these communities, and then leveraging these structures when perform RAG-based tasks. -
 ## 4. Querying
 
 The idea of this step - also known as retrieval - is simple: acquire additional information to add relevant context to the user prompt. RAG is based on retrieval, which is another word for search. Retrieval is a very hard problem: the difficulty of searching, ranking and filtering to obtain a high quality collection of candidate documents for reasoning is often underestimated. This means that the balance between the amount of content to be retrieved and its relevance is crucial. Retrieving more or longer content may lead to higher costs or exceed the model's maximum input length, but it often leads to better results because the relevant information is likely to be contained somewhere.
@@ -115,14 +142,14 @@ Use the relevant parts of the retrieved chunks
 
 
 ## 5. Generation
-In this final step the answers for the users are generated/synthesized. 
+In this final step the answers for the users are generated/synthesized.
 
 **Model Selection**: Choose a model that can handle the length of your retrieved context, with adequate generation quality and cost.
 
 **Use of retrieved context**:
 
 * **Naive**: Concatenate and feed all the retrieved context (above some relevance threshold) together with the query to an LLM at once.
-* **Refine**: Iteratively refine the final output based on sub-outputs.  
+* **Refine**: Iteratively refine the final output based on sub-outputs.
 * **Summarise** the retrieved context, then generate
 * Generate multiple responses based on different chunks, then concatenate/summarise for final response
 **System Prompt**: Describe how the model should use the provided Data

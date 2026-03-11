@@ -3,10 +3,10 @@ title: Blitzeinführung in NLP
 slug: uff
 date: 2021-10-30 21:55:02 +0100
 publications_src: content/til.bib
---- 
+---
 
 Moin! Herzlich Willkommen zu den Ressoursen für meinen Talk *NLP - eine Interaktive Blitzeinführung* auf dem [University Future Festival 2021](https://festival.hfd.digital/en/open-for-discussion/conference-day/). Hier findet sich sowohl Links zu den Quellen meines Talks, Weiterführendes um sich intensiver zu beschäftigen als auch der Programmcode zum direkt kopieren und ausführen.
-Aber am Besten klickt man auf einen der Beiden Links um direkt in einer interaktiven Umgebung arbeiten zu können: 
+Aber am Besten klickt man auf einen der Beiden Links um direkt in einer interaktiven Umgebung arbeiten zu können:
 
 <a href='https://colab.research.google.com/github/hno2/uff/blob/main/Beispiele.ipynb' target="_blank"><img src='/images/icons/colab-badge.svg' style="width:10vw!important"alt='Open In Colab'></a>
 <a href='https://mybinder.org/v2/gh/hno2/uff/HEAD?filepath=Beispiele.ipynb' target="_blank"><img src='/images/icons/binder-badge.svg' alt='Open In myBinder' style="width:10vw!important"></a>
@@ -24,11 +24,11 @@ Natural Language Processing, die Kunst natürliche Sprache in Computern verstehe
 * [Deutsches Bert Modell](https://huggingface.co/bert-base-german-cased)
 * [Warum die Modelle nach der Sesamstraße (engl. Muppets) benannt sind](https://www.theverge.com/2019/12/11/20993407/ai-language-models-muppets-sesame-street-muppetware-elmo-bert-ernie)
 
-Anstatt NLP-Modelle von Grund auf neu zu trainieren (was teuer ist und dauert), ist es jetzt möglich (und ratsam), vortrainierte Sprachmodelle zu nutzen, um gängige NLP-Aufgaben zu erfüllen. Viele der Modelle sind 
+Anstatt NLP-Modelle von Grund auf neu zu trainieren (was teuer ist und dauert), ist es jetzt möglich (und ratsam), vortrainierte Sprachmodelle zu nutzen, um gängige NLP-Aufgaben zu erfüllen. Viele der Modelle sind
 ## Kann ich das Anwenden?
-**Ja**, sogar komplett kostenlos - rudimentäre Python Kentnisse vorrausgesetzt. 
+**Ja**, sogar komplett kostenlos - rudimentäre Python Kentnisse vorrausgesetzt.
 
-Das einfachste Beispiel ist *Sentiment Analysis*, bei Text nach Stimmung (positiv, negativ) klassifiziert wird. Auf Huggingface sind hierführ verschiedene Modelle mit unterschiedlicher Datengrundlage und Sprache verfügbar. Für die deutsche Sprache biete sich das Model [oliverguhr/german-sentiment-bert](https://huggingface.co/oliverguhr/german-sentiment-bert) von [@guhr2020training] an. Dieses wurde mit 1.834 millionen deutschen Beispielen unter anderem von Bewertungsplattformen trainiert. 
+Das einfachste Beispiel ist *Sentiment Analysis*, bei Text nach Stimmung (positiv, negativ) klassifiziert wird. Auf Huggingface sind hierführ verschiedene Modelle mit unterschiedlicher Datengrundlage und Sprache verfügbar. Für die deutsche Sprache biete sich das Model [oliverguhr/german-sentiment-bert](https://huggingface.co/oliverguhr/german-sentiment-bert) von [@guhr2020training] an. Dieses wurde mit 1.834 millionen deutschen Beispielen unter anderem von Bewertungsplattformen trainiert.
 ```py
 from transformers import pipeline
 
@@ -57,15 +57,15 @@ from transformers import pipeline
 generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B')
 prompt="""
 Airport code extractor:
- 
-Text: "I want to fly form Los Angeles to Miami." 
-Airport codes: LAX, MIA 
 
-Text: "I want to fly from Orlando to Boston" 
+Text: "I want to fly form Los Angeles to Miami."
+Airport codes: LAX, MIA
+
+Text: "I want to fly from Orlando to Boston"
 Airport codes:"""
 generator(prompt, do_sample=True, min_length=50)
 ```
-Fast jedes Problem aus dem Bereich Machine Learning lässt sich als n-shot Problem beschreiben. Siehe dazu zum Beispiel [Prompt Source](https://github.com/bigscience-workshop/promptsource). N-Shot Learning ist aber schwieriger und somit oft weniger genau als der klassiche Machine Learning Ansatz mit Trainingsdaten. Wo zero-shot learning oft aber sehr gut funktioniert ist die Klassifizierung, hier an Beispielen von Zeitungsartikeln. 
+Fast jedes Problem aus dem Bereich Machine Learning lässt sich als n-shot Problem beschreiben. Siehe dazu zum Beispiel [Prompt Source](https://github.com/bigscience-workshop/promptsource). N-Shot Learning ist aber schwieriger und somit oft weniger genau als der klassiche Machine Learning Ansatz mit Trainingsdaten. Wo zero-shot learning oft aber sehr gut funktioniert ist die Klassifizierung, hier an Beispielen von Zeitungsartikeln.
 
 ```py
 from transformers import pipeline

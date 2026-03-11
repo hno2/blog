@@ -10,9 +10,9 @@ In a fusion of wanderlust, theatrical prowess, and the immersive spirit of Erasm
 
 As fate would have it, an ordinary scroll through my Instagram feed led me to a post that lit a spark within me:
 
->"Ready to spend a transformative week among like-minded theatre souls hailing from every corner of Europe? Join us for Future Telling!"
+>"Ready to spend a transformative week among like-minded [[theatre]] souls hailing from every corner of Europe? Join us for Future Telling!"
 
-Without overthinking, I peeked at my remaining vacation days and followed my gut to sign up. And, oh boy, the workshops were like a buffet – but with a twist, you have to commit to one dish for the whole week. I went all in on 'From Idea to Creation' by the mysteriously cool Halil Itzhak from Israel. 
+Without overthinking, I peeked at my remaining vacation days and followed my gut to sign up. And, oh boy, the workshops were like a buffet – but with a twist, you have to commit to one dish for the whole week. I went all in on 'From Idea to Creation' by the mysteriously cool Halil Itzhak from Israel.
 
 Fast-forward to the crack of dawn, and the Karlsruhe squad – armed with enough snacks and socks to survive a theatrical apocalypse – gathered. We rendezvoused with the rest of the crew in Stuttgart, and before I knew it, we were on the move. Two trains, a scenic drive through the Alps, and eight hours later, voilà! Koper, Slovenia. A mix of Game of Thrones-esque architecture, Italian culinary wizardry, and a beach that looked ripped out of a travel magazine.
 
@@ -44,7 +44,7 @@ On that day, I stumbled into a truth stranger than fiction – just when I thoug
 Imagine that – a room full of near-strangers suddenly tasked with crafting poignant, heart-wrenching farewells for imaginary friends who met an untimely end. Talk about a mood swing! Amid the nervous laughter and uncomfortable glances, it dawned on us that this was theatre delving into the darkest corners of our hearts, demanding authenticity in the most chilling way. So as I reconnected with the rest and more beach, I spent the evening pondering the task.
 
 Allow me to unveil "THE FOUNTAIN" – a breathtaking marvel nestled within the heart of the city park. Picture this: every hour, the waters erupt into a symphony of liquid melodies, a dance orchestrated by the very spirit of aqua. And if the legends are true, it's practically encoded in the DNA of Future Tellers like us to plunge into its watery embrace. Yep, just like the adventurers who came before, we too couldn't resist the siren call, leaping in with the grace of exuberant kids, ready to stage a 20-minute spectacle of expressive aqua-dance extravagance.
-Each evening, as the clock approached the appointed hour, anticipation would crackle in the air like electricity, igniting our inner performers. The park would become our theater, the fountain our stage, and the aquatic choreography a language unspoken yet universally understood. 
+Each evening, as the clock approached the appointed hour, anticipation would crackle in the air like electricity, igniting our inner performers. The park would become our theater, the fountain our stage, and the aquatic choreography a language unspoken yet universally understood.
 
 ![Blindfolded Excercises](../images/ft/ft3.jpg)
 
@@ -128,4 +128,3 @@ As the final curtain falls on this unforgettable journey of Future Telling, my h
 >I alone am the master of my destiny.
 
 ![Group Picture](../images/ft/group.jpg)
-

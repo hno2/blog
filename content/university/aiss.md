@@ -1,5 +1,5 @@
 ---
-title: [Lecture] Artificial Intelligence in Service Systems
+title: Lecture Artificial Intelligence in Service Systems
 Tags: summary, lecture, ai, machine learning, artificial intelligence, exam, adaptive learning, neuronal network, concept drift, lecture-notes, kit, transfer learning, Machine Learning, service, karlsruhe, karlsruhe institute for technology,
 slug: aiss
 summary: This is a lecture summary of Artificial Intelligence in Service Systems in the winter term 2019/2020.
@@ -7,7 +7,7 @@ date: 2020-05-21 11:12
 ---
 [TOC]
 
-The Lecture Artificial Intelligence in Service Systems consists of an intro in the basics of Machine Learning while focusing on the full lifecycle of a machine learning systems both in one-entity use cases and in service systems. 
+The Lecture Artificial Intelligence in Service Systems consists of an intro in the basics of Machine Learning while focusing on the full lifecycle of a machine learning systems both in one-entity use cases and in service systems.
 An additional exercise provides hands-on experience in working with data and training basic algorithms.
 One has to pass four out of six homework assignments to be admitted to the final exam. I would recommend this lecture to anyone wanting a gentle introduction and an overview of the basic concepts of AI.
 
@@ -30,7 +30,7 @@ Source: [@@russel2009]
 
 #### PEAS Modell
 An AI system model consists of an agent and their environment.
-It perceives the environment by sensors (e.g. camera) and acts upon it by actuators (e.g. robot arm).  
+It perceives the environment by sensors (e.g. camera) and acts upon it by actuators (e.g. robot arm).
 The PEAS Model measures the Agent’s **p**erformance, in an **e**nvironment with **a**ctuators and **s**ensors
 
 #### Levels of AI-based on its intelligence
@@ -59,12 +59,12 @@ Agents are differentiated whether they learn only once (= *Simple Reflex Agent*)
 > Service providers and service clients working together to co-produce value in complex value chains or networks<cite>&mdash; [@@tien2003]</cite>
 
 ## Initiation
-### Problem Understanding 
+### Problem Understanding
 Problem Statement
 
 1. Set objectives from a business perspective
 2. Define business success criteria (When is this project successful? Make it specific and measurable)
-3. Translate Business Case to Machine Learning Problem (Classification vs. Regression) 
+3. Translate Business Case to Machine Learning Problem (Classification vs. Regression)
 
 ### Data Gathering
 #### Types of Storage
@@ -76,7 +76,7 @@ Problem Statement
 * streaming real-time data (e.g. time series data)
 &rarr; Labeling by humans might be neccesary
 #### Sampling
-> the selection of a representative subset 
+> the selection of a representative subset
 
 * **Random Sampling** - same probability for each data point
 * **Systematic Sampling** - ordered data, random start point but points of a specific distance (e.g. every 4th point)
@@ -92,7 +92,7 @@ Explore the Data Distribution, to select the right algorithm and for correct eva
 * Imbalances - Little Data for one class
 
 #### Data Quality
-> Garbage in, Garbage Out (GIGO) 
+> Garbage in, Garbage Out (GIGO)
 > &mdash; <cite>George Fuechsel</cite>
 
 
@@ -127,7 +127,7 @@ Data Quality has to measured related to the underlying business problem of the p
 * Replacement of missing values
     * Use value neighbor value (previous or after missing value)
     * Use mean
-* Time series representation 
+* Time series representation
     * Sampling
     * Average
     * Linear interpolation
@@ -135,9 +135,9 @@ Data Quality has to measured related to the underlying business problem of the p
     * Symbolic representation
     * **PCA**: create a new feature from a correlated feature, which is uncorrelated by data projection
 * Alignment
-    * Simple alignment methods 
+    * Simple alignment methods
     * Indicator variable
-    * Correlation Optimized Warping 
+    * Correlation Optimized Warping
     * Dynamic Time Warping [@@berndt1994using] - matching based on similarity
 
 ### Feature Engineering
@@ -157,8 +157,8 @@ Use an existing feature to create new ones.
   * Dummy-Coding - n distinct labels to n-1 binary feature, one label is zero vector
 * Feature hashing - hashing is useful for a large number of categories
 
-#### Automatic Feature Engineering 
-Python: [Featuretools](https://www.featuretools.com/)  
+#### Automatic Feature Engineering
+Python: [Featuretools](https://www.featuretools.com/)
 
 * Deep Feature synthesis - stack primitive calculations
 
@@ -174,17 +174,17 @@ Split Data into training and test data. The model learns from the training set a
 * Support Vector Machines (SVM) - Hyperplane to separate instances. One-versus-One or One-Versus-All Classification. Different Kernel can separate different (non-linear) data distributions.
 ### Artificial Neuronal Networks
 * The idea of Artificial Neuronal Networks is to mimic the brain or brain cell connection, by connecting artificial neurons. Neuron weights the inputs and sends them to the next connected neuron(s).
-* Training fits the weights of each neuron. 
+* Training fits the weights of each neuron.
 * Layers: input - hidden (might be multiple) - output
 #### Convolutional neural networks (CNN)
-CNNs are used for analyzing visual images.  
-Layers can be one of the three:     
+CNNs are used for analyzing visual images.
+Layers can be one of the three:
 
 * Convolution - reducing the number of parameters by convolving the input
 * Pooling - extracting dominant feature
 * Fully Connected - each neuron is connected to the next layer
 #### Recurrent neural networks (RNN)
-The output of a neuron is used as an additional input of a neuron. Therefore the network can learn the order of the data.  
+The output of a neuron is used as an additional input of a neuron. Therefore the network can learn the order of the data.
 
 * Direct Feedback - own output as additional input
 * Indirect Feedback - Input is sent to a neuron of the previous hidden layer
@@ -222,9 +222,9 @@ Metrics are evaluated on the unseen test set!
 ### Evaluation Methods
 
 #### Without parameter optimization
-* Percentage Split 
+* Percentage Split
 * Cross Validation - Splitting the data into 3 sets of training, test and validation
-#### With parameter optimization 
+#### With parameter optimization
 * Global hold-out set - used to test the model
 * Nested Cross Validation - inner cross-validation & outer cross-validation
 
@@ -233,14 +233,14 @@ Imbalanced data sets have (a lot) more data samples in one class compared to the
 
 Find more in [@@cawley2010]
 
-* Undersampling the overrepresented class 
+* Undersampling the overrepresented class
 * Oversampling the underrepresented class
 * SMOTE - Oversample by generating synthetic data points
 
 
 ### Parameter Optimization
-* Grid Search - Brute Force parameters. Define value ranges and evaluate each parameter combination 
-* Random Search - [@@bergstra2012] 
+* Grid Search - Brute Force parameters. Define value ranges and evaluate each parameter combination
+* Random Search - [@@bergstra2012]
 
 
 ### Overfitting
@@ -256,7 +256,7 @@ Once the model parameters are set, we use the whole dataset for training the mod
 * Upredictable Costs --> Serverless
 
 ### Decisions
-* SOA (Service-Oriented Architecture) and SOC (Service-Oriented Computing) have services as their fundamental elements that can be rearranged flexibly. 
+* SOA (Service-Oriented Architecture) and SOC (Service-Oriented Computing) have services as their fundamental elements that can be rearranged flexibly.
 * Microservices - each one with one specific function
 
 ### Deployment Options
@@ -269,7 +269,7 @@ Choosing the deployment options based on the abstraction layers you want to outs
 ## Concept Drift
 The phenomenon of changing data. This can be either due to the environment or the application changing.
 
-$Concept= P(X,y)$  
+$Concept= P(X,y)$
 
 Concept drift $P_{t0}(X,y) \neq P_{t1}(X,y)$
 
@@ -281,11 +281,11 @@ Concept drift $P_{t0}(X,y) \neq P_{t1}(X,y)$
 * Adapting
 * Distinguish drift from noise
 * Recognize recurring context
-* Operation 
+* Operation
 * Label availability (might be only available for some data points or with delay)
 ### Types of Data Changes
 * abrupt
-* incremental 
+* incremental
 * gradual
 * reoccurring concepts
 * outliers
@@ -296,7 +296,7 @@ Concept drift $P_{t0}(X,y) \neq P_{t1}(X,y)$
 
 * **Forgetting** by fixed training window (rolling window)
     * Blind Methods (Prediction incrementally adapting)
-        * Incremental weight decrease for older observations 
+        * Incremental weight decrease for older observations
         * CVFDT (Concept-adapting very fast decision trees)
 * **Detection** of changes: When change detected drop old data and retrain
     * informed Method (Change Detection & Prediction): Explicitly detecting a change
@@ -307,7 +307,7 @@ Concept drift $P_{t0}(X,y) \neq P_{t1}(X,y)$
 
 
 ## System-wide Learning
-Data is isolated in systems, access from other entities is difficult. 
+Data is isolated in systems, access from other entities is difficult.
 ### Challenges
 * Data privacy/confidentiality
 * Data heterogeneity
@@ -321,7 +321,7 @@ The Big Challenges in a Business context are
 * Training models based on distributed instances
 ### Predicting outcomes based on distributed components
 * Isolated Analysis (no data exchange)
-    * `+` no heterogeneous data, less processing complexity 
+    * `+` no heterogeneous data, less processing complexity
     * `-` prediction based on incomplete data
 * centralized analysis
     * `+` complete information
@@ -336,30 +336,30 @@ single dataset and/or from different domains or problems. <cite>[@@lemke2013]</c
 With multiple entities this means, each entity trains its classifier with their confidential data and only has to share the outputs to build a cross-entity meta-classifier.
 ### Base Learner Combination (=Ensemble)
 #### Bagging [@@breiman1996]
-* data randomly sampled into subsets and subsets used to train  models 
+* data randomly sampled into subsets and subsets used to train  models
 * Increasing of performance by averaging models
 * decrease variance
 * parallel model
 #### Boosting [@@schapire1990]
-* data randomly sampled into subsets, *weighing* data with the success of the previous model. Subsets used to train  models 
+* data randomly sampled into subsets, *weighing* data with the success of the previous model. Subsets used to train  models
 * Increasing of performance by combining models with *weighted* majority vote
 * decrease bias
 * sequential model
 #### Stacking [@@wolpert1992]
 * Output of first level classifiers is used to train a second-level classifier
-* Each entity builds their model with their (confidential) data, combining them in a meta-model. The abstract output can be transferred to the meta entity for further holistic analysis. This also reduces the amount of transferred data. 
+* Each entity builds their model with their (confidential) data, combining them in a meta-model. The abstract output can be transferred to the meta entity for further holistic analysis. This also reduces the amount of transferred data.
 
 ### Exchanging Predictions and Models (as a Service - aaS)
 * Predication-aaS: specific Prediction based on a specific data instance
 * Meta-Prediction-aaS: comprehensive Prediction based on distributed data
 * Configuration-aaS: configuration recommendation based on data
 * Model-aaS: from data to predictive Model (e.g. Googles AutoML)
-* Transferred-Model-aaS: improve the existing model with transfer learning on other model or data 
+* Transferred-Model-aaS: improve the existing model with transfer learning on other model or data
 #### Transfer Learning
 > *Transfer learning* tries to improve the learning of a new task based on the transfer of
-knowledge from a related task that has already been learned. 
+knowledge from a related task that has already been learned.
 
-Mathematical Definition: 
+Mathematical Definition:
 > Given a source domain $D_S$ and learning task $T_S$, a target domain $D_T$ and learning task
 $T_T$, *transfer learning* aims to help improve the learning of the
 target predictive function $f_T(\cdot)$ in $D_T$ using the knowledge in
@@ -371,14 +371,14 @@ $D_S$ and $T_S$, where $D_S \neq D_T$, or $T_S \neq T_T$.
     * *Multi-Task Learning* [@ruder2017overview] train multiple problems together with information relevant across tasks and split them later
 * transductive transfer: same tasks but labeled data only in the source domain
     * domain adaptation: same content but different domain
-    * Sample Selection Bias 
+    * Sample Selection Bias
 * unsupervised: Utilize transfer for unsupervised learning
 
 ### Creative AI
 &rarr; See my Post on AI and Creativity (coming soon)
 
 ### AI and Ethics
-> There are no hard problems, only problems that are hard to a certain level of intelligence. Move the smallest bit upwards [in intelligence] and some problems move from "impossible" to "obvious." Move a substantial degree upwards, and all of them will become obvious.  
+> There are no hard problems, only problems that are hard to a certain level of intelligence. Move the smallest bit upwards [in intelligence] and some problems move from "impossible" to "obvious." Move a substantial degree upwards, and all of them will become obvious.
 > &mdash; <cite>Eliezer Yudkowsky</cite>
 
 
@@ -386,7 +386,7 @@ With Artificial Intelligence, humanity might face existential risks, e.g. when A
 
 &rarr; Artificial Superintelligence will arrive and its arrival will be sudden.
 
-As a practitioner we should consider *Misuse* (e.g. by surveillance of foreign governments), *Fairness* (e.g. Women are not given a loan), *Transparency* (e.g. does the user know what is done with his/her data) 
+As a practitioner we should consider *Misuse* (e.g. by surveillance of foreign governments), *Fairness* (e.g. Women are not given a loan), *Transparency* (e.g. does the user know what is done with his/her data)
 
 #### Bias
 An all steps of the process we should be on the lookout for Biases in our data, these include:
@@ -403,4 +403,4 @@ Fairness could be used as an additional constraint for the algorithm but might d
 #### Human Rights and Robot Rights
 Humans are conscious (e.g. feel pain) and self-aware (e.g. aware of the pain), therefore we have human rights. The goal of humans (and their constitutions) is to minimize suffering (or prevent it)
 
-&rarr; So what happens when a system becomes self-aware and can it feel pain? 
+&rarr; So what happens when a system becomes self-aware and can it feel pain?

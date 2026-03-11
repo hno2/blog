@@ -15,7 +15,7 @@ Sie entfernt sich schnell mit hönisch Absatzgeklapper</br>
 Beide hören in die Stille ihrer Worte,</br>
 das satte Tropfen der nahenden Veränderung antwortet
 
- 
+
 Sie pfeift eine Phrase mit gespielter Unbekümmertheit</br>
 Er knirscht mit seinem Fahrrad alleine durch die Dunkelheit</br>
 Sie sucht in hitzigen Telefonaten nach Mehr</br>
@@ -76,7 +76,7 @@ Ich kümmere mich nicht, ist es also Nichtig was ich tue?</br>
 Welchen Pfad schlage ich mir durch den Urwald des Lebens. Mit Machete und ohne Kompass.</br>
 Lasse ich diese Grenzen von Raum und Zeit überwachsen, überwuchern und überdauern.</br>
 Ich pflege so meinen passiven Garten - einen Urwald
- 
+
 ## A
 Abschieben</br>
 Abschiebeabschied</br>
@@ -85,7 +85,7 @@ Abschiebeabschiedsabendandenken</br>
 Abschiebeabschiedsabendandenkenantrieb</br>
 Abschiebeabschiedsabendandenkenantriebsamt</br>
 Abschiebeabschiedsabendandenkenantriebsamtende</br>
- 
+
 
 ## Kampfgedicht
 Überdüngt und zurechtgestutzt</br>
@@ -108,7 +108,7 @@ Ein Satz beginnt mit einer Entschleunigung</br>
 Eine Phrase nimmet mit jeden einzelnen Wort Fahrt auf</br>
 Eine Frage verliert sich suchend im Raum?</br>
 Die Exklamation markiert deklamierend das Ende!</br>
- 
+
 
 ## Trostgedicht für den Trotz
 Trotzdem sich selbst trotzen,</br>
@@ -149,6 +149,3 @@ Realisiere das Realität immer unrealistisch ist</br>
 Denn wenn ich alles gebe, dann kann ich leer enden</br>
 aber wenn ich nicht alles gebe, dann kann ich nie erfahren was ich gegeben bekomme</br>
 Ich alleine bin der Herr meines Schicksals.
-
-
-

@@ -3,7 +3,7 @@ title: Prompt Engineering 101 - Elevating Your Prompts to New Heights
 slug: prompting
 summary: Master ChatGPT prompt engineering with essential tips on crafting clear instructions, and exploring advanced techniques.
 date: 2024-01-20 23:00
---- 
+---
 The art of prompting (also called prompt engineering) stands as a gateway to unlocking the true potential of text generation tools like ChatGPT. A well-crafted prompt with just the right instructions can unlock not only answers but also completely new use cases.
 
 Let's establish a common ground: In the realm of textual data, a prompt is a user input, most often in natural language, functioning as the instruction that guides a large language model (LLM) to generate something or take a specific action. Here are four general tips to optimize the performance of these models for your needs:
@@ -14,11 +14,11 @@ Let's establish a common ground: In the realm of textual data, a prompt is a use
       2. Stay away from current: Note that ChatGPT is trained with a fixed cutoff date. While some adaptations can leverage additional tools or internet sources through Retrieval Augmented Generation (RAG, see [@2005.11401]),  up-to-date information is usually not reliable.
       3. Tasks like counting letters or words and some math problems will not work, either because tokenization or model restrictions.
 
-2. **Instruct:** Craft your prompt as a clear instruction and split instructions from the information/example(s) with `###` or `"""` You can set the desired tone, specify the structure of the output – be it a table, bullet points or leave blanks for expansion. 
+2. **Instruct:** Craft your prompt as a clear instruction and split instructions from the information/example(s) with `###` or `"""` You can set the desired tone, specify the structure of the output – be it a table, bullet points or leave blanks for expansion.
 
 3. **Refine Iteratively:** You have two options to explore: a) refine the initial prompt based on model responses, or b) supplement instructions through additional chat prompts. As b) uses both the model's output and your inputs as memory/context, the results can be quite different.
 
-4. **Check Results:** Before you delve deeper, always check the results. This step ensures that the generated output aligns with your expectations. Regularly assessing outcomes allows for quick adjustments and improvements. LLMs are prone to confabulations (also known as hallucinations), meaning they can come up with imaginary facts, Links, Papers etc. There are two simple prompt additions that can reduce the amount of these confabulations: 
+4. **Check Results:** Before you delve deeper, always check the results. This step ensures that the generated output aligns with your expectations. Regularly assessing outcomes allows for quick adjustments and improvements. LLMs are prone to confabulations (also known as hallucinations), meaning they can come up with imaginary facts, Links, Papers etc. There are two simple prompt additions that can reduce the amount of these confabulations:
       1. *"I don't know"*: Enhance output reliability by prompting ChatGPT to respond with "I don't know" when uncertain. Note that this approach isn't foolproof, as it doesn't eliminate all hallucinations. Additionally, future ChatGPT updates may impact results.
       2. *"What did I ask you to do"*: By asking ChatGPT to reproduce the original question, you can follow its Train of Thought and adapt if something was missed.
 
@@ -31,7 +31,7 @@ This category encompasses prompting techniques designed to enhance ChatGPT's rea
 ### "Few-shot"
 Few-shot learning [@@brown2020language] is a paradigm where a model can perform a task with minimal examples or shots of data. Unlike traditional approaches that require large datasets, few-shot learning enables a model to generalize and make accurate predictions based on a small set of examples, often just a handful.
 Rather than stipulating the desired outcome, you provide explicit and representative examples that demonstrate the proper approach to solving the task.
-See my [Blog Post](/n-shot) on example 
+See my [Blog Post](/n-shot) on example
 
 ### "Chain-of-thought"
 
@@ -57,7 +57,7 @@ The application of both techniques is not straightforward, as it requires the fi
 
 
 ### "Maieutic"
-[@2205.11822] introduced maieutic prompting, which generates a tree of potential explanations, both correct and incorrect, and analyzes their relationships to deduce the correct set. This complex but innovative technique explores the Socratic method of questioning to elicit ideas and determine logically integral explanations. For most of your use-cases this will be overkill and hard to apply. 
+[@2205.11822] introduced maieutic prompting, which generates a tree of potential explanations, both correct and incorrect, and analyzes their relationships to deduce the correct set. This complex but innovative technique explores the Socratic method of questioning to elicit ideas and determine logically integral explanations. For most of your use-cases this will be overkill and hard to apply.
 
 ## Monte-Carlo Prompts
 The techniques in this category improve the reliability by using repeated sampling, similar to a Monte Carlo simulation, to comprehend and predict outcomes based on their likelihood. Essentially, the model is called multiple times, and the collected answers are summarized to derive a result. If applicable, it is recommended to set a higher temperature parameter for the results to have a higher variance. However, it's crucial to be aware that these methods incur a higher cost, as the model is sampled repeatedly.

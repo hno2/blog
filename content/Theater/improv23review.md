@@ -6,7 +6,7 @@ summary: Relive the magic of the annual Improfestival Karlsruhe, where improvise
 date: 2023-09-23
 ---
 
-The annual [Improfestival Karlsruhe](https://www.improfestival-karlsruhe.com/) has just been concluded, leaving behind a trail of laughter, creativity, and unforgettable moments. As the curtain closes and the last echoes of applause fade away, it's time to share with you an in-depth overview of the 15 sensational shows that graced the stage. These performances brought together improvisers from across the globe, each contributing their unique talents and perspectives to create a diverse tapestry of entertainment.
+The annual [Improfestival Karlsruhe](https://www.improfestival-karlsruhe.com/), our local improv [[theatre]] festival has just been concluded, leaving behind a trail of laughter, creativity, and unforgettable moments. As the curtain closes and the last echoes of applause fade away, it's time to share with you an in-depth overview of the 15 sensational shows that graced the stage. These performances brought together improvisers from across the globe, each contributing their unique talents and perspectives to create a diverse tapestry of entertainment.
 
 In this post, I'll not only delve into the essence of each show but also provide insights into the format that fueled their brilliance. From the heart-pounding narratives to the quirky setups and remarkable improvisational skills, we'll explore it all. And, of course, I'll be sharing my personal, subjective ratings for each performance, offering you a glimpse into what made these shows shine or where they may have faltered.
 
@@ -16,24 +16,24 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 
 ## Neverfolk
 
-**What it was about:** A cozy gathering of friends, nestled around a crackling fire, weaving tales that dance between the realms of reality and fantasy. Welcome to "NeverFolk," a concoction of imagination and camaraderie that beckons you to indulge in the ephemeral magic of improvised stories. It transports its audience into a world where folklore comes alive through more than just words. Instead, it dives headfirst into the realm of physicality, where the performers use their bodies to bring life to the narratives. 
+**What it was about:** A cozy gathering of friends, nestled around a crackling fire, weaving tales that dance between the realms of reality and fantasy. Welcome to "NeverFolk," a concoction of imagination and camaraderie that beckons you to indulge in the ephemeral magic of improvised stories. It transports its audience into a world where folklore comes alive through more than just words. Instead, it dives headfirst into the realm of physicality, where the performers use their bodies to bring life to the narratives.
 
 **Directed by:** [Chris Mead](https://chrismead.co/)
 
-**How it works:** A friend group is sitting getting together in a common setting, telling each other of tales they all remember. The story is told by a collective, with players seamelessly switching between 3rd-person perspective nerrators and characters. After each story, they discuss the common lesson of that story. 
+**How it works:** A friend group is sitting getting together in a common setting, telling each other of tales they all remember. The story is told by a collective, with players seamelessly switching between 3rd-person perspective nerrators and characters. After each story, they discuss the common lesson of that story.
 
-**Rating:** 3.5/5 -  It stands as a commendable display of shared storytelling. While a few tales might have leaned a touch too heavily into the realm of the fantastical it was a really enjoyable overall show. I already saw this format at [Impro Amsterdam](https://impro-amsterdam.nl/), where they additionally used some basic props. I think this can help to push that show to the next level, as it opens new ways for physicialty. 
+**Rating:** 3.5/5 -  It stands as a commendable display of shared storytelling. While a few tales might have leaned a touch too heavily into the realm of the fantastical it was a really enjoyable overall show. I already saw this format at [Impro Amsterdam](https://impro-amsterdam.nl/), where they additionally used some basic props. I think this can help to push that show to the next level, as it opens new ways for physicialty.
 
 
 
 ## Whats on TV
-**What is about:** Mix a soap opera drama on screen, including breakups and getting together over some wiredly intimate bonding based on cigerates, with a hospital budding realtionship.  A patient who stubbornly refuses to leave the hospital, even in the presence of a daring hospital thief. And a doctor mesmerized for the first time by something "fun". Why? Cue the improvised song *Shame on people*. 
+**What is about:** Mix a soap opera drama on screen, including breakups and getting together over some wiredly intimate bonding based on cigerates, with a hospital budding realtionship.  A patient who stubbornly refuses to leave the hospital, even in the presence of a daring hospital thief. And a doctor mesmerized for the first time by something "fun". Why? Cue the improvised song *Shame on people*.
 
 **Directed/Played by** TRE TING from Norway
 
 **How it works** two skilled improvisers and a musician embark on a journey to simultaneously act out what's happening on the TV screen and in reality, weaving a comedic tapestry.
 
-**Rating:** 4/5 - This show brilliantly showcased the dry wit of Norwegian humor. Even in the midst of the most uproarious moments, the performers maintained their straight-faced composure, adding a layer of hilarity to the absurdity unfolding on stage.It seamlessly blended melodrama with comedy, delivering a performance that was both sidesplitting and oddly touching. 
+**Rating:** 4/5 - This show brilliantly showcased the dry wit of Norwegian humor. Even in the midst of the most uproarious moments, the performers maintained their straight-faced composure, adding a layer of hilarity to the absurdity unfolding on stage.It seamlessly blended melodrama with comedy, delivering a performance that was both sidesplitting and oddly touching.
 
 ## 7 Deadly Sins
 **What it was about:** Step into the enigmatic space inbetween and confront the sins that lurk within your soul. The suppressed aggression that simmers beneath the surface, the intensity that defines every climb, friendship, and relationship—this wrath is the sin we explore. In this experience, you'll witness scenes from the main characters life unfold, dissecting the roots of his sin. No need to apologize; it's time to uncover the truth. Even with all the world's support and a saved life, the question lingers: Are you truly sorry, or is it all a facade?
@@ -63,7 +63,7 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 ## Project 2
 **What it was about** Step into a mesmerizing sci-fi world where artificial intelligence is just acted out by humans. ChatGPT thats just a poor dude. In this thought-provoking spectacle, we explore the newfound bonds between humans and their "AI" companions. Tina, an asteroid terraforming specialist, unexpectedly falls head over heels in love with her AI counterpart. Meanwhile, a gas surver, on his yearlong gas year through the boundless cosmos, finds himself only and praised only by his AI companion. But everything takes a cosmic twist when the individual voicing Tina's AI inadvertently transforms himself into a planet in an attempt to heal a burned tongue with nanobots. The political reaction to this planetary mishap? "Boobing" (destroying) entire sectors, resulting in the death of billions of Ex-Earthlings. But is this a line even the general, ready to annihilate his own sun, won't cross?
 
-**Directed and Played** by [Project 2](https://improwiki.com/en/improv_group/project2). 
+**Directed and Played** by [Project 2](https://improwiki.com/en/improv_group/project2).
 
 **How it works:** This two-player show seamlessly shifts between solo narrated scenes of AI and character interactions and intricate multi-person scenes, creating a dynamic narrative.
 
@@ -80,7 +80,7 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 
 **Rating**: 3.5/5 - This avant-garde spectacle truly tantalized the senses with its enchanting descriptions and artistic flair. I reveled in the enigmatic nature of the objects and their unexpected influence on the scenes. The entire show exuded a captivating theatrical vibe that added depth to the narrative. However, there were moments when the pace slowed down a bit too much for my liking, leaving me yearning for more rapid-fire excitement.
 
- 
+
 
 ## Momentum
 **What it was about:** Jumproping with a d*ck, motorbike chases, a heartwarming tale of a mother and son navigating the trials of growing up, and the riveting saga of changing a lamp like I have never seen before. Add to the mix the resurrection of Jesus, as he returns to his rightful spot—yes, firmly affixed to the cross—by the devout and faithful.
@@ -89,16 +89,16 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 
 **How it works:** One gestures from the audience is everything needed to get this show started. There are no words, only a symphony of sounds and the art of pantomime, weaving intricate characters and stories into existence before your very eyes. Each movement is a brushstroke on the canvas of this wordless world.
 
-**Rating**: 5/5 -  My mind was blown by this insane, high-energy spectacle that seamlessly melded one movement into another, birthing something entirely new and exhilarating. The absence of words never once detracts from the deep connection forged between the performers and the audience. With their creative, clown-like outbursts and emotional depth, The Lonely Bench has crafted a truly unique experience that left me utterly captivated. It's a whirlwind of laughter and tears, a rollercoaster of emotions that still lingers in my memory. 
+**Rating**: 5/5 -  My mind was blown by this insane, high-energy spectacle that seamlessly melded one movement into another, birthing something entirely new and exhilarating. The absence of words never once detracts from the deep connection forged between the performers and the audience. With their creative, clown-like outbursts and emotional depth, The Lonely Bench has crafted a truly unique experience that left me utterly captivated. It's a whirlwind of laughter and tears, a rollercoaster of emotions that still lingers in my memory.
 
 
 ## The Dark Age of Love
 
 **What it was about**: In the tumultuous society of the 2050s, where rising sea levels and violence have become the new normal, chaos reigns supreme. Order is but a distant memory, and the survivors band together in small, trust-based groups to eke out an existence. Stranded on a solitary island, they cling to hope while searching for a mysterious hut with a radio. Little do they know that one among them will betray their fragile trust.
 
-**Directed by** Billy Kissa 
+**Directed by** Billy Kissa
 
-**How it works:** The show kicks off with a narrated montage, setting the stage. It then transitions into short, intimate scenes between subgroups, guided by the introductory music. 
+**How it works:** The show kicks off with a narrated montage, setting the stage. It then transitions into short, intimate scenes between subgroups, guided by the introductory music.
 
 **Rating** 1.5/5 Regrettably, this show left me feeling utterly underwhelmed, ranking as my least favorite of the lot. My expectations were high for drama, betrayal, and a gripping tale of survival, but what I got were characters devoid of distinct characteristics, making them hard to connect with or even like. The ominous looks and absence of genuine human connection left me yearning for more depth. The entire performance felt like a prolonged exposition, never delving into the characters' motivations or inner conflicts. Furthermore, the lack of substantial female characters was disheartening, a glaring omission that would have failed even the Bechdel Test. Perhaps it was the collective fatigue of the audience, or maybe just me, but I left the theater neither entertained nor emotionally moved. It's a shame that the show missed the opportunity to live up to its potential.
 
@@ -117,7 +117,7 @@ So, whether you're an avid fan of improvisational theater or simply curious abou
 
 **Performed by** [Anananas & Pampamplemousse](https://ap-improv.com/) from France
 
-**How it works:** "Just Play" is a freeform improv experience where objects from the audience, music, sounds and pantomime blend seamlessly into an unending stream of improvisational consciousness. There are no constraints, no holding back, just pure, spontaneous creativity unfolding before your eyes. 
+**How it works:** "Just Play" is a freeform improv experience where objects from the audience, music, sounds and pantomime blend seamlessly into an unending stream of improvisational consciousness. There are no constraints, no holding back, just pure, spontaneous creativity unfolding before your eyes.
 
 **Rating:** 4/5 - This show offered an enchanting display of the free-flowing magic of improvisation. The way one small element influences the next scene is truly satisfying to witness. However, while the show provided plenty of fun and giggles, there was room for deeper storytelling and character development, particularly in the first half. Balancing the lightheartedness with more profound moments could have enhanced the overall experience. Nonetheless, it's a whimsical journey that showcases the creative potential of improvisation and leaves audiences entertained and intrigued.
 
@@ -146,7 +146,7 @@ In this world between life and death, the Afterhelm reveals itself as a place of
 **Rating:** 5/5 - "Brother Lionheart" is a breathtaking journey that transcends the boundaries of life and death. The show's masterful portrayal of emotion, somberness, and the enduring bond between siblings is nothing short of perfection. The stark contrast between the mortal world and the Afterhelm adds depth to the narrative, making it easy to forget the underlying theme of a child's passing for moments. The final scenes are especially moving, with the elder brother bidding his farewell and the heartbreaking mourning sequence. It's a profoundly touching, achingly real, and deeply sad performance that leaves both the audience and me in tears. A true masterpiece that reminds us of the power of love and the beauty of storytelling.
 
 ## Broken Bicycle Bell
-**What it was about:** This was a whirlwind journey through a bustling Sparkasse bank (sponsored by the festival, of course). In this zany exploration, we encountered perfect money counters, elderly customers grappling with the mysteries of online banking, cutthroat job promotions, the watering of plastic plants, juicy customer service gossip, illicit money laundering, and a mad dash for a last-minute holiday escape. 
+**What it was about:** This was a whirlwind journey through a bustling Sparkasse bank (sponsored by the festival, of course). In this zany exploration, we encountered perfect money counters, elderly customers grappling with the mysteries of online banking, cutthroat job promotions, the watering of plastic plants, juicy customer service gossip, illicit money laundering, and a mad dash for a last-minute holiday escape.
 
 Performed by [Killed by Tygers](https://flock-theatre.com/).
 
@@ -165,7 +165,7 @@ Performed by [Killed by Tygers](https://flock-theatre.com/).
 
 
 ## Conclusio: Curtain Call - Festival Highlights and Cheers
-Having experienced 15 shows over the course of this festival, I've been treated to a diverse range of inspirations and performances. Upon reflection, I found that my personal preferences gravitated towards narrative-driven shows with grounded stories and rich emotional depth. I tend to appreciate performances where the craft of improvisation is seamlessly integrated (and not shown), where decisions are clear and purposeful and improvisers are seen as human beings. 
+Having experienced 15 shows over the course of this festival, I've been treated to a diverse range of inspirations and performances. Upon reflection, I found that my personal preferences gravitated towards narrative-driven shows with grounded stories and rich emotional depth. I tend to appreciate performances where the craft of improvisation is seamlessly integrated (and not shown), where decisions are clear and purposeful and improvisers are seen as human beings.
 
 I have two observations that struck me during these shows. First is the commonality of certain improv formats. I seem to recognize a pattern, where scenes beginning with extended exposition, whether through sound, object work, or meaningful gazes, as a means to establish context, but not driving the narrative or the character.
 

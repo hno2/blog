@@ -1,14 +1,14 @@
 ---
-title: Notes on the Artificial Intelligence in Education Conference 2021 
+title: Notes on the Artificial Intelligence in Education Conference 2021
 Tags: machine learning, artificial intelligence, conference, notes, education
 slug: aied
 date: 2021-06-22 12:11:00
---- 
+---
 Last week I participated in the AI in Education Conference (AIED) (virtually of course). Here are my semi-structured notes and comments.
 
 ## Keynote Dan Russel
 Google's goal for education is assisting and inspiring Students.
-Google is used extensively for learning - about 2% of all queries are about learning. Full homework questions make up about 0.9%, queries about concepts 1%, and queries about learning systems 0.1% 
+Google is used extensively for learning - about 2% of all queries are about learning. Full homework questions make up about 0.9%, queries about concepts 1%, and queries about learning systems 0.1%
 The cognitive model of an AI system can matter more than its performance. If you do not have a good UX design it does not matter how good your AI is, so the user-centric design is key to successful implementation. We should think about the computer skill level of a population also which is often worse than thought. About 65% have a poor or lower level of computer skills, and only 10% are able to search a page via Ctr+F, mapping to a strong of computer skills. [@@OECD2016Skills]
 
 Google helps students by presenting extra information boxes on the right-hand side. For many homework questions, Google goes even further and provides practice problems, the formula, and a calculator. (To test this, search for *newton's laws* or *covid*)
@@ -19,11 +19,11 @@ Considering mental models of AI systems is necessary, as it means that one can p
 
 
 ## RepairNet
-[@abhinav2021repairnet] train an encoder-decoder architecture based on LSTM (with attention for the encoder) on program exercises for C for 93 programming tasks (total of ~7k erroneous programs). They outperform the previous approach MACER, when using error messages as additional model input. The DeepDebug approach with a multi-language pretrained transformer networks (and additional synthetic bugs), seems like an even better approach to this problem. [@@drain2021deepdebug] Unfortunately there is currently no source code or pre-trained models available to test the performance. 
+[@abhinav2021repairnet] train an encoder-decoder architecture based on LSTM (with attention for the encoder) on program exercises for C for 93 programming tasks (total of ~7k erroneous programs). They outperform the previous approach MACER, when using error messages as additional model input. The DeepDebug approach with a multi-language pretrained transformer networks (and additional synthetic bugs), seems like an even better approach to this problem. [@@drain2021deepdebug] Unfortunately there is currently no source code or pre-trained models available to test the performance.
 But both papers miss out on how to present this solution with bugs fixed to students and learners. Some ideas can be derived from the next paper.
 
 ## An Approach for Detecting Student Perceptions of the Programming Experience from Interaction Log Data
-For many students spending time on fixing errors is seen as an indication of low ability as it is not anticipated in experts. This negative self-assessment often leads to lower self-efficacy, influencing persistence, and overall performance, looking like a self-fulfilling prophecy. [@gorson2021approach] level the field, by detecting these negative moments based on browser and IDE logs. This can help to analyze processes, performance or build automated interventions. 
+For many students spending time on fixing errors is seen as an indication of low ability as it is not anticipated in experts. This negative self-assessment often leads to lower self-efficacy, influencing persistence, and overall performance, looking like a self-fulfilling prophecy. [@gorson2021approach] level the field, by detecting these negative moments based on browser and IDE logs. This can help to analyze processes, performance or build automated interventions.
 
 Negative self-assessment moments were labeled in the log data from 42 students via retrospective interviews. The labels were  grouped into eight categories
 
@@ -44,7 +44,7 @@ Negative self-assessment moments were labeled in the log data from 42 students v
 3. Pattern Selection uses a greedy approach called sequential covering, where patterns are scored both on Homogeneity, Interpretability (criteria: short, important, positive, precision), and Coverage.
 4. Clustering Summarization. Providing a short description of each Cluster.
 
-Using these clusters, learners can get strong feedback based on the cluster they fall in, e.g. when solving a problem that can be solved via indexing a `for` loop. 
+Using these clusters, learners can get strong feedback based on the cluster they fall in, e.g. when solving a problem that can be solved via indexing a `for` loop.
 
 ## Extracting and Clustering Main Ideas from Student Feedback Using Language Models
 [@masala2021extracting] use BERT to cluster main ideas from student feedback. After the keywords are extracted (via [KeyBert](https://maartengr.github.io/KeyBERT/)), context is added to be used for clustering by K-means. Based on these the Overall course rating is predicted for testing. Their approach can be easily adapted to other languages and contexts.
@@ -52,8 +52,8 @@ Using these clusters, learners can get strong feedback based on the cluster they
 
 
 ## “Can You Clarify What You Said?”: Studying the Impact of Tutee Agents’ Follow-Up Questions on Tutors’ Learning
-[@shahriar2021can] develop a synthetic tutee for math that can ask deep questions. They call this Constructive Tutee Inquiry (CTI). Tutor learning happens when students learn by teaching others and get questions that promote knowledge-building responses (KBR). 
-These questions can be grouped like so: 
+[@shahriar2021can] develop a synthetic tutee for math that can ask deep questions. They call this Constructive Tutee Inquiry (CTI). Tutor learning happens when students learn by teaching others and get questions that promote knowledge-building responses (KBR).
+These questions can be grouped like so:
 
 | Category                         | Description                                                | Example                                                                             |
 | -------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |

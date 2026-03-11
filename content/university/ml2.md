@@ -1,5 +1,5 @@
 ---
-title: [Lecture] Maschine Learning 2 - Advanced Methods
+title: Lecture Maschine Learning 2 - Advanced Methods
 Tags: summary, lecture, ai, machine learning, artificial intelligence, exam, active learning, Vapnik, co-learning, semi-supervised, lecture-notes, kit
 slug: ml2
 date: 2020-07-25 18:15:00
@@ -12,17 +12,17 @@ date: 2020-07-25 18:15:00
 ## Semi-Supervised Learning
 The higher the [Vapnik-Chervonenkis-Dimension](https://en.wikipedia.org/wiki/Vapnik%E2%80%93Chervonenkis_dimension) and therefore the capacity of a classifier the more samples are needed for training.
 
-**Definition**: For Semi-supervised Learning some data is labeled, but most is not.   
+**Definition**: For Semi-supervised Learning some data is labeled, but most is not.
 
 **Motivation**: Labeled Data is hard to get and expensive, while unlabeled is easy and cheap.
 
 * *Smoothness Assumption*: The label for two data instances that are "close" to each other and in a dense cluster should be similar.
 * *Cluster assumption*: Data instances in the same cluster tend to have the same label.
-* *Manifold Assumption*: high dimensional data can be represented by a lower-dimensional representation. [Learn More](https://stats.stackexchange.com/questions/66939/what-is-the-manifold-assumption-in-semi-supervised-learning) 
+* *Manifold Assumption*: high dimensional data can be represented by a lower-dimensional representation. [Learn More](https://stats.stackexchange.com/questions/66939/what-is-the-manifold-assumption-in-semi-supervised-learning)
 
 Semi-supervised learning extends
 
-* Supervised learning with information about the data distribution 
+* Supervised learning with information about the data distribution
 * Unsupervised learning with information and restrictions about the cluster distribution
 
 $\rightarrow$ Goal is to get a better hypothesis than without semi-supervised learning. This means be better than unsupervised learning with all unlabeled data and supervised learning with labeled data.
@@ -30,13 +30,13 @@ $\rightarrow$ Goal is to get a better hypothesis than without semi-supervised le
 ### Self-Learning (or Self-Training, Self-Labeling, Decision-directed learning)
 1. Train with labeled data
 2. Predict unlabeled data
-3. Add unlabeled data with predicted labels based on 
+3. Add unlabeled data with predicted labels based on
       * Confidence of the prediction (if over threshold)
       * All Data
-      * Weighted with the confidence of the prediction (must be supported by learner e.g. AdaBoost)  
+      * Weighted with the confidence of the prediction (must be supported by learner e.g. AdaBoost)
 4. Go to Step 1
 
-Can wrap most supervised algorithms. 
+Can wrap most supervised algorithms.
 The issue is that early but wrong decisions influence the whole process negatively. (Solution: Relabel data if confidence is under threshold)
 
 ### Co-Learning [@blum1998combining]
@@ -49,31 +49,31 @@ The issue is that early but wrong decisions influence the whole process negative
      * Weighted based on confidence
 5. Retrain model(s) with the new data
 
-*Fake Feature Split* to split data that is not "naturally" splittable  
-*Multi-View Learning*: No split, but voting of multiple classifiers (similar to Ensemble)  
+*Fake Feature Split* to split data that is not "naturally" splittable
+*Multi-View Learning*: No split, but voting of multiple classifiers (similar to Ensemble)
 *CO-EM* use all data, use classifier probability to weight the data.
 
 ### Generative Probabilistic Models
 Generative Probabilistic Model try to estimate the distribution $p(x,y|\theta)$ of data based on the class. Learning in this context means iterativly optimizing the parameter-set $\theta$ which is different depending on the choosen distribution. (e.g. for Gaussian $\theta= \{p(y_1),p(y_2),\mu_1, \mu_2,\Sigma_1,\Sigma_2\}$ with $\pi_i=p(y_i)$ the a-priori class probability, $\mu$ the mean, and $\Sigma$ the covariant matrix).
-#### Expectation-Maximization (EM) Algorithm 
+#### Expectation-Maximization (EM) Algorithm
 1. Define model $p(x,y|\theta)$ based on the labeled data
 2. E-Step: Predict class for unlabeled samples (soft labeling)
 3. M-Step: Maximize prediction by updating the parameter vector $\theta$ with all (including newly labeled data)
 
-This is a subset of self-learning and will converge to a local (not global!) maximum. 
+This is a subset of self-learning and will converge to a local (not global!) maximum.
 If the fundamental assumption of the underlying distribution is wrong, then this will fail, too.
-Expectation-Maximization can be extended by Gaussian Mixture per Class or weighting unlabeled data with a factor below one. 
+Expectation-Maximization can be extended by Gaussian Mixture per Class or weighting unlabeled data with a factor below one.
 
-### Low-Density Separation 
+### Low-Density Separation
 SVM goal according to Vapnik: Split with maximum margin to all classes and split in a low-density region.
 #### Basics SVM
 * **Loss Function** $l(h(\vec{x} | \vec{w}), y)$: distance between hypothesis and label.
-* Approximation of **Loss**: $E_{e m p}(\vec{w})=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-h(\overrightarrow{x_{i}} | \vec{w})\right)^{2}$ with Quadratic Loss Function.   
-* We are interested in the **real error** $E_{real}(\vec{w})=\int l(h(\vec{x} | \vec{w}), y) p(\vec{x}, y) d x d y$, that can only be approximated, since $p(\vec{x},y)$ the actual distribution of the data is unknown. 
+* Approximation of **Loss**: $E_{e m p}(\vec{w})=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-h(\overrightarrow{x_{i}} | \vec{w})\right)^{2}$ with Quadratic Loss Function.
+* We are interested in the **real error** $E_{real}(\vec{w})=\int l(h(\vec{x} | \vec{w}), y) p(\vec{x}, y) d x d y$, that can only be approximated, since $p(\vec{x},y)$ the actual distribution of the data is unknown.
 $\rightarrow$ Goal is to find a Hyperplane $\{\vec{x} \in S \mid \vec{w} \vec{x}+b=0,(\vec{w}, b) \in S \times R\}$ that maximizes the margin.
 
 #### Lagrage
-By using the Lagrage Method we can solve this optimization problem  
+By using the Lagrage Method we can solve this optimization problem
 
 * Lagrage Method $L_{P}=L(\vec{w}, b, \vec{\alpha})=\frac{1}{2}|\vec{w}|^{2}-\sum_{i=1}^{n} \alpha_{i}\left(y_{i}\left(\vec{w} \vec{x}_{i}+b\right)-1\right)$
 * most $\alpha_i=0$, only the support vectors $\vec{x}_i$ have $\alpha_i>0$ and therefore influence the optimization
@@ -87,10 +87,10 @@ Extend support vector machines for use in nonlinearly separable data with Soft M
 #### Optimization Problem for Semi-Supervised learning
 By introducing the Hinge Function $(x)_{+}=\max (x, 0)$ we can reformulate  the optimization problem to $\min _{\vec{w}, b} \frac{1}{2}|\vec{w}|^{2}+C_{1}\left(\sum_{i=1}^{l}\left(1-y_{i} f(\vec{x_{i}})\right)_{+}\right) +C_{2}\left(\sum_{i=l+1}^{n}(1-|f(\overrightarrow{x_{i}})|)_{+}\right)$. Introducing a  second term for optimizing for unlabled data [@@bennett1999semi]. Solving this optimization problem will lead to a seperation, were there are no (or little ) data. So in an area with low density.
 
-For imbalanced data sets, most Data might be classified as one class.  This can be solved by an additional constraint $\frac{1}{n-l} \sum_{i=l+1}^{n} f(\overrightarrow{x_{i}})=\frac{1}{l} \sum_{i=1}^{l} y_{i}$, meaning that the number of labels for both classes should be similiar. 
+For imbalanced data sets, most Data might be classified as one class.  This can be solved by an additional constraint $\frac{1}{n-l} \sum_{i=l+1}^{n} f(\overrightarrow{x_{i}})=\frac{1}{l} \sum_{i=1}^{l} y_{i}$, meaning that the number of labels for both classes should be similiar.
 
 
-#### $SVM^{light}$ 
+#### $SVM^{light}$
 1. Train SVM with labeled data
 2. Soft Label unlabeled Data
 3. Iteratively use the optimization formula to relabel the unlabeled data point while increasing loss ($C_2$) of unlabeled for each step. Relabeling is based on the switchability of a data sample. Meaning only if the loss after the switch is less than before switching is done.
@@ -99,7 +99,7 @@ For imbalanced data sets, most Data might be classified as one class.  This can 
 Interprets the distance between seperation and data point as a probability. $\mathrm{p}(\mathrm{y} \mid \vec{z}, \vec{w}, b)=\frac{1}{1+\mathrm{e}^{-y f(\vec{z})}}$ with $f(\vec{z})=\vec{w} \vec{z}+b$
 The new optimization problem $\min _{\bar{w}, b} \sum_{i=1}^{n} \log \left(1+\mathrm{e}^{-y_{i} f(\overrightarrow{x_{i}})}\right)+\lambda_{1}|\vec{w}|^{2}+\lambda_{2} \sum_{j=l+1}^{l+u} H\left(\frac{1}{1+e^{-f(\overrightarrow{x_{j}})}}\right)$ uses $H$ the Entropy for regularization
 
-#### Conclusion 
+#### Conclusion
 * Optimization is more complex due to the optimization problem being non-convex
 * Can have local minima
 * Can fail if the base assumption of "separation is in the low-density area" is untrue
@@ -140,7 +140,7 @@ Set of all consistent (meaning not contradicting the data) hypothesis $\rightarr
       1. Classify monitored samples
       2. Retrain if contradiction & Iterate
    2. Pool based Learning
-      1. Measure the contradiction measure for all samples & rank them 
+      1. Measure the contradiction measure for all samples & rank them
       2. Query for top k samples
       3. Retrain & Iterate
 ```
@@ -150,7 +150,7 @@ Problem here is that outliers might be included. This can be solved by adding a 
 
 
 ## Spiking Neuronal Network (SNS)
-Try to model Neurons more realistically. A biological neuron consists of *Dendrites* (inputs), *Soma* (summation), *Axon* (output) and *synapses* (connection). Neuroscience can be similar to Deep Learning. [@marblestone2016toward] theorizes that humans learn supervised in the Cerebellum, unsupervised in the cortex, and reinforced in Basal galinga and therefore the brain optimizes diverse cost functions.  
+Try to model Neurons more realistically. A biological neuron consists of *Dendrites* (inputs), *Soma* (summation), *Axon* (output) and *synapses* (connection). Neuroscience can be similar to Deep Learning. [@marblestone2016toward] theorizes that humans learn supervised in the Cerebellum, unsupervised in the cortex, and reinforced in Basal galinga and therefore the brain optimizes diverse cost functions.
 Synapses transform spikes into a current (Post-Synaptic Potential, PSP)
 
 ### Synaptic Plasticity
@@ -162,13 +162,13 @@ If the opposite happens, this is deemed to be acausal and leads to *Long-Term-De
 Hebbian Rule [@@hebb2005organization]: *"Neurons, who fire together, wire together.* Learning is local and incremental.
 
 ### Abstraction Levels
-Different abstraction levels lead to different models. Regular Neuronal Networks are based on the computational properties while spiking neuronal networks model neurons at an electrical level. 
+Different abstraction levels lead to different models. Regular Neuronal Networks are based on the computational properties while spiking neuronal networks model neurons at an electrical level.
 
 ![Leaky Integrate-and-Fire (LIF) neuron](../images/ml2/LIF-Neuron.png)
 *Leaky Integrate-and-Fire (LIF) neuron with 6 spikes shown by dashed vertical lines. Shown is the membrane potential $V(t)$* [@@masquelier2008spike]
 
 
-Parameters are: 
+Parameters are:
 
 * Threshold $V_{th}$ (red dashed line)
 * Resting Potential $V_{rest}$ (grey dotted)
@@ -178,10 +178,10 @@ Parameters are:
 Models include
 
 * Integrate-and-fire model [@@abbott1999lapicque] uses capacitor and resistor. $I(t)=\tau_m \frac{d V(t)}{d t}$
-* Hodgkin-Huxley [@@hodgkin1952quantitative] focuses on realism by adding potassium and sodium concentration terms 
-* Leaky Integrate and Fire [@@abbott1999lapicque] additionally uses a gate $\tau_m \frac{dV(t)}{dt}=V_{rest}-V(t)+RI(t)$ with $V(t)$ the Membrane Potential, $V_rest$ the Resting Potential, $\tau_m$ the membrane potential, 
+* Hodgkin-Huxley [@@hodgkin1952quantitative] focuses on realism by adding potassium and sodium concentration terms
+* Leaky Integrate and Fire [@@abbott1999lapicque] additionally uses a gate $\tau_m \frac{dV(t)}{dt}=V_{rest}-V(t)+RI(t)$ with $V(t)$ the Membrane Potential, $V_rest$ the Resting Potential, $\tau_m$ the membrane potential,
 * Izhikevich’s neuron model [@@izhikevich2003simple] compromises between biological plausibility and computing time. Can be tweaked for different dynamics
-* Spike response model [@@jolivet2003spike] is a generalization of the leaky integrate-and-fire model: $V(t)=\eta(t-\hat{t})+\int_{-\infty}^{+\infty} \kappa(t-\hat{t}, s) I(t-s) d s$ with $\hat{t}$ the last spike time, $\eta$ the response to own spikes, $\kappa$ the response to incoming spikes 
+* Spike response model [@@jolivet2003spike] is a generalization of the leaky integrate-and-fire model: $V(t)=\eta(t-\hat{t})+\int_{-\infty}^{+\infty} \kappa(t-\hat{t}, s) I(t-s) d s$ with $\hat{t}$ the last spike time, $\eta$ the response to own spikes, $\kappa$ the response to incoming spikes
 
 ### Neural Coding
 * **Rate coding**: Spike rate computed over discrete time intervals. Inefficient and slow computing $\rightarrow$ Analog Model
@@ -191,18 +191,18 @@ Models include
     * Temporal Coding
     * Time-to-first spike
     * Rank order coding
-* **Correlation** coding of spatio-temporal (time & location) patterns. 
+* **Correlation** coding of spatio-temporal (time & location) patterns.
 
 ### Synaptic Plasticity Rules
 These are observed in the brain.
-#### Spike-timing-dependent (STDP) 
+#### Spike-timing-dependent (STDP)
 
-Weight Update $\Delta w_{i j}=\sum_{t_{i}^{pre} t_{j}^{post}} W\left(t_{j}^{post}-t_{i}^{pre}\right)$ with the pasticity curve of 
+Weight Update $\Delta w_{i j}=\sum_{t_{i}^{pre} t_{j}^{post}} W\left(t_{j}^{post}-t_{i}^{pre}\right)$ with the pasticity curve of
 
-$$W\left(\Delta_{t}\right)=\left\{\begin{array}{ll}A_{+} \exp \left(\frac{-\left|\Delta_{t}\right|}{\tau_{+}}\right) & \text {if } \Delta_{t} \geq 0 \text{ output spike after input} \\ A_{-} \exp \left(\frac{-\left|\Delta_{t}\right|}{\tau_{-}}\right) & \text {if } \Delta_{t}<0 \text{ output spike before input}\end{array}\right.$$ 
+$$W\left(\Delta_{t}\right)=\left\{\begin{array}{ll}A_{+} \exp \left(\frac{-\left|\Delta_{t}\right|}{\tau_{+}}\right) & \text {if } \Delta_{t} \geq 0 \text{ output spike after input} \\ A_{-} \exp \left(\frac{-\left|\Delta_{t}\right|}{\tau_{-}}\right) & \text {if } \Delta_{t}<0 \text{ output spike before input}\end{array}\right.$$
 
-with $A_{+}$ the maximum and $A_{-}$ the minimum weight change, 
-$\tau$ the time constant for 
+with $A_{+}$ the maximum and $A_{-}$ the minimum weight change,
+$\tau$ the time constant for
 
 * (Anti-) Hebbian Learning: $W\left(\Delta_{t}\right)=A \cdot \exp \left(\frac{-\left|\Delta_{t}\right|}{\tau}\right)$ with $A>0$ for Hebbian and $A<0$ for anti-hebbian
 
@@ -226,10 +226,10 @@ Backpropagation Rule for Spiking Networks
 
 $$\Delta w_{i j}=x_{i} \times \sigma^{\prime}\left(\sum_{i} w_{i j} x_{i}\right) \times \delta_{j}$$
 
-with $x_i$ the Input Spike $\S_i$,  
-$\sigma^{\prime}$ the derivative of the activation function,  
-$\sum_{i} w_{i j} x_{i}$ the Membrane Potential $V_j$,  
-$\delta_j$ the Error  
+with $x_i$ the Input Spike $\S_i$,
+$\sigma^{\prime}$ the derivative of the activation function,
+$\sum_{i} w_{i j} x_{i}$ the Membrane Potential $V_j$,
+$\delta_j$ the Error
 
 #### Problems and Solutions
 * $\sigma$ as a Heaviside (step) function is not differentiable $\rightarrow$ Use surrogate gradients (similar but differentiable functions) [@@neftci2019surrogate]
@@ -246,7 +246,7 @@ $\rightarrow$ 95% on MNIST [@@diehl2015unsupervised]
 
 #### Supervised Learning by Associative Learning
 * Initialize a dense network with random weights.
-* Force spike with teaching signal 
+* Force spike with teaching signal
 * Remove teaching signal to evaluate
 
 #### Reinforcement Learning with SPORE
@@ -262,7 +262,7 @@ $\rightarrow$ 95% on MNIST [@@diehl2015unsupervised]
 ### Hardware
 * Neuromorphic chips are special hardware for the sparse connections
 * Neuromorphic vision sensor output changes instead of images
-* Braitenberg vehicles have some kind of intelligent behavior by using simple (4-10) neurons 
+* Braitenberg vehicles have some kind of intelligent behavior by using simple (4-10) neurons
 
 
 ## Deep Belief Networks (BN)
@@ -281,13 +281,13 @@ We introduce the Energy of a configuration
 
 $$E(v, h)=-\sum_{i,j} v_{i} h_{j} w_{i j}$$
 
-with $v_{i}$ the binary status of the visible unit,  
-$h_{j}$ the binary status of the hidden unit,   
+with $v_{i}$ the binary status of the visible unit,
+$h_{j}$ the binary status of the hidden unit,
 $w_{i j}$ the weights between the two units. This formula excludes biases of the neurons
 
 
 #### Contrastive Divergence (CD)
-With Contrastive divergence [@@hinton2002training] training of RBMs ist faster. 
+With Contrastive divergence [@@hinton2002training] training of RBMs ist faster.
 
 1. Input training vector at visible layer
 2. Calculate the binary status of the hidden layer (parallel for all neurons) and set the neurons accordingly
@@ -296,9 +296,9 @@ With Contrastive divergence [@@hinton2002training] training of RBMs ist faster.
 5. Update the weights accordingly to $\Delta w_{i j}=\varepsilon\left(<v_{i} h_{j}>^{0}-<v_{i} h_{j}>^{1}\right)$ with $\varepsilon$ the learning rate
 
 ### Deep Nets
-* Idea: Train each layer separately, starting from the input layer and using the previously trained layers. 
+* Idea: Train each layer separately, starting from the input layer and using the previously trained layers.
 #### Contrastive Wake-Sleep
-Introduced by [@hinton2006fast]. 
+Introduced by [@hinton2006fast].
 
 1. Wake Phase: Use Input to create a Hypothesis by training the weights of the generative model.
 2. Sleep Phase: Use the generative model and update the weights of the classification model.
@@ -318,14 +318,14 @@ $\rightarrow$ [Check out my blogpost](https://simonklug.de/cnn) with an overview
 ## Markov Logic Networks
 Markov Logic Networks (MLN) combine first-order logic with probabilistic graphical models. It was introduced by [@@richardson2006markov]. It is a first-order knowledge base with a weight attached to each formula.
 ### Markov Networks
-Markov Networks model the joint distribution of a set of variables. They consist of an undirect graph, for the correlation between random variables. Compare this to Bayesian networks, which are directed acyclic graphs and represent the conditional dependencies between variables. 
-For Markov Networks, you can calculate the joint density by factorizing over the potential $\phi$ for each [clique](https://en.wikipedia.org/wiki/Clique_(graph_theory)) in the graph. 
+Markov Networks model the joint distribution of a set of variables. They consist of an undirect graph, for the correlation between random variables. Compare this to Bayesian networks, which are directed acyclic graphs and represent the conditional dependencies between variables.
+For Markov Networks, you can calculate the joint density by factorizing over the potential $\phi$ for each [clique](https://en.wikipedia.org/wiki/Clique_(graph_theory)) in the graph.
 $$P(X=x)=\frac{1}{Z} \prod_{k} \phi_{k}\left(x_{\{k\}}\right)$$ with $Z=\sum_{x \in \mathcal{X}} \prod_{k} \phi_{k}\left(x_{\{k\}}\right)$
 
 
-This can be rewritten to the log-linear model 
+This can be rewritten to the log-linear model
 
-$$P(X=x)=\frac{1}{Z} \exp \left(\sum_{j} w_{j} f_{j}(x)\right)$$ 
+$$P(X=x)=\frac{1}{Z} \exp \left(\sum_{j} w_{j} f_{j}(x)\right)$$
 
 with the binary feature $f_j(x)$ of the clique $j$, and the weight $w_j=\log(\phi_j)$
 
@@ -335,18 +335,18 @@ $\rightarrow$ Allows us to calculate the overall probability of a world
 
 
 ### Inference
-> A Markov logic network $L$ is a set of pairs ($F_i$, $w_i$), where $F_i$ is a formula in first-order logic and $w_i$ is a real number. Together with a finite set of constants $C = \{c1, c2, ... , c_{|C|}\}$, it defines a Markov network $M_{L,C}$ as follows:  
+> A Markov logic network $L$ is a set of pairs ($F_i$, $w_i$), where $F_i$ is a formula in first-order logic and $w_i$ is a real number. Together with a finite set of constants $C = \{c1, c2, ... , c_{|C|}\}$, it defines a Markov network $M_{L,C}$ as follows:
 > 1. $M_{L, C}$ contains one binary node for each possible grounding of each predicate appearing
-in L. The value of the node is 1 if the ground atom is true, and 0 otherwise.  
+in L. The value of the node is 1 if the ground atom is true, and 0 otherwise.
 >2. $M_{L, C}$ contains one feature for each possible grounding of each formula $F_i$ in $L$. The value
 of this feature is 1 if the ground formula is true, and 0 otherwise. The weight of the feature
-is the wi associated with $F_i$ in $L$. 
+is the wi associated with $F_i$ in $L$.
 
 ><cite>[@richardson2006markov]</cite>
 
-For Inference, the goal is to find the condition of the world with the highest probability (given some evidence). Common approaches are optimizing the Maximum a-posteriori (MAP) or most probable estimate (MPE). 
+For Inference, the goal is to find the condition of the world with the highest probability (given some evidence). Common approaches are optimizing the Maximum a-posteriori (MAP) or most probable estimate (MPE).
 
-$\rightarrow$ (weighted) [MaxSAT](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem) solves as many (weighted) formulas as possible. 
+$\rightarrow$ (weighted) [MaxSAT](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem) solves as many (weighted) formulas as possible.
 
 Other Questions can be *"How likely is this new formula?"*, approached with the Markov Chain Monte Carlo (MCMC) or *"How likely is this formula given this other formula?"* using both Knowledge-Based Model Construction (KBMC) and then MCMC
 ### Learning of the Model
@@ -358,7 +358,7 @@ $\frac{\partial}{\partial w_{i}} \log P_{w}(X=x)=n_{i}(x)-\sum_{x^{\prime}} P_{w
 1. Start with given knowledge base
 2. Iterate
       1. Change Operator, Delete/Add, Negate ...
-      2. Train Parametes 
+      2. Train Parametes
       3. Evaluate
 3. Search for new candidates to change and iterate starting with step 2
 

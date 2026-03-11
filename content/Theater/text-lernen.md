@@ -1,11 +1,11 @@
 ---
 title: 5 Übungen um Dialoge zu lernen
 subtitle: Inspirationen von Sanford Meisner
-lang: de 
+lang: de
 description: Entdecke 5 Übungen für flüssiges Dialogspiel ohne Textverkrampfung inspiriert von der Meisner Technik.
 date: 2023-10-16
---- 
-Kennt ihr das Gefühl? Ihr steht auf der Bühne, der Text sollte sitzen, aber er wirkt irgendwie steif. Authentizität ist das Ziel, aber die Dialoge fühlen sich an wie ein Knoten im Gehirn. Keine Sorge, das geht vielen so! Vor Kurzem nahm ich an einem beeindruckenden Meisner-Workshop mit dem fabelhaften [Nicholas Humphrey](https://www.ph-heidelberg.de/theaterpaedagogik-1/personen/leitung-und-organisation/nicholas-humphrey/) in Heidelberg teil. Aus dieser Erfahrung und meinem eigenen Theaterleben möchte ich euch einige Übungen vorstellen.
+---
+Kennt ihr das Gefühl? Ihr steht auf der Bühne, der Text sollte sitzen, aber er wirkt irgendwie steif. Authentizität ist das Ziel, aber die Dialoge fühlen sich an wie ein Knoten im Gehirn. Keine Sorge, das geht vielen so! Vor Kurzem nahm ich an einem beeindruckenden Meisner-Workshop mit dem fabelhaften [Nicholas Humphrey](https://www.ph-heidelberg.de/theaterpaedagogik-1/personen/leitung-und-organisation/nicholas-humphrey/) in Heidelberg teil. Aus dieser Erfahrung und meinem eigenen [[theatre|Theaterleben]] möchte ich euch einige Übungen vorstellen.
 
 Die [Meisner-Technik](https://de.wikipedia.org/wiki/Meisner-Technik) lehrt uns, den Text nicht als isolierte Aussagen zu betrachten, sondern als Reaktionen auf das Gesagte - ein Tanz zwischen den Zeilen, sozusagen. Ein bisschen wie ein Surfer, der auf den Wellen der Emotionen reitet, während der Text seine "Welle" findet, um mit einem Zitat von Stanford Meisner zu sprechen: "*Der Text ist wie ein Kanu, und der Fluss, auf dem es treibt, ist die Emotion.*"
 
@@ -26,7 +26,7 @@ Ihr steht euch gegenüber, jeder mit einer Wasserflasche in der Hand. Der Sprech
 Die Gruppe steht im Kreis. Ein "Dirigent" steht in der Mitte und zeigt nacheinander auf einzelne Personen im Kreis. Die ausgewählte Person muss direkt den nächsten Textabschnitt oder die nächste Zeile des Dialogs anfügen. Ein Übungsspiel, um schnelles und spontanes Reagieren auf den Text zu fördern
 
 ## 5. Text und ... Action!
-Diese Spiele lenken den Fokus auf den Körper. Der Text ist wichtig, aber er ist nicht der einzige Star auf der Bühne. Das heißt der Text (ohne Betonung) wird zum laufenden Spiel hinzugefügt. 
+Diese Spiele lenken den Fokus auf den Körper. Der Text ist wichtig, aber er ist nicht der einzige Star auf der Bühne. Das heißt der Text (ohne Betonung) wird zum laufenden Spiel hinzugefügt.
 
 * **Klatsch-Spiel**: Die Spieler haben drei Optionen: Klatschen mit beiden Händen nach oben, nach links oder nach rechts. Der Rhythmus wird durch einen Klatscher angegeben, gefolgt von einer Richtungsangabe. Wenn beide in die gleiche Richtung klatschen, dann klatscht ihr vorne zusammen.
 

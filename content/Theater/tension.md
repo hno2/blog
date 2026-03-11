@@ -6,7 +6,7 @@ summary: Achieving personal excellence by navigating life's natural tensions wit
 
 Picture this: a bright summer day, a room buzzing with anticipation, and a workshop led by the charismatic [Andrew Hefler](https://www.andrewhefler.com/). Little did I know that this improv workshop would become a profound life lesson.
 
-As I walked into that room, I was ready for a fun day of improv. But, what transpired over the course of the workshop was far more than regular improv antics. It was a journey of self-discovery and learning. Andrew was about to teach us more than the art of improvisation; he was about to teach us about the art of living.
+As I walked into that room, I was ready for a fun day of improv [[theatre]]. But, what transpired over the course of the workshop was far more than regular improv antics. It was a journey of self-discovery and learning. Andrew was about to teach us more than the art of improvisation; he was about to teach us about the art of living.
 
 
 ## A quest for comfortable life
@@ -35,7 +35,7 @@ We've grown accustomed to immediate gratification and ease, but this comfort com
 
 ### The Seduction of Convenience
 
-We often find ourselves faced with choices, and at the heart of each decision, there are two paths. One may appear as the convenient, comfortable, and easy route. The other often invokes resistance, tension, or emotional turmoil. 
+We often find ourselves faced with choices, and at the heart of each decision, there are two paths. One may appear as the convenient, comfortable, and easy route. The other often invokes resistance, tension, or emotional turmoil.
 
 Choosing the path of least resistance might seem like the logical choice. But it's a choice that leads to a lack of challenge and hinders our learning. Trying to find "the best option" or trying to control the outcome is counter productive. It's essential to remember that true change begins with us and our mindset, and our actions define us only if we repeat them, whether they're positive or negative.
 
@@ -57,7 +57,7 @@ On the other hand, boredom is a telltale sign that you're not challenging yourse
 
 ### The Flow State
 
-One way to combat the pitfalls of convenience and boredom is to seek the state of "flow.". Flow represents optimal engagement and heightened focus that arises when your abilities match the difficulty of a task. It acts as a beacon, guiding you to actively seek out challenges and foster your personal growth. 
+One way to combat the pitfalls of convenience and boredom is to seek the state of "flow.". Flow represents optimal engagement and heightened focus that arises when your abilities match the difficulty of a task. It acts as a beacon, guiding you to actively seek out challenges and foster your personal growth.
 
 ### Orders of Fun
 
@@ -93,18 +93,18 @@ Mental load, or cognitive load, is a phenomenon that occurs when we switch betwe
 
 To manage and reduce this mental load, strategies like time blocking, batching similar tasks, and setting boundaries for digital distractions can be immensely helpful. These approaches allow for more focused and sustained attention on a specific task, ultimately leading to improved productivity and reduced cognitive fatigue.
 
-Therefore esisting the urge to revert to our lowest impulses and desires is key. This requires establishing routines, embracing discipline, and building a system that supports our quest for excellence. Grit, or the ability to sustain effort without quitting, becomes our guiding light. By finding systems that enhance productivity and promote disciplined practice, we can make more intentional and effective use of our time. Without these systems, we risk falling back to the lowest common denominator. It is crucial to cut distractions for example social media, constant emails, and  messaging notifications. Always ask yourself if immediate response and distraction are necessary or if you can transform these into routine proactive session. 
+Therefore esisting the urge to revert to our lowest impulses and desires is key. This requires establishing routines, embracing discipline, and building a system that supports our quest for excellence. Grit, or the ability to sustain effort without quitting, becomes our guiding light. By finding systems that enhance productivity and promote disciplined practice, we can make more intentional and effective use of our time. Without these systems, we risk falling back to the lowest common denominator. It is crucial to cut distractions for example social media, constant emails, and  messaging notifications. Always ask yourself if immediate response and distraction are necessary or if you can transform these into routine proactive session.
 
 ### Motivation Equation
-If you never get started nothing will happen, motivation is key. There are many formulas for motivation, I like Brian Johnsons motivational equation: 
+If you never get started nothing will happen, motivation is key. There are many formulas for motivation, I like Brian Johnsons motivational equation:
 
 > Motivation = Energy x (Value x Expectancy / Impulsivity x Delay)
 
-Let's digest this: 
+Let's digest this:
 
 * **Energy:** Energy in this equation refers to the physical and mental energy or stamina you have available to pursue your goals.
-* **Value**: This variable represents how much you value or desire the outcome or goal you are trying to achieve. 
-* **Expectancy**: Expectancy here refers to your belief or confidence in your ability to achieve the desired goal. 
+* **Value**: This variable represents how much you value or desire the outcome or goal you are trying to achieve.
+* **Expectancy**: Expectancy here refers to your belief or confidence in your ability to achieve the desired goal.
 * **Impulsivity**: Impulsivity refers to the tendency to act on immediate desires or urges without considering long-term consequences or short how easily distracted you get. In this context, lower impulsivity indicates that you can delay immediate gratification for a long-term goal, which is essential for motivation.
 * **Delay**: Delay represents the time it takes for you to achieve the desired goal.
 
@@ -127,9 +127,9 @@ The search for new interests cannot be confined to introspection and reflection.
 In this quest for clarity, it's essential to remember that shame does not constructively drive self-improvement. Instead of dwelling on past mistakes with shame, we should channel our energies into learning, growing, and embracing the clarity that comes from making decisions and doing something. It's through these principles that we uncover the transformative potential of living in the present.
 
 
-#### Sensitivity Hurts 
+#### Sensitivity Hurts
 
-In the intricate dance of life, sensitivity is a double-edged sword. With heightened sensitivity, we gain the remarkable capacity to discern both the beauty and the painful aspects of the world. However, it comes at a cost. 
+In the intricate dance of life, sensitivity is a double-edged sword. With heightened sensitivity, we gain the remarkable capacity to discern both the beauty and the painful aspects of the world. However, it comes at a cost.
 
 >In imagination we feel sure that it would be lovely to live with a full and rich awareness of the world. But in practice sensitiveness hurts. It is not possible to develop the capacity to see beauty without developing also the capacity to see ugliness, for they are the same capacity. The capacity for joy is also the capacity for pain. We soon find that any increase in our sensitiveness to what is lovely in the world increases also our capacity for being hurt. That is the dilemma in which life has placed us. We must choose between a life that is thin and narrow, uncreative and mechanical, with the assurance that even if it is not very exciting it will not be intolerably painful; and a life in which the increase in its fullness and creativeness brings a vast increase in delight, but also in pain and hurt. <cite>- John Macmurray</cite>
 

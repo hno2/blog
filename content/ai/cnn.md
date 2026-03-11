@@ -4,7 +4,7 @@ Tags: machine learning, artificial Intelligence, convolution, summary, neuronal 
 date: 2020-07-17 8:11:00
 slug: cnn
 summary: Convolutional neuronal networks have revolutionized Machine Visions. This provides an overview of the machinanism (filters, pooling and more) under the hood.
---- 
+---
 Convolutional Neuronal Networks utilize convolution-based filters to automatically detect edges and hierarchically sum them up to features. Classic methods rely on manual feature extraction, expert knowledge and are often domain-specific.  The training of CNNs is done by optimizing the filters to build features. We call the data transferred between layers, feature maps.
 ## Convolution
 * Slide Filter of size $F\times F$ over the Image with some step size (stride)
@@ -15,13 +15,13 @@ Convolutional Neuronal Networks utilize convolution-based filters to automatical
     * Input Length $I$
 * Output Size $O=\frac{I-F+P_{start}+P_{end}}{S}+1$
 
-$$h_{j}^{n}=\max \left(0, \sum_{k=1}^{K} h_{k}^{n-1} * w_{k j}^{n}\right)$$  
-with $h_j$ the output feature map,  
-$h_k$ the input features,  
+$$h_{j}^{n}=\max \left(0, \sum_{k=1}^{K} h_{k}^{n-1} * w_{k j}^{n}\right)$$
+with $h_j$ the output feature map,
+$h_k$ the input features,
 $w_kj$ the kernel
 
 
-&rarr; [Visual Guide & more](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks#layer) 
+&rarr; [Visual Guide & more](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks#layer)
 ## Pooling
 > A pooling function replaces the output of the net at a certain location with a summary statistic of the nearby output.
 
@@ -48,20 +48,20 @@ Loss Fuction are the feedback for the network, that is backpropagated to optimiz
 ### Gradient Descent
 There are multiple variants of Gradient Descent depending on the number of data points used per iteration
 
-* **Batch Gradient Descent**. One weight update for all data &rarr;  slow convergence for big datasets 
-* **Stochastic Gradient Descent**. One weight update per data sample &rarr; volatile learning 
+* **Batch Gradient Descent**. One weight update for all data &rarr;  slow convergence for big datasets
+* **Stochastic Gradient Descent**. One weight update per data sample &rarr; volatile learning
 * **Mini Batch Gradient Descent**. One weight update per mini-batch of data &rarr; the bigger the better, dependent of available hardware
 
 Gradient Descent was optimized with different variations in the past years
 
-* **Momentum**. Using the last update direction to increase/decrease Momentum. 
+* **Momentum**. Using the last update direction to increase/decrease Momentum.
 * **Nesterov**. Look ahead by approximating the next location and calculate the gradient at this point.
 * **AdaGRAD**. Decrease Learning Rate with time
 * **AdaDelta**. Changing Learning Rate not necessarily decreasing with time
 * **ADAM**
 
 ## Fully Convolutional Networks (FCN)
-Instead of using fully-connected layers for the Classification use Convolutional layers. Both networks are the same, for the same input size, but Fully Convolutional Networks (FCN) can work with bigger input sizes. Used this way, they can output probability maps. 
+Instead of using fully-connected layers for the Classification use Convolutional layers. Both networks are the same, for the same input size, but Fully Convolutional Networks (FCN) can work with bigger input sizes. Used this way, they can output probability maps.
 
 ## Segmentation
 Goal: For each pixel return the class with the highest probability.
@@ -71,14 +71,14 @@ The issue is the low resolution of the classification, but we want to be pixel-p
 ### Upsampling Methods
 * **Nearest Neighbor**. Use the same value as the neighbors
 * **Bed of Nails**. Copy original value to a specific location, fill rest with zero
-* **Max Unpooling**. Save the location of the maximum when max-pooling and reconstruct the image by adding back the value at this location. 
+* **Max Unpooling**. Save the location of the maximum when max-pooling and reconstruct the image by adding back the value at this location.
 
 ## Object Detection
 Classic approaches run classification for each region. Regions are selected by sliding window (with different image size (Pyramid)) or Interest Point Detector (region proposals)
 
 CNN can run either as a two-stage approach, by running the CNN on each selected regions or a one-stag approach were the CNN runs without previous region selection (Fast(er) R-CNN by [@@girshick2015fast] and [@@ren2015faster]).
 
-Bounding Boxes of the objects are represented by 
+Bounding Boxes of the objects are represented by
 
 1. 2 corner points on opposing sides
 2. 1 corner point + width, height
@@ -108,5 +108,5 @@ Idea: Use multiple images as "single" input to have temporal information in the 
 ![Fusion Modells](../images/ml2/fusion.svg)
 *Types of Fusion for Temporal Information [@@karpathy2014large]*
 
-With 3D-Convolution the stride moves in 3 Dimensions (Width, height, Time or Depth)  
+With 3D-Convolution the stride moves in 3 Dimensions (Width, height, Time or Depth)
 &rarr; These ideas can be used to visually estimate movement for e.g. Automotive Driving

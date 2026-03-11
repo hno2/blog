@@ -18,8 +18,8 @@ Since this is the first blog post, it will be a quick write-up how to get a peli
 * I learned to love [GitLab](https://about.gitlab.com/) at work and my university offers it for free for all students. You will need a GitLab Repository of your blog with a GitLab Runner connected (every [gitlab.com](https://gitlab.com) Repository comes with a free runner).
 
 ## Getting Started
-[Pelican](https://blog.getpelican.com/) is a static site generator powered by python. This  means it will create static html from your markdown files and not much else. So the only thing you actually need on your server side is a domain and some kind of static hosting. 
-Since I use traefik I need a docker container providing this static serving. 
+[Pelican](https://blog.getpelican.com/) is a static site generator powered by python. This  means it will create static html from your markdown files and not much else. So the only thing you actually need on your server side is a domain and some kind of static hosting.
+Since I use traefik I need a docker container providing this static serving.
 There is a nginx dicjer image optimized for static serving. This image is provided [here](https://github.com/flashspys/docker-nginx-static) and is only about 4MB in size.
 
 With traefik you can just run docker compose up with some labels added and have a domain-connected docker image. This is the `docker-compose.yaml` used for this site.
@@ -51,7 +51,7 @@ With traefik you can just run docker compose up with some labels added and have 
 !!! warning
     If you want to use traefik 2.X you need to update the label `traefik.frontend.rule` to be `` "traefik.http.routers.website.rule=Host(`yourdomain.de`) || Host(`www.yourdomain.de`)"``
 
-What I do here is to connect this container to the right traefik network (`frontend`) and set up the domain-names with `traefik.frontend.rule`. The static content and the nginx config file are mounted as [docker volumes](https://docs.docker.com/storage/volumes/) for me being able to change them on the fly (without having to restart the container). 
+What I do here is to connect this container to the right traefik network (`frontend`) and set up the domain-names with `traefik.frontend.rule`. The static content and the nginx config file are mounted as [docker volumes](https://docs.docker.com/storage/volumes/) for me being able to change them on the fly (without having to restart the container).
 
 Since I want to use fancy urls - without the `.html` at the end - I changed the default nginx config like this.
 
@@ -77,12 +77,12 @@ After running `docker-compose up` you have a static file serving server. You can
 ## From GitLab CI to Server
 The next step is to build the static html with pelican running on a GitLab CI pipeline and deploy it to your server via e.g. ssh.
 
-To do so create a new repository and upload the source of your first blog post. I would recommend you start with `pelican-quickstart` and work on from there. 
-Once you have your posts committed and pushed to your repository you are ready to add a GitLab CI pipeline. 
+To do so create a new repository and upload the source of your first blog post. I would recommend you start with `pelican-quickstart` and work on from there.
+Once you have your posts committed and pushed to your repository you are ready to add a GitLab CI pipeline.
 I added the following `gitlab-ci.yaml` to my repository.
 
     ::yaml
-    stages: 
+    stages:
       - build
       - deploy
     image: python:3.7-stretch
@@ -92,7 +92,7 @@ I added the following `gitlab-ci.yaml` to my repository.
         script:
             # Download the theme from GitHub
             - git clone --depth 1 https://github.com/Pelican-Elegant/elegant.git theme/
-            # Download the plugins 
+            # Download the plugins
             - git clone --recursive --depth 1 https://github.com/getpelican/pelican-plugins.git plugins/
             # Install Requirements
             - pip install -r requirements.txt
@@ -101,7 +101,7 @@ I added the following `gitlab-ci.yaml` to my repository.
       artifacts:
         paths:
         - output/
-        expire_in: 1 week 
+        expire_in: 1 week
 
     deploy:
         stage: deploy
@@ -116,5 +116,5 @@ I added the following `gitlab-ci.yaml` to my repository.
         script:
           - scp -r output/* username@yourdomain.com:/var/www/yourdomain.com/src
 
-The first stage `build` installs all requirements and then builds the html with pelican. In the second step the finished files are transferred to the server via `scp`. To use this config you need to change `yourdomain.com`, `username`, filepaths and add your ssh private key (`SSH_PRIVATE_KEY`) to your GitLab CI variables. It is best to generate a new key-pair for this purpose. 
+The first stage `build` installs all requirements and then builds the html with pelican. In the second step the finished files are transferred to the server via `scp`. To use this config you need to change `yourdomain.com`, `username`, filepaths and add your ssh private key (`SSH_PRIVATE_KEY`) to your GitLab CI variables. It is best to generate a new key-pair for this purpose.
 Do not forget to upload your public key to your servers `available_keys`.

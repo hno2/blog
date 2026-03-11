@@ -4,9 +4,9 @@ Tags: machine learning, artificial intelligence, neuronal networks, nlp
 slug: n-shot
 date: 2021-09-10 14:23
 summary: Few-shot, one-shot and zero-shot learning allow us to train models with minimal data in a way even more similar to how we humans learn.
---- 
+---
 
-Developing algorithms capable of generalizing to new tasks with just a few samples is a major problem in narrowing the gap between performance at a machine and human level. Organized, reusable concepts are the essence of human cognition enabling us to quickly adjust to new tasks and make sense of our choices. In NLP models are limited by their requirements for large annotated datasets for each new task. As models nowadays develop broad skills with the ever-better capacity of transformer models, meta-learning can be used to utilize these skills even with zero or few samples. E.g. *"Few-shot classification  is a task in which a classifier must be adapted to accommodate new classes not seen in training, given only a few examples of each of these classes."* [@@snell2017prototypical]
+Developing algorithms capable of generalizing to new tasks with just a few samples is a major problem in narrowing the gap between performance at a machine and human level. Organized, reusable concepts are the essence of human cognition enabling us to quickly adjust to new tasks and make sense of our choices. In [[NLP]] models are limited by their requirements for large annotated datasets for each new task. As models nowadays develop broad skills with the ever-better capacity of transformer models, meta-learning can be used to utilize these skills even with zero or few samples. E.g. *"Few-shot classification  is a task in which a classifier must be adapted to accommodate new classes not seen in training, given only a few examples of each of these classes."* [@@snell2017prototypical]
 
 For meta-learning three options are possible, each not updating model weights: [@@brown2020language]
 

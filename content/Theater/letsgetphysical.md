@@ -8,8 +8,8 @@ date: 2024-06-21
 [TOC]
 
 !!!note Hinweis
-    Dies ist eine Sammlung von Übungen und Hinweisen zum Workshop "Let's get physical" vom 10-12.03.2023 beim UniTheater Karlsruhe. Ohne den Workshop besucht zu haben, ist vieles vermutlich schwierig zu verstehen. Bei Rückfragen darf man mir aber gerne schreiben. 
-    
+    Dies ist eine Sammlung von Übungen und Hinweisen zu meinem [[theatre|Theater]]-Workshop "Let's get physical" vom 10-12.03.2023 beim UniTheater Karlsruhe. Ohne den Workshop besucht zu haben, ist vieles vermutlich schwierig zu verstehen. Bei Rückfragen darf man mir aber gerne schreiben.
+
     **Update 2024:** Ich habe weitere Übungen aus meiner Frantic Assembly Masterclass hinzugefügt.
 
 ## Wichtige Zitate
@@ -19,7 +19,7 @@ date: 2024-06-21
 
 > Zensiere dich nicht selbst, dein Partner kann immer nein sagen
 
-> Präzision & Geschwindigkeit 
+> Präzision & Geschwindigkeit
 
 > Deine Grenzen sind immer anders. Deine Grenzen sind so perfekt wie sie für dich heute sind.
 
@@ -32,7 +32,7 @@ date: 2024-06-21
 
 
 !!!note "Energizer Zoo"
-    6 TN einer Reihe stehen, verschiedene Figuren, Nicht direkt zurückgeben 
+    6 TN einer Reihe stehen, verschiedene Figuren, Nicht direkt zurückgeben
 
     a) Löwe - *Rawr*
     b) Giraffe - Hand oben - *Gobble Gobble*
@@ -48,7 +48,7 @@ date: 2024-06-21
 !!!note "Warmup - Acro"
     * Pull-Ups zu Dritt
     * Contact Improv
-    * Affe- Baum 
+    * Affe- Baum
 ## Consent & Grenzen
 
 Wenn wir mit Consent, also einvernehmlich arbeiten wollen, müssen wir unsere eigenen Grenzen und die unserer SpielpartnerInnen bewusst machen.
@@ -64,10 +64,10 @@ Consent geben wir nach dem *FRIES* Prinzip, denn Consent kann es nur geben wenn:
 Grundsätzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nachschärfen.
 
 !!!note "Consent zu zweit"
-    Setze dich deinem SpielpartnerIn gegenüber. Abwechselnd Fragt einer den Anderen, nach einer Physikalischen 
+    Setze dich deinem SpielpartnerIn gegenüber. Abwechselnd Fragt einer den Anderen, nach einer Physikalischen
 
     1. Wir müssen akzeptieren, das Nein keine Ablehnung mir gegenüber ist, sondern wollen dankbar sein für die Offenheit. Gleichzeitig üben wir spezifisch zu sein. Daher folgende Grundstruktur A fragt: Darf ich XY (spezifisch, Ort, Dauer, Art)? B: Nein A: Atmen+Danke (das du mir deine Grenze mitteilst) B: Atmen Danke (für deine Akzeptanz) (hier jetzt Körperconsent)
-    2. Ihr dürft jetzt auch zustimmen. Jederzeit Stop oder Button sagen. 
+    2. Ihr dürft jetzt auch zustimmen. Jederzeit Stop oder Button sagen.
 
 **Button** – Stop oder Pause zu groß, wir wollen nicht begründen. Mit Button, gehen wir auf Null/Neutral zurück.
 
@@ -86,7 +86,7 @@ Grundsätzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nach
 !!!note "Ja im Kreis"
     TN im Kreis, Impuls weitergeben. Blickkontakt aufnehmen, affirmative Geste zu anderer Person und *Ja* Sagen dann Platzwechsel. Alternativ *Button* sagen
 
-    *Alternative mit Namen* 
+    *Alternative mit Namen*
 
     Kreis, Blickkontakt gerade Linie auf Person losgehen, Person sagt Namen der laufenden Person, Blickkontakt läuft selbst los.
 
@@ -103,12 +103,12 @@ Grundsätzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nach
 
     Wenn du fertig bist, stell dich wieder in einer neutralen Position gegenüber, und Partner B nennt die Stellen, von denen Partner A dich weggeführt hat und die du nicht berühren darfst. Wir benennen diese Grenzen, indem wir die sogennanten *Zäune* deines Partners benennen. Zum Beispiel: "Ich habe einen Zaun um deine obere Brust gesehen. Ich habe einen Zaun um die Vorderseite deines Beckens gesehen, usw." Seid konkret und verwenden Sie eine neutrale Sprache. Frage dann: "Habe ich etwas übersehen?"
 
-    Anschließend den Partner wechseln. 
+    Anschließend den Partner wechseln.
     Aus [@pace2020staging]
 
 
 !!!note "3 min Wheel of Consent"
-    Von Batty Martin. [Link zum Dokument](https://bettymartin.org/wp-content/uploads/2016/08/3-MG-German.pdf). 
+    Von Batty Martin. [Link zum Dokument](https://bettymartin.org/wp-content/uploads/2016/08/3-MG-German.pdf).
 
     * Wie möchtest du mich für 3 Minuten anfassen?
     * Wie möchtest du für 3 Minuten angefasst werden?
@@ -132,15 +132,15 @@ Grundsätzlich im Theaterkontext proaktiv Consent einholen und regelmäßig nach
 !!!note "Meisner I (optional)"
     1. 2 Personen stehen sich gegenüber, Blickkontakt, neutrale Haltung. Jeweils Blick wegdrehen, mit geschlossenen Augen zurückdrehen. Augen öffnen und erste Eigenschaft bemerken (*Du hast eine Brille auf*). Wiederholen
     2. Repetition Ich - Du
-    3. Jetzt darfst du andere Sachen bemerken 
-    4. Jetzt darfst du auf Stimmungen eingehen *Du bist verwirrt* 
+    3. Jetzt darfst du andere Sachen bemerken
+    4. Jetzt darfst du auf Stimmungen eingehen *Du bist verwirrt*
 
 
 ## 10 Parameter von Intimitätskoordination
-Aus [@pace2020staging]. 
+Aus [@pace2020staging].
 
 ### Abstand öffnen/schließen Öffnungs- und Schließabstand
-!!!note Hände Abstand 
+!!!note Hände Abstand
     Halten Sie Ihre Hände vor sich, die Handflächen einander zugewandt, und stellen Sie sich vor, dass jede Ihrer Hände ein Partner in einer Szene ist. Probieren Sie dies aus, um ein Gefühl dafür zu bekommen, und sehen Sie dann, welche Art von Geschichten Sie interpretieren können, indem Sie einfach den Abstand zwischen Ihren Händen öffnen und schließen.
 
     * Halte deine linke Hand still und führe langsam deine rechte Hand zu ihr. Nachdem sich Ihre Hände berührt haben, öffne deine rechte Hand langsam in die Ausgangsposition.
@@ -152,7 +152,7 @@ Aus [@pace2020staging].
 !!!note "Kiss or Kill"
     Findet einen Partner, steht euch mit maximaler Abstand im Raum gegenüber, Blickkontakt. A geht auf B in beliebigen Tempo zu. Im letzten Moment entscheidet A ob er B umbringt oder Küsst (auf die Backe oder Umarmung)
 ### Stufen der Berührung
-Verschiedene Arten von Berühren, erzählen andere Geschichten. Der Druck spielt dabei eine große Rolle, wir unterscheiden hier innerhalb von 3 Stufen an Hand der Vorstellung eines anatomischen Merkmals in das wir es hineindrücken. 
+Verschiedene Arten von Berühren, erzählen andere Geschichten. Der Druck spielt dabei eine große Rolle, wir unterscheiden hier innerhalb von 3 Stufen an Hand der Vorstellung eines anatomischen Merkmals in das wir es hineindrücken.
 
 !!!note "Level 1: Haut/Puder/Berühren"
     Fahren Sie mit Ihrer eigenen Hand auf Ihrem Arm mit den Fingern über die Haut. Spüren Sie dieses Gefühl. Stellen Sie sich nun vor, dass Sie mit einem feinen Puder über die Haut streichen. Verwenden Sie Ihre Fingerspitzen, den Handrücken und die Handfläche, um die Berührungsebene 1 zu erkunden. Versuchen Sie es nun an einem Wandstück. Nähern Sie sich der Wand und berühren Sie sie auf Stufe 1 mit den Fingerspitzen, dann mit der Schulter, dann mit der Hüfte und dann mit dem Oberschenkel. Halten Sie den Kontakt leicht.
@@ -174,7 +174,7 @@ Verschiedene Arten von Berühren, erzählen andere Geschichten. Der Druck spielt
 !!!note "Welchseln zwischen Ebenen"
     * Verringere den Abstand zwischen deinen Fingerspitzen und einer Oberfläche, komm in Hautkontakt
     * Vergrößere die Distanz über einen Atmer und komm Muskelkontakt mit deiner Hand
-    * Jetzt in Knochenkontakt. 
+    * Jetzt in Knochenkontakt.
 
 
 ### Tempo und Zählen
@@ -196,7 +196,7 @@ Verschiedene Arten von Berühren, erzählen andere Geschichten. Der Druck spielt
 Können anders sein, als im Wahren leben, Desexualisierung
 ### Blickkontakt
 Suchen oder Vermeiden
-!!!note 
+!!!note
     Bringe deine Hände vor dir nach oben und lass deinen Partner dasselbe tun. Schließt und öffnet den Abstand zwischen euren Handflächen, aber spielt mit Variationen, wie ihr den Blickkontakt sucht oder vermeidet. Probiere einige dieser Kombinationen aus, um zu sehen, wie der Blickkontakt das Erzählen verändert:
 
     * Sucht den Blickkontakt, während ihr euch gegenseitig auf Abstand haltet. Vermeide den Moment, in dem sich deine Handflächen berühren.
@@ -205,7 +205,7 @@ Suchen oder Vermeiden
 
 
 
-!!!note "Kein Blickkontakt" 
+!!!note "Kein Blickkontakt"
     Zwei SpielerInnen spielen stumme Szenen bei denen man den anderen anschaut aber die Blicke sich nicht treffen dürfen.
 ### Sichtbare Statusveränderungen
 Sichtbar = Physikalisch Bemerkbar
@@ -222,7 +222,7 @@ Sichtbar = Physikalisch Bemerkbar
 ### Schwerkraft und Gewicht
 Finetuning, Das Gewicht des Beckens vergrößern
 ### Küssen
-Grundregel: geschlossener Mund, keine Zunge, kein Kuss wenn jemand krank ist. 
+Grundregel: geschlossener Mund, keine Zunge, kein Kuss wenn jemand krank ist.
 Bringt alles vorherige zusammen.
 Vorher mit der Hand als Platzhalter ausprobieren mit Zählzeiten, Kontaktlevel etc.
 
@@ -239,7 +239,7 @@ Vorher mit der Hand als Platzhalter ausprobieren mit Zählzeiten, Kontaktlevel e
     * Öffne den Abstand zwischen euren Brustkörpern ein wenig und berühre mit einer Hand auf Hauthöhe den Hinterkopf von B, öffne den Abstand zwischen euren Köpfen und suche Augenkontakt.
     * Charakter A schließt den Abstand für einen 12-zähligen Kuss, die Nase wechselt alle ein oder zwei Zählzeiten, die Hände sind in Bögen und Winkeln auf den Gesichtern, in den Haaren und auf dem Rücken aktiv, lange tiefe "m"-Laute und scharfe Einatmungen. Es wird viel Kraft hin und her geteilt.
     * Charakter C kommt herein, hustet und Charakter A und Charakter B öffnen sich schnell über eine Zählzeit, vermeiden Augenkontakt und atmen lange durch die Lippen aus (Pferdegeräusch Lippentriller).
-    
+
     Charakter A und Charakter B werden leidenschaftlich (und etwas unbeholfen) auf einer Couch in einer Studentenwohnung rummmachen. Sie sollten eigentlich ihre Notizen für das Ingenieurstudium durchgehen. Überall Papier. Charakter A ist der Unbeholfenere von beiden, aber er beginnt den Kontakt, nachdem sie sich an der Hand berührt haben, als sie beide nach demselben Grafikrechner griffen. Die Zweisamkeit wird unterbrochen, als Charakter C mit dem zweiten Taschenrechner aus der Küche kommt.
 
 !!!note "Eigene Coreo"
@@ -274,27 +274,27 @@ Ihr dürft immer Fehler machen, Fehler sind ok, aber bleibt im Kontakt mit eurem
     Hand heben, geräuschvolles Ausatmen, Beine überschlagen, nach Links schauen, nach rechts schauen
 
 !!!note "Statue nachbauen"
-    Gruppe A baut Statue, Gruppe B muss mit geschlossenen Augen verbinden und nachbauen. 
+    Gruppe A baut Statue, Gruppe B muss mit geschlossenen Augen verbinden und nachbauen.
 
 
 !!!note "Indiana Jones/Mission Impossible"
-    TN betreten Raum, jeder fügt ein Hindernis hinzu und durchläuft die gleichen Hindernisse/Fallen der Vorgänger um zum Objekt der Begierde zu gelangen. 
+    TN betreten Raum, jeder fügt ein Hindernis hinzu und durchläuft die gleichen Hindernisse/Fallen der Vorgänger um zum Objekt der Begierde zu gelangen.
 
 !!!note "ChiGong"
     1. ChiGong fließende Bewegungen
     2. Repetitive Alltagstätigkeit pantomimisch darstellen 100%-0% ChiGong-Tätigkeit
 
 ### Frantic Method
-Ich hatte die Ehre im Sommer 2024 an einer Masterclass von Frantic Assembly in London teilnehmen zu dürfen. 
+Ich hatte die Ehre im Sommer 2024 an einer Masterclass von Frantic Assembly in London teilnehmen zu dürfen.
 Übungen von [@graham2014frantic] und [@evans2021frantic].
 
-Wichtige Konzepte sind: 
+Wichtige Konzepte sind:
 
-* Statt über das Ergebniss oder das "gewünschte" Ergebniss nachzudenken (**Endgaming**) konzentriere dich auf die aktuelle Aufgabe. Vermeide in Geschichten, Emotionen oder Sinn zu denken. Das Ergebniss entsteht aus den Übereinanderschichten (layering) von einfachen Aufgaben (**Building Blocks**). Im Fokus steht der persönliche kreative Input. 
+* Statt über das Ergebniss oder das "gewünschte" Ergebniss nachzudenken (**Endgaming**) konzentriere dich auf die aktuelle Aufgabe. Vermeide in Geschichten, Emotionen oder Sinn zu denken. Das Ergebniss entsteht aus den Übereinanderschichten (layering) von einfachen Aufgaben (**Building Blocks**). Im Fokus steht der persönliche kreative Input.
 * Always forward, never backwards
 * Effizienz und Mühelosigkeit sind zentrale Prinzipien (**Effortless of Movement**). Es geht darum, die effektivste Herangehensweise an physische Herausforderungen zu finden und sich auf die Aufgabe zu konzentrieren.
-* Nimm die Welt und den Raum vor jeder physischen Berührung wahr. Denke als wäre es das erste (oder letzte) Mal, das das passiert. 
-* Es geht nicht um Sicherheit um jeden Preis, sondern einen Raum akzeptabler Risiken zu schaffen. Als Trainer keine Überbordende Höflichkeit sondern aktiv zeigen und erklären was passieren wird. Eine physische Aufforderung ist ein Angebot (z.B. "Ich falle in eine Richtung"), das akzeptiert und beantwortet werden muss. 
+* Nimm die Welt und den Raum vor jeder physischen Berührung wahr. Denke als wäre es das erste (oder letzte) Mal, das das passiert.
+* Es geht nicht um Sicherheit um jeden Preis, sondern einen Raum akzeptabler Risiken zu schaffen. Als Trainer keine Überbordende Höflichkeit sondern aktiv zeigen und erklären was passieren wird. Eine physische Aufforderung ist ein Angebot (z.B. "Ich falle in eine Richtung"), das akzeptiert und beantwortet werden muss.
 * Wiederstehe der Musik.
 
 #### Warm Up
@@ -306,18 +306,18 @@ Wichtige Konzepte sind:
 
 !!!note "Quad"
     * Mehrere Reihen hintereinander, von vorne runterzählen (8-6-4-2)
-    * Kombination mit Wuuh, 
+    * Kombination mit Wuuh,
     * Alternative: Runde im Raum drehen 90 Grad Drehung an Ecken, Lift
 
-!!!note "Namenskreis" 
-    * Die Gruppe ordnet sich im Kreis an und Namen kennenlernen. a) Gleiches Sprechtempo ohne Pause b) Anfangen sobald die Person vor dir angefangen hat zu sprechen. 
+!!!note "Namenskreis"
+    * Die Gruppe ordnet sich im Kreis an und Namen kennenlernen. a) Gleiches Sprechtempo ohne Pause b) Anfangen sobald die Person vor dir angefangen hat zu sprechen.
     * A läuft im Kreis auf B zu. B muss den Namen von A sagen und läuft dann selbst los auf eine andere Person. B stellt sich an den Platz von A
-    * Namen durch *Go* ersetzen, Geschwindigkeit und Anzahl der gleichzeitigen Personen erhöhen. In der Mitte gemeinsam hochspringen. 
+    * Namen durch *Go* ersetzen, Geschwindigkeit und Anzahl der gleichzeitigen Personen erhöhen. In der Mitte gemeinsam hochspringen.
 
 !!!note "7-5-3-1/Lightning Walk"
     * Gruppe in einer Reihe anordnen
-    * 7 Counts in eine Richtung, 5 andere etc. 
-    * auf 1 Ellenbogen raus, 2 Hand nach Oben, 3 Klatschen etc. 
+    * 7 Counts in eine Richtung, 5 andere etc.
+    * auf 1 Ellenbogen raus, 2 Hand nach Oben, 3 Klatschen etc.
     * Für Lighning Walk: nicht gerade Linien
 
 !!!note "BB (Beatiful Burnout) Warmup"
@@ -337,38 +337,38 @@ Wichtige Konzepte sind:
     * Über Schulter blicken in Mitte
     * Ohne Stühle
     * Mit Geschwindigkeit spielen
-  
+
 
 !!!note "Bodyguards"
     * In Gruppen von 4-5 Personen aufteilen
-    * Eine Person (später rotieren) ist ein VIP der beschützt werden muss. Nach klarem Zeichen lässt sich der VIP in eine Richtung fallen. 
+    * Eine Person (später rotieren) ist ein VIP der beschützt werden muss. Nach klarem Zeichen lässt sich der VIP in eine Richtung fallen.
     * Findet wege in Lifts
     * Findet Wege nahtlos/organisch zu wechseln
 
 !!!note "Gruppen Lifts"
     * **Flying Lift** U Form um Person, ich gehe nach vorne Hände auf die Schultern vom Person am Ende der U. Nach vorne und oben ich drücke mich hoch. Ein Bein geht automatisch nach oben. 1x nur Anzeichnen 1x ausführen wechseln.
-        * 2 Felsen vorne Arme nach vorne, Felsen bringen Brust hoch Gewicht geht über deine Knochen nicht deine Muskeln. 
-        * Anzahl reduzieren, aber immer Starten mit 
-        * der Flyer entscheidet, wohin willst du? Was siehtst du?  Kommunikation über Kontakt 
-        * Eine beliebige Person im Kreis. Drück dich an uns hoch. 
+        * 2 Felsen vorne Arme nach vorne, Felsen bringen Brust hoch Gewicht geht über deine Knochen nicht deine Muskeln.
+        * Anzahl reduzieren, aber immer Starten mit
+        * der Flyer entscheidet, wohin willst du? Was siehtst du?  Kommunikation über Kontakt
+        * Eine beliebige Person im Kreis. Drück dich an uns hoch.
     * **Jet Pack Lift**. Wir wollen gemeinsam die Illusion von Schwerelosigkeit erzeugen. Flyer Ellenbogen nahe am Körper, Schultern nach unten drücken. Als 4er: Zwei an den Ellenbogen einer an den Beinen.  In die Knie gehen und nach oben drücken. Wenn der Flyer es verkauft dann wird die Arbeit des ganzen versteckt.
     * **An der Wand laufen**. Die Bases erzeugen Kraft richtung Wand, nicht nach oben. (Sideplank) A: Hand auf Schulter und Hand in Achsel. B: Hüfte, Kraft in die WandC: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
     * Überschläge, Seitlich etc. Mit vielen Leuten ist alles und mit allen Körpern möglich
-    
+
     [[Quelle]](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
 
 
 !!!note "Lift Tips"
     1. Base niedriger Schwerpunkt als Flyer
     2. Gib als Flyer dein Gewicht, versuche nicht zu deine Base zu schonen. Wer nach oben will muss nach unten denken, ich werde nicht passiv hochgehoben sondern mein(e) Partner sind Felsen auf denen ich aktiv nach oben komme.
-    3. Schaue nicht auf deine Füße, die werden nicht ohne dich weitergehn. 
+    3. Schaue nicht auf deine Füße, die werden nicht ohne dich weitergehn.
     4. Wenn du viel Kraft brauchst machst du es nicht richtig
-    5. Sei sicher, 
+    5. Sei sicher,
     6. Atmen.
     7. Rucksack, Hochheben ist kein Kampf gegen etwas
     8. Als Flyer: Steuere deinen Flug indem du deinen Oberkörper rotierst
     9. Finde einen anderen Ausgang als der Eingang, nicht doppeln. Daraus wird aus einem Lift eine Geschichte.
-    
+
 
 !!!note "Zeichensprache"
     *  Alleine: In einem Fenstergroßen Auschnitt vor der Brust, zeige einen Satz in Zeichensprache (5-15 Elemente)
@@ -386,7 +386,7 @@ Wichtige Konzepte sind:
 !!!note "Handdrücken/Push Hands"
 
     * Person A streckt ihre Hand mit der Handfläche nach unten aus.
-    * Person B drückt den Handrücken in die Handfläche von A 
+    * Person B drückt den Handrücken in die Handfläche von A
     * Die Person mit der Hand oben bewegt dann seine Hand, während B versucht, den Druck und den Kontakt beizubehalten: Es ist kein Tanz, sondern eine Übung, bei der man lernt,  mit seinem Körper und über Kontakt zuzuhören. Mit zunehmendem Fortschritt kann A schneller werden und sich im Raum bewegen. Versucht nicht, euch gegenseitig zu überrumpeln! Vermeidet es, sich unter dem Arm zu drehen oder auf den Boden zu gehen. Konzentrieren dich auf die Ökonomie der Bewegung, anstatt zu versuchen, sie schön aussehen zu lassen. Geht ins Risiko, bemerke das du ins Denken kommt und lass los. (Effortless of Movement)
     * B schließt die Augen
 
@@ -395,7 +395,7 @@ Wichtige Konzepte sind:
     * Jeder Partner findet 5 Orte zu drücken  (Hand, Schulter, Bein etc.), auch mit anderen Körperteilen als der Hand, Wiederholung bis mühelos verinnerlicht
     * Beide Choreos werden miteinander verflochten, aber nicht abwechelnd sondern chaotisch (1213234...)
     * Findet Momente euren Partner zu bewegen oder euch um euren Partner zu bewegen
-    * Findet Momente gewicht abzugeben- 
+    * Findet Momente gewicht abzugeben-
 
 !!!note "Contact Impro"
     Empfehlung zum Verständnis (Videos [1](https://www.youtube.com/watch?v=dwYNNL8pDec), [2](https://www.youtube.com/watch?v=80mMW1H8xkc), [3](https://www.youtube.com/watch?v=oecMvZAfI_M&t=555s), [4](https://www.youtube.com/watch?v=wqMPCsancYE), [5](https://www.youtube.com/watch?v=H8JiB2Nv5Qo&t=417s) )
@@ -445,7 +445,7 @@ Wichtige Konzepte sind:
           * Du gehörst mir
 
 !!!note "Flight Paths"
-    * A und B gegenüber, Finger einen Flugpfad von Körperteil zu anderm Körperteil. 3-5 max. Wechsel, beide Gleichzeitig. 
+    * A und B gegenüber, Finger einen Flugpfad von Körperteil zu anderm Körperteil. 3-5 max. Wechsel, beide Gleichzeitig.
 
 
 !!!note "Drunter & Drüber"
@@ -459,20 +459,20 @@ Wichtige Konzepte sind:
 
 
 !!!note "Lied der Hände (sitzen)"
-    2 Stuhle nebeneinander. A eigene Hand auf dem Körper des Partners oder Hand des Partners bewegen ider den Torso hochziehen oder herunterdrücken. 
+    2 Stuhle nebeneinander. A eigene Hand auf dem Körper des Partners oder Hand des Partners bewegen ider den Torso hochziehen oder herunterdrücken.
 
     Regeln: Sitzen bleiben, Blick nach vorne. max. 3 Bewegungen, Tausch. Choreo Max 20 Bewegen Keine Story, klare Bewegung. Nicht visuell sondern physikalisch erinnern.
 
-    Optionen: 
-    * Augen voneinander wegdrehen. 
+    Optionen:
+    * Augen voneinander wegdrehen.
     * Couch Potato Physikalität hinzufügen, die Präzison bleibt.
 
     [Quelle](https://www.youtube.com/watch?v=PB-9LERsyY8)
 
 !!!note "Lied der Hände"
-    * Blickkontakt. Eigene Hand oder die des Partners bewegen. Am eigenen Körper oder am andern. 
+    * Blickkontakt. Eigene Hand oder die des Partners bewegen. Am eigenen Körper oder am andern.
     * Augenkontakt mit dritter Person. Die Bewegung machen zu können bzw. mit jemand anderes in der Beziehung zu sein obwohl man wo anders hinschaut.
-    * Langsam schaue auf die Hand. 
+    * Langsam schaue auf die Hand.
 
 
 !!!note "Optionen"
@@ -484,7 +484,7 @@ Wichtige Konzepte sind:
     * Gruppen mischen
     * Personen (Beabachtend oder interagierend) hinzufügen
     * Blicke lenken (die Person die Angeschaut wird oder ins Publikum schaut wird zum Protagonisten)
- 
+
 
 
 ### Ensemble Building
@@ -497,7 +497,7 @@ Wichtige Konzepte sind:
     3. Rennen wann du willst
 
 !!!note "Fokus geben"
-    Jeder TN bekommt eine Nummer und sucht sich eine Aufgabe im Bewegung im gegeben Raum (z.B. Schiff). Wenn Nummer gerufen, dramatisch in Ohnmacht fallen, während von 10 runtergezählt wird. Die anderen müssen zur hilfe eilen, bevor er zu Boden geht. 
+    Jeder TN bekommt eine Nummer und sucht sich eine Aufgabe im Bewegung im gegeben Raum (z.B. Schiff). Wenn Nummer gerufen, dramatisch in Ohnmacht fallen, während von 10 runtergezählt wird. Die anderen müssen zur hilfe eilen, bevor er zu Boden geht.
 
 !!!note "Raumlauf"
     1. Ich stoppe
@@ -545,8 +545,8 @@ Wichtige Konzepte sind:
 !!!note "Object Work"
     * Suche dir ein Objekt aus mit dem du die nächste halbe Stunde spielt. Probiere ein paar Minuten rum mit den Ding, wie fühlt es sich an, welche Geräusche kann es machen.
     * Finde drei Dinge, die das Objekt seien könnte
-    * Finde eine Logik, finde eine Routine, finde 4 Bewegungen. Finde etwas was du loppen kannst. Groß und Prezise, wenig Details. Aus der Wiederholung raus, wiederholen. 
-    * Gemeinsames Papier 4 Counts eigenes, 5 pick 6 hoch 7 runter 
+    * Finde eine Logik, finde eine Routine, finde 4 Bewegungen. Finde etwas was du loppen kannst. Groß und Prezise, wenig Details. Aus der Wiederholung raus, wiederholen.
+    * Gemeinsames Papier 4 Counts eigenes, 5 pick 6 hoch 7 runter
     * Einzelne Isolieren, Zeitlupe Einzelne Personen. Make it bigger
 
 
@@ -560,4 +560,3 @@ Wichtige Konzepte sind:
     * Standort: Bilge; Weg: hinunter durch eine elende Tür
 
     Nachdem die Gruppen ihre Standorte und Wege erstellt haben, führen sie sich gegenseitig durch die Räume der Reihe nach durch die Räume und rufen dabei "Schnell! Zum..." vor jedem neuen Raum. Sobald jeder Raum geteilt wurde, bestimmen Sie wo auf der Bühne jeder dieser Räume sein könnte, und gehen Sie erneut durch sie. Diesmal weisen Sie das Ensemble an zu jedem Weg hinzuzufügen, so dass alle beteiligt sind.
-

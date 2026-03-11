@@ -2,7 +2,7 @@
 title: Crazy Singing Technique and Straw Phonation
 Tags: singing, technique, vocal
 date: 2020-01-05
-summary: A singing technique with a straw can help to speak and sing better. 
+summary: A singing technique with a straw can help to speak and sing better.
 ---
 I was watching the Recording of the Tony Awards recently and the [Performance of Beetlejuice the Musical](https://www.facebook.com/TheTonyAwards/videos/tony-awards-2019-beetlejuice/323970198527644/) blew me away. Especially Alex Brightman as Beetlejuice "singing like this eight shows a week".
 
@@ -14,4 +14,3 @@ So I had several years of training as a singer, but never really learned about t
 
 ## Finally: What is Straw Phonetation?
 Basically you sing (or make any other sound) through a straw for a warmup. This exercise might sound crazy but it is backed by science. If you ever sang in a choir or have done a vocal warm-up you surely have done lip trills (fluttering your lips to make a *brr* sound) in some variation. These types of exercises *Semi-Occluded Vocal Tract Exercise*, which just means your mouth is partly closed while doing these exercises. By forcing your airstream through some kind of X, pressure builds above your vocal cords (also called backpressure). This way the pressure on the vocal cords coming from below (the lungs) is decreased, helping reduce tension by making the whole vocal cord vibrate instead of just parts.
-
