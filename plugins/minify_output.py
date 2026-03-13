@@ -63,6 +63,8 @@ def _minify_inline_js_with_terser(html_text: str) -> tuple[str, int]:
                     in_path,
                     "--compress",
                     "--mangle",
+                    "--format",
+                    "keep_numbers=true",
                     "--output",
                     out_path,
                 ]
@@ -189,7 +191,10 @@ def minify_all_html(pelican) -> None:
             try:
                 transformed = minify_html.minify(
                     transformed,
-                    minify_js=True,
+                    # Inline JS is minified separately by terser below.
+                    # Keeping JS untouched here avoids syntax edge-cases like
+                    # `cond ? .25 : 1` becoming `cond?.25:1` in output.
+                    minify_js=False,
                     minify_css=True,
                     keep_html_and_head_opening_tags=True,
                     keep_comments=False,
