@@ -30,7 +30,7 @@ PLUGINS = [
     "pelican_katex",
     "link_graph",
     "obsidian",
-    "minify_output",
+    #"minify_output",
     # "extract_toc",
 ]
 SITEMAP = {
