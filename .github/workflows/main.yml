@@ -38,3 +38,12 @@ jobs:
           host: ${{secrets.HOST}}
           user: ${{secrets.USER}}
           key: ${{secrets.KEY}}
+      - name: Deploy to new Server
+        uses: burnett01/rsync-deployments@v8
+        with:
+          switches: -avz --delete
+          path: ./output/*
+          remote_path: /var/www/simonklug.de/
+          remote_host: ${{ secrets.REMOTE_HOST }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.REMOTE_PRIVATE_KEY }}
