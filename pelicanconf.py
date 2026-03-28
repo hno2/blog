@@ -95,5 +95,3 @@ AUTHORS = {
 
 # Graph panel: how many hops from the current article to show (1 = direct links only)
 GRAPH_DEPTH = 2
-
-KATEX_PATH = str(Path(__file__).parent/"katex.min.js")

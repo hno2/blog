@@ -49,7 +49,7 @@ requires-dist = [
     { name = "minify-html", specifier = ">=0.18.1" },
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0.post0" },
     { name = "pelican-cite", git = "https://github.com/VorpalBlade/pelican-cite.git" },
-    { name = "pelican-katex", specifier = ">=1.8.2" },
+    { name = "pelican-katex", specifier = ">=1.8.4" },
     { name = "pelican-obsidian", git = "https://github.com/jonathan-s/pelican-obsidian?rev=main" },
     { name = "pelican-sitemap", specifier = ">=1.2.2" },
     { name = "pybtex-author-year-label", git = "https://github.com/hno2/pybtex-author-year-label" },
