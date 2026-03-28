@@ -7,8 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,20 +28,30 @@ jobs:
         run:  uv sync --no-dev
       - name: Build HTML
         run: uv run pelican -s publishconf.py content
-      - name: Deploy to Server
-        uses: marcodallasanta/ssh-scp-deploy@v1.2.0
-        with:
-          local: './output/*'
-          remote: '/var/www/simonklug.de/src'
-          host: ${{secrets.HOST}}
-          user: ${{secrets.USER}}
-          key: ${{secrets.KEY}}
+      - name: Set up deploy SSH key
+        shell: bash
+        env:
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_PRIVATE_KEY: ${{ secrets.REMOTE_PRIVATE_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          key_file=~/.ssh/deploy_key
+
+          if printf '%s' "$REMOTE_PRIVATE_KEY" | grep -q 'BEGIN .*PRIVATE KEY'; then
+            printf '%s\n' "$REMOTE_PRIVATE_KEY" | perl -0pe 's/\r\n?/\n/g; s/\\n/\n/g' > "$key_file"
+          else
+            printf '%s' "$REMOTE_PRIVATE_KEY" | tr -d '\r\n' | base64 --decode > "$key_file"
+          fi
+
+          chmod 600 "$key_file"
+          ssh-keyscan -H "$REMOTE_HOST" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
       - name: Deploy to new Server
-        uses: burnett01/rsync-deployments@v8
-        with:
-          switches: -avz --delete
-          path: ./output/*
-          remote_path: /var/www/simonklug.de/
-          remote_host: ${{ secrets.REMOTE_HOST }}
-          remote_user: ${{ secrets.REMOTE_USER }}
-          remote_key: ${{ secrets.REMOTE_PRIVATE_KEY }}
+        shell: bash
+        env:
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            ./output/ "$REMOTE_USER@$REMOTE_HOST:/var/www/simonklug.de/"
