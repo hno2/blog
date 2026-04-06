@@ -280,20 +280,24 @@ blockquote cite {
     margin-left: .55em
 }
 
-/* Graph panel – hidden on small screens */
-.graph-panel {
+/* Side panel – hidden on small screens */
+.sidebar-panel {
     display: none
 }
 
 @media only screen and (min-width: 1025px) {
-    .graph-panel {
+    .sidebar-panel {
         display: block;
         position: sticky;
         top: 20px;
         align-self: start
     }
 
-    .graph-title {
+    .sidebar-section {
+        margin-top: 0.8rem
+    }
+
+    .sidebar-section-header {
         font-size: 0.7rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -304,34 +308,142 @@ blockquote cite {
         justify-content: space-between
     }
 
-    .graph-title button {
+    .sidebar-section-title {
+        margin: 0;
+        letter-spacing: 0.08em;
+    }
+
+    .sidebar-section-action {
         background: none;
         border: 1px solid rgba(0,0,0,0.15);
         border-radius: 4px;
-        padding: 2px 4px;
+        padding: 0.2rem 0.35rem;
         cursor: pointer;
-        color: #aaa;
+        color: #7a7a7a;
+        font-size: 0.56rem;
+        letter-spacing: 0.06em;
         line-height: 1;
+        text-transform: uppercase;
         display: flex;
-        align-items: center
+        align-items: center;
+        transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease
     }
 
-    .graph-title button:hover {
-        color: #555;
+    .sidebar-section-action:hover {
+        color: #444;
         border-color: rgba(0,0,0,0.3)
     }
 
-    #graph-canvas {
+    .sidebar-section-action:focus-visible {
+        outline: none;
+        border-color: rgba(0, 0, 0, 0.45);
+        background: rgba(0, 0, 0, 0.04)
+    }
+
+    #sidebar-graph-canvas {
         width: 100%;
         display: block;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 6px;
         background: #fafafa
     }
+
+    #sidebar-toc-nav ul,
+    #sidebar-toc-nav li,
+    #sidebar-mentioned-by-list {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+
+    #sidebar-toc-nav ul,
+    #sidebar-mentioned-by-list {
+        margin-left: 0.55em;
+        border-left: 1.5px solid rgba(0, 0, 0, .08);
+        transition: border-left-color 120ms ease
+    }
+
+    #sidebar-toc-nav ul.is-active-rail {
+        border-left-color: rgba(0, 0, 0, .45)
+    }
+
+    #sidebar-toc-nav li,
+    #sidebar-mentioned-by-list li {
+        position: relative
+    }
+
+    #sidebar-toc-nav li::before,
+    #sidebar-mentioned-by-list li::before {
+        content: "";
+        position: absolute;
+        left: -1.5px;
+        top: 0;
+        bottom: 0;
+        width: 1.5px;
+        background: transparent;
+        transition: background-color 120ms ease
+    }
+
+    #sidebar-toc-nav li:not(:first-child)::before,
+    #sidebar-mentioned-by-list li:not(:first-child)::before {
+        top: 0.2rem
+    }
+
+    #sidebar-toc-nav li:not(:last-child)::before,
+    #sidebar-mentioned-by-list li:not(:last-child)::before {
+        bottom: 0.2rem
+    }
+
+    #sidebar-toc-nav li.is-active-item::before,
+    #sidebar-toc-nav li.is-ancestor-item::before,
+    #sidebar-mentioned-by-list li:hover::before {
+        background: rgba(0, 0, 0, 0.45)
+    }
+
+    #sidebar-toc-nav li > ul {
+        display: none
+    }
+
+    #sidebar-toc-section.is-expanded-all #sidebar-toc-nav li > ul {
+        display: block
+    }
+
+    #sidebar-toc-nav li.is-current-branch ul {
+        display: block
+    }
+
+    #sidebar-toc-nav li.is-current-branch > a {
+        color: #111
+    }
+
+    #sidebar-toc-nav a,
+    #sidebar-mentioned-by-list a {
+        display: block;
+        text-decoration: none;
+        color: #4d4d4d;
+        font-size: 0.78rem;
+        line-height: 1.35;
+        padding: 0.2rem 0.15rem 0.2rem 0.5rem;
+        transition: color 120ms ease
+    }
+
+    #sidebar-toc-nav a:hover,
+    #sidebar-mentioned-by-list a:hover {
+        color: #111
+    }
+
+    #sidebar-toc-nav a.is-active {
+        color: #111;
+        font-weight: 600
+    }
+
+    #sidebar-mentioned-by-list li+li {
+        margin-top: 0.2rem
+    }
 }
 
 /* Full-graph overlay */
-#graph-overlay {
+#sidebar-graph-overlay {
     display: none;
     position: fixed;
     inset: 0;
@@ -341,7 +453,7 @@ blockquote cite {
     justify-content: center
 }
 
-#graph-overlay-inner {
+#sidebar-graph-overlay-inner {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.3);
@@ -351,7 +463,7 @@ blockquote cite {
     flex-direction: column
 }
 
-#graph-overlay-header {
+#sidebar-graph-overlay-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -364,7 +476,7 @@ blockquote cite {
     color: #777
 }
 
-#graph-overlay-close {
+#sidebar-graph-overlay-close {
     background: none;
     border: none;
     cursor: pointer;
@@ -375,12 +487,12 @@ blockquote cite {
     border-radius: 4px
 }
 
-#graph-overlay-close:hover {
+#sidebar-graph-overlay-close:hover {
     background: rgba(0,0,0,0.06);
     color: #333
 }
 
-#graph-overlay-canvas {
+#sidebar-graph-overlay-canvas {
     width: 100%;
     display: block;
     background: #fafafa

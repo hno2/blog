@@ -40,6 +40,279 @@
                 return visibleIds.has(l.source) && visibleIds.has(l.target);
               });
 
+              function byId(id) {
+                for (var i = 0; i < gd.nodes.length; i++) {
+                  if (gd.nodes[i].id === id) return gd.nodes[i];
+                }
+                return null;
+              }
+
+              function initMentioningPages() {
+                var panel = document.getElementById('sidebar-mentioned-by-section');
+                var list = document.getElementById('sidebar-mentioned-by-list');
+                if (!panel || !list) return;
+
+                var sourceIds = [];
+                if (gd.incoming && Array.isArray(gd.incoming[cur])) {
+                  sourceIds = gd.incoming[cur].slice();
+                } else {
+                  sourceIds = (fullAdj[cur] || []).slice();
+                }
+
+                var unique = [];
+                var seen = {};
+                for (var i = 0; i < sourceIds.length; i++) {
+                  var sid = sourceIds[i];
+                  if (!sid || sid === cur || seen[sid]) continue;
+                  seen[sid] = true;
+                  var node = byId(sid);
+                  if (node && node.url) unique.push(node);
+                }
+
+                unique.sort(function (a, b) {
+                  return (a.title || '').localeCompare((b.title || ''), undefined, { sensitivity: 'base' });
+                });
+
+                if (!unique.length) {
+                  panel.hidden = true;
+                  return;
+                }
+
+                for (var j = 0; j < unique.length; j++) {
+                  var item = unique[j];
+                  var li = document.createElement('li');
+                  var a = document.createElement('a');
+                  a.href = item.url;
+                  a.textContent = decodeHtml(item.title || item.id);
+                  li.appendChild(a);
+                  list.appendChild(li);
+                }
+                panel.hidden = false;
+              }
+
+              function initTocHighlight() {
+                var toc = document.getElementById('sidebar-toc-nav');
+                if (!toc) return;
+
+                var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+                if (!links.length) return;
+
+                var entries = [];
+                var topBranchById = {};
+
+                function headingLevel(el) {
+                  if (!el || !el.tagName) return 7;
+                  var m = /^H([1-6])$/i.exec(el.tagName);
+                  return m ? parseInt(m[1], 10) : 7;
+                }
+
+                for (var i = 0; i < links.length; i++) {
+                  var href = links[i].getAttribute('href') || '';
+                  var id = href.slice(1);
+                  if (!id) continue;
+                  var target = document.getElementById(decodeURIComponent(id));
+                  if (!target) continue;
+                  var li = links[i].closest('li');
+                  if (!li) continue;
+                  entries.push({
+                    id: target.id,
+                    link: links[i],
+                    heading: target,
+                    li: li,
+                    level: headingLevel(target)
+                  });
+                }
+                if (!entries.length) return;
+
+                var baseLevel = 7;
+                for (var e = 0; e < entries.length; e++) {
+                  baseLevel = Math.min(baseLevel, entries[e].level);
+                }
+
+                var currentBranchId = null;
+                var branchCount = 0;
+                for (var k = 0; k < entries.length; k++) {
+                  if (entries[k].level === baseLevel || !currentBranchId) {
+                    currentBranchId = 'branch-' + branchCount;
+                    branchCount += 1;
+                    entries[k].li.dataset.branchId = currentBranchId;
+                  }
+                  topBranchById[entries[k].id] = currentBranchId;
+                }
+
+                var entryById = {};
+                for (var m = 0; m < entries.length; m++) {
+                  entryById[entries[m].id] = entries[m];
+                }
+
+                var anchorBiasId = null;
+                var anchorBiasUntil = 0;
+
+                function setAnchorBias(id) {
+                  if (!id || !entryById[id]) return;
+                  anchorBiasId = id;
+                  anchorBiasUntil = Date.now() + 1400;
+                }
+
+                function clearClasses() {
+                  var lis = toc.querySelectorAll('li');
+                  for (var i = 0; i < lis.length; i++) {
+                    lis[i].classList.remove('is-active-item', 'is-ancestor-item', 'is-current-branch');
+                  }
+                  var rails = toc.querySelectorAll('ul');
+                  for (var r = 0; r < rails.length; r++) {
+                    rails[r].classList.remove('is-active-rail');
+                  }
+                  for (var j = 0; j < entries.length; j++) {
+                    entries[j].link.classList.remove('is-active');
+                  }
+                }
+
+                function setActive(id) {
+                  clearClasses();
+                  var active = null;
+                  for (var i = 0; i < entries.length; i++) {
+                    if (entries[i].id === id) {
+                      active = entries[i];
+                      break;
+                    }
+                  }
+                  if (!active) return;
+
+                  active.link.classList.add('is-active');
+                  active.li.classList.add('is-active-item');
+
+                  var railNode = active.li;
+                  while (railNode) {
+                    var parentUl = railNode.parentElement;
+                    if (parentUl && parentUl.tagName === 'UL') {
+                      parentUl.classList.add('is-active-rail');
+                    }
+                    railNode = parentUl ? parentUl.closest('li') : null;
+                  }
+
+                  var ancestor = active.li.parentElement ? active.li.parentElement.closest('li') : null;
+                  while (ancestor) {
+                    ancestor.classList.add('is-ancestor-item');
+                    ancestor = ancestor.parentElement ? ancestor.parentElement.closest('li') : null;
+                  }
+
+                  var branchId = topBranchById[id];
+                  if (!branchId) return;
+                  var branchNode = toc.querySelector('li[data-branch-id="' + branchId + '"]');
+                  if (branchNode) {
+                    branchNode.classList.add('is-current-branch');
+                  }
+                }
+
+                function computeActiveId() {
+                  if (anchorBiasId && Date.now() < anchorBiasUntil) {
+                    var forced = entryById[anchorBiasId];
+                    if (forced) {
+                      var top = forced.heading.getBoundingClientRect().top;
+                      if (top <= Math.round(window.innerHeight * 0.45)) {
+                        return forced.id;
+                      }
+                    }
+                  }
+
+                  var y = window.scrollY + Math.round(window.innerHeight * 0.35);
+                  if (entries[0].heading.offsetTop > y) {
+                    return null;
+                  }
+                  var active = entries[0].id;
+                  for (var i = 0; i < entries.length; i++) {
+                    if (entries[i].heading.offsetTop <= y) {
+                      active = entries[i].id;
+                    } else {
+                      break;
+                    }
+                  }
+                  return active;
+                }
+
+                var ticking = false;
+                function updateFromScroll() {
+                  if (ticking) return;
+                  ticking = true;
+                  window.requestAnimationFrame(function () {
+                    setActive(computeActiveId());
+                    ticking = false;
+                  });
+                }
+
+                window.addEventListener('scroll', updateFromScroll, { passive: true });
+                window.addEventListener('resize', updateFromScroll);
+
+                for (var l = 0; l < links.length; l++) {
+                  links[l].addEventListener('click', function (ev) {
+                    var href = ev.currentTarget.getAttribute('href') || '';
+                    var id = href.charAt(0) === '#' ? href.slice(1) : '';
+                    if (!id) return;
+                    try {
+                      id = decodeURIComponent(id);
+                    } catch (_) {
+                      // keep raw id if decode fails
+                    }
+                    setAnchorBias(id);
+                    setActive(id);
+                  });
+                }
+
+                window.addEventListener('hashchange', function () {
+                  var raw = (window.location.hash || '').replace(/^#/, '');
+                  if (!raw) return;
+                  var id = raw;
+                  try {
+                    id = decodeURIComponent(raw);
+                  } catch (_) {
+                    // keep raw id if decode fails
+                  }
+                  setAnchorBias(id);
+                  updateFromScroll();
+                });
+
+                if (window.location.hash) {
+                  var initialId = window.location.hash.replace(/^#/, '');
+                  try {
+                    initialId = decodeURIComponent(initialId);
+                  } catch (_) {
+                    // keep raw id if decode fails
+                  }
+                  setAnchorBias(initialId);
+                }
+
+                updateFromScroll();
+              }
+
+              function initTocToggle() {
+                var panel = document.getElementById('sidebar-toc-section');
+                var toc = document.getElementById('sidebar-toc-nav');
+                var button = document.getElementById('sidebar-toc-toggle-button');
+                if (!panel || !toc || !button) return;
+
+                var label = button.querySelector('.toc-toggle-label');
+                var titleExpand = button.getAttribute('data-title-expand') || button.getAttribute('title') || '';
+                var titleCollapse = button.getAttribute('data-title-collapse') || titleExpand;
+                var labelExpand = button.getAttribute('data-label-expand') || (label ? label.textContent : '');
+                var labelCollapse = button.getAttribute('data-label-collapse') || labelExpand;
+
+                function setExpandedAll(expandedAll) {
+                  panel.classList.toggle('is-expanded-all', expandedAll);
+                  button.setAttribute('aria-pressed', expandedAll ? 'true' : 'false');
+                  button.setAttribute('title', expandedAll ? titleCollapse : titleExpand);
+                  if (label) {
+                    label.textContent = expandedAll ? labelCollapse : labelExpand;
+                  }
+                }
+
+                button.addEventListener('click', function () {
+                  setExpandedAll(!panel.classList.contains('is-expanded-all'));
+                });
+
+                setExpandedAll(false);
+              }
+
               // ── Graph factory ────────────────────────────────────────────
               function initGraph(cvs, rawNodes, rawLinks, warmup, maxH) {
                 var c = cvs.getContext('2d');
@@ -309,28 +582,32 @@
 
               // Sidebar: neighbourhood graph
               initGraph(
-                document.getElementById('graph-canvas'),
+                document.getElementById('sidebar-graph-canvas'),
                 localNodes, localLinks, 300, null
               );
 
               // Pop-out: full graph
               var overlayG = null;
-              var overlay = document.getElementById('graph-overlay');
+              var overlay = document.getElementById('sidebar-graph-overlay');
               function closeOverlay() { overlay.style.display = 'none'; }
-              document.getElementById('graph-popout-btn').addEventListener('click', function () {
+              document.getElementById('sidebar-graph-expand-button').addEventListener('click', function () {
                 overlay.style.display = 'flex';
                 if (!overlayG) {
                   overlayG = initGraph(
-                    document.getElementById('graph-overlay-canvas'),
+                    document.getElementById('sidebar-graph-overlay-canvas'),
                     gd.nodes, gd.links, 500, 0.85
                   );
                 }
               });
-              document.getElementById('graph-overlay-close').addEventListener('click', closeOverlay);
+              document.getElementById('sidebar-graph-overlay-close').addEventListener('click', closeOverlay);
               overlay.addEventListener('click', function (e) {
                 if (e.target === overlay) closeOverlay();
               });
               document.addEventListener('keydown', function (e) {
                 if (e.key === 'Escape') closeOverlay();
               });
+
+              initMentioningPages();
+              initTocToggle();
+              initTocHighlight();
             })();

@@ -1,4 +1,5 @@
-"""Pelican plugin: link_graph
+"""Pelican plugin: link_graph.
+
 Scans all article content for internal links and builds a graph data
 structure (nodes + edges) that is injected into the Jinja2 template
 context as the variable GRAPH_DATA (JSON string).
@@ -7,6 +8,7 @@ context as the variable GRAPH_DATA (JSON string).
 import html
 import json
 import re
+from typing import Protocol
 from urllib.parse import unquote, urlsplit
 
 from pelican import signals
@@ -15,7 +17,21 @@ _TAG_RE = re.compile(r"<[^>]+>")
 _SITE_HOSTS = {"simonklug.de", "www.simonklug.de"}
 
 
-def clean_title(s):
+class _ArticleLike(Protocol):
+    slug: str
+    title: str
+    url: str
+    content: str
+
+
+class _GeneratorLike(Protocol):
+    articles: list[_ArticleLike]
+    hidden_articles: list[_ArticleLike]
+    settings: dict[str, int]
+    context: dict[str, str]
+
+
+def clean_title(s: str) -> str:
     """Strip HTML tags and decode entities from a title string."""
     return html.unescape(_TAG_RE.sub("", s))
 
@@ -27,8 +43,7 @@ def _normalize_path_key(path: str) -> str:
         key = key[: -len("/index.html")]
     elif key == "index.html":
         key = ""
-    if key.endswith(".html"):
-        key = key[: -len(".html")]
+    key = key.removesuffix(".html")
     return key
 
 
@@ -50,7 +65,8 @@ def _href_to_internal_key(href: str) -> str | None:
     return _normalize_path_key(parsed.path)
 
 
-def build_graph(generator) -> None:
+def build_graph(generator: _GeneratorLike) -> None:
+    """Build internal article-link graph and expose it in template context."""
     # Include hidden articles (status: hidden) alongside published ones
     articles = list(generator.articles) + list(getattr(generator, "hidden_articles", []))
     if not articles:
@@ -77,6 +93,7 @@ def build_graph(generator) -> None:
     href_re = re.compile(r'href=["\']([^"\']+)["\']', re.IGNORECASE)
 
     adj = {slug: set() for slug in slug_info}
+    incoming = {slug: set() for slug in slug_info}
     edges = []
     seen_edges = set()
 
@@ -94,13 +111,23 @@ def build_graph(generator) -> None:
                     edges.append({"source": art.slug, "target": target})
                 adj[art.slug].add(target)
                 adj[target].add(art.slug)
+                incoming[target].add(art.slug)
 
     nodes = [{**info, "degree": len(adj[slug])} for slug, info in slug_info.items()]
 
     depth = generator.settings.get("GRAPH_DEPTH", 2)
-    graph_json = json.dumps({"nodes": nodes, "links": edges, "depth": depth}, ensure_ascii=False)
+    graph_json = json.dumps(
+        {
+            "nodes": nodes,
+            "links": edges,
+            "depth": depth,
+            "incoming": {slug: sorted(sources) for slug, sources in incoming.items()},
+        },
+        ensure_ascii=False,
+    )
     generator.context["GRAPH_DATA"] = graph_json
 
 
 def register() -> None:
+    """Register the link_graph plugin with Pelican signals."""
     signals.article_generator_finalized.connect(build_graph)

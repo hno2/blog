@@ -1,5 +1,36 @@
 <!DOCTYPE html>
-<html lang="{% if article and article.lang %}{{ article.lang }}{% else %}en{% endif %}">
+{% set lang = (article.lang if article and article.lang else (page.lang if page and page.lang else 'en')) %}
+
+{% set ui = {
+    'en': {
+        'link_graph':        'Link Graph',
+        'show_full_graph':   'Show full graph',
+        'content':           'Content',
+        'table_of_contents': 'Table of contents',
+        'expand_all':        'Expand all',
+        'expand_all_headings': 'Expand all headings',
+        'show_current_branch': 'Show only current heading branch',
+        'collapse_all':      'Collapse all',
+        'mentioned_by':      'Pages mentioning this page',
+        'full_link_graph':   'Full Link Graph',
+        'close':             'Close'
+    },
+    'de': {
+        'link_graph':        'Link-Graph',
+        'show_full_graph':   'Vollständigen Graph anzeigen',
+        'content':           'Inhalt',
+        'table_of_contents': 'Inhaltsverzeichnis',
+        'expand_all':        'Alle aufklappen',
+        'expand_all_headings': 'Alle Überschriften aufklappen',
+        'show_current_branch': 'Nur aktuellen Überschriftenzweig anzeigen',
+        'collapse_all':      'Alle einklappen',
+        'mentioned_by':      'Seiten, die diese Seite erwähnen',
+        'full_link_graph':   'Vollständiger Link-Graph',
+        'close':             'Schließen'
+    }
+} %}
+{% set t = ui[lang] if lang in ui else ui['en'] %}
+<html lang="{{ lang }}">
 
 <head>
     <meta charset="UTF-8">
@@ -101,22 +132,43 @@
                 {% endblock content %}
             </div>
             {% if article and GRAPH_DATA %}
-            <aside class="graph-panel">
-                <div class="graph-title">
-                    Link Graph
-                    <button id="graph-popout-btn" title="Show full graph" aria-label="Show full graph">
+            <aside class="sidebar-panel">
+                {%if GRAPH_DATA %}
+                <section class="sidebar-section" id="sidebar-graph-section">
+                    <div class="sidebar-section-header">
+                        <h3 class="sidebar-section-title">{{ t.link_graph }}</h3>
+                        <button class="sidebar-section-action" id="sidebar-graph-expand-button" title="{{ t.show_full_graph }}" aria-label="{{ t.show_full_graph }}">
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1h4v4M11 1L6.5 5.5M5 11H1V7M1 11l4.5-4.5"/></svg>
                     </button>
-                </div>
-                <canvas id="graph-canvas"></canvas>
-            </aside>
-            <div id="graph-overlay" role="dialog" aria-modal="true" aria-label="Full link graph">
-                <div id="graph-overlay-inner">
-                    <div id="graph-overlay-header">
-                        <span>Full Link Graph</span>
-                        <button id="graph-overlay-close" aria-label="Close">&#x2715;</button>
                     </div>
-                    <canvas id="graph-overlay-canvas"></canvas>
+                    <canvas id="sidebar-graph-canvas"></canvas>
+                </section>
+                {% endif %}
+                <section class="sidebar-section" id="sidebar-toc-section">
+                    <div class="sidebar-section-header">
+                        <h3 class="sidebar-section-title">{{ t.content }}</h3>
+                        <button class="sidebar-section-action" id="sidebar-toc-toggle-button" type="button" aria-controls="sidebar-toc-nav" aria-pressed="false" title="{{ t.expand_all_headings }}" data-title-expand="{{ t.expand_all_headings }}" data-title-collapse="{{ t.show_current_branch }}" data-label-expand="{{ t.expand_all }}" data-label-collapse="{{ t.collapse_all }}">
+                            <span class="toc-toggle-label">{{ t.expand_all }}</span>
+                        </button>
+                    </div>
+                    <nav id="sidebar-toc-nav" aria-label="{{ t.table_of_contents }}">
+                        {{ (article.toc or '<ul><li><a href="#">Top</a></li></ul>')|safe }}
+                    </nav>
+                </section>
+                <section class="sidebar-section" id="sidebar-mentioned-by-section" hidden>
+                    <div class="sidebar-section-header">
+                        <h3 class="sidebar-section-title">{{ t.mentioned_by }}</h3>
+                    </div>
+                    <ul id="sidebar-mentioned-by-list"></ul>
+                </section>
+            </aside>
+            <div id="sidebar-graph-overlay" role="dialog" aria-modal="true" aria-label="{{ t.full_link_graph }}">
+                <div id="sidebar-graph-overlay-inner">
+                    <div id="sidebar-graph-overlay-header">
+                        <span>{{ t.full_link_graph }}</span>
+                        <button id="sidebar-graph-overlay-close" aria-label="{{ t.close }}">&#x2715;</button>
+                    </div>
+                    <canvas id="sidebar-graph-overlay-canvas"></canvas>
                 </div>
             </div>
             <script>

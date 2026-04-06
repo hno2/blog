@@ -1,4 +1,3 @@
-from pathlib import Path
 IMEZONE = "Europe/Paris"
 AUTHOR = "Simon Klug"
 SITENAME = "Today I learned..."
@@ -29,9 +28,9 @@ PLUGINS = [
     "pelican_cite",
     "pelican_katex",
     "link_graph",
+    "extract_toc",
     "obsidian",
-    "minify_output",
-    # "extract_toc",
+    #"minify_output",
 ]
 SITEMAP = {
     "format": "xml",
