@@ -1,6 +1,7 @@
 ---
 title: Was RPGs von von Improtheater lernen können
 lang: de
+date: 2026-03-10
 ---
 
 

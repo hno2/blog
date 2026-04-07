@@ -7,13 +7,14 @@ publications_src: content/Theater/theater.bib
 lang: de
 ---
 
-Seit einigen Jahren gibt es am [UniTheater Karlsruhe](https://www.unitheater.de/) ein wunderbares Format namens [Long Story Short](https://www.unitheater.de/produktion/long-story-short-3-0/), bei dem neue und erfahrene Leute sich am Schreiben, Spielen und Inszenieren von Szenen ausprobieren dürfen. In diesem Jahr wurde ich gefragt, ob ich einen Workshop für angehende Regisseur*innen geben möchte, und natürlich habe ich Ja gesagt. Zusammen mit Lena haben wir unsere [[theatre|knapp zwei Jahrzehnte Erfahrung]] zusammengeworfen, um unser Wissen zu strukturieren. Rausgekommen ist ein Mix aus Übungen, Techniken, Ideen und Hinweisen, die speziell auf das Inszenieren von Szenen angepasst sind (für die Konzeption von Szenen in einem Stückkontext solltest du die Fragen und Hinweise entsprechend anpassen). Die Arbeitsblätter als Übersicht gibt es [hier zum download](../images/abregie.pdf) Und ja, man kann uns auch [buchen](mailto:simon@simonklug.de)!
+Seit einigen Jahren gibt es am [UniTheater Karlsruhe](https://www.unitheater.de/) ein wunderbares Format namens [Long Story Short](https://www.unitheater.de/produktion/long-story-short-3-0/), bei dem neue und erfahrene Leute sich am Schreiben, Spielen und Inszenieren von Szenen ausprobieren dürfen. In diesem Jahr wurde ich gefragt, ob ich einen Workshop für angehende Regisseur*innen geben möchte, und natürlich habe ich Ja gesagt. Zusammen mit Lena haben wir unsere [[theatre|knapp zwei Jahrzehnte Erfahrung]] zusammengeworfen, um unser Wissen zu strukturieren. Rausgekommen ist ein Mix aus Übungen, Techniken, Ideen und Hinweisen, die speziell auf das Inszenieren von Szenen angepasst sind (für die Konzeption von Szenen in einem Stückkontext solltest du die Fragen und Hinweise entsprechend anpassen). Die Arbeitsblätter als Übersicht gibt es [hier zum download](../images/theatre/abregie.pdf) Und ja, man kann uns auch [buchen](mailto:simon@simonklug.de)!
 
 *Hinweise und Übungen für [[letsgetphysical|Physical Theatre]] gibt es in einem separaten Blogpost.*
 
 
 ## Vor der ersten Probe - Regiekonzept
 
+[![Übersicht vor der Probe](../images/theatre/vorderprobe.svg)](../images/theatre/abregie.pdf)
 Als Regie sollte ich mir **vor der ersten Probe** Gedanken machen, die sich auf meine persönliche Motivation und Ziele beziehen. Eine Methodik dazu kann **Brainwriting** sein. 
 
 !!!note "Brainwriting Motivation"
@@ -144,6 +145,7 @@ Natürlich bist du als Regie nicht komplett losgelöst von der Welt außerhalb. 
 
 
 ## Während einer Probe
+[![Übersicht Methodiken und Techniken für eine Probe](../images/theatre/währendderprobe.svg)](../images/theatre/abregie.pdf)
 ### Textlernen
 Wir glauben, dass Proben mit Textbuch nicht möglich sind, deshalb ist es im Amateurtheater auch Aufgabe der Regie, dass Spielende möglichst schnell ihren Text draufhaben. Damit wir wirklich experimentieren können, dürfen deine Spielenden nicht mehr über den Text nachdenken, sondern ihn wie im Schlaf beherrschen.
 

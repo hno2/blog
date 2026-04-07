@@ -4,6 +4,7 @@ title: Offering
 slug: offering
 layout: page
 description: Professional trainer and facilitator offering workshops, coaching, and talks.
+date: 2025-12-12
 ---
 I'm here to share what I've learned and help you figure out what works for you. I won't tell you what to do, instead I'll give you the tools, ideas, and strategies, and you decide how to use them.
 I'm still learning too, and that curiosity drives everything I do. Whether it's running workshops, directing [[theatre]], exploring how AI is changing education, or just diving deep into ideas together, I want to help you get better at what matters to you.

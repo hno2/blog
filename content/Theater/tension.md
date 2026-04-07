@@ -2,6 +2,7 @@
 author: Simon Klug
 title: Tension and Resistance
 summary: Achieving personal excellence by navigating life's natural tensions with clarity.
+date: 2023-12-08
 ---
 
 Picture this: a bright summer day, a room buzzing with anticipation, and a workshop led by the charismatic [Andrew Hefler](https://www.andrewhefler.com/). Little did I know that this improv workshop would become a profound life lesson.
