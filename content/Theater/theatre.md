@@ -5,43 +5,41 @@ date: 2020-03-17
 summary: I did a lot of theater at University. This is my recollection.
 ---
 
-I was never a real theatre kid in school. So why am I so obsessed with theatre now?
+I was never a classic theatre kid in school. So why am I so obsessed with theatre now?
 
-To say I was not a theatre kid is not completely honest. Truth is I was on stage for two school musicals, but that was purely based on me being in the school choir. My school also had a small theatre, but I was not on stage there but active behind the scenes in lighting and sound.
-After I finished school and started studying in Karlsruhe everybody I meet had done more or bigger shows or was even working for some event tech company.
-So I decided no more theatre for me.
+That is not entirely true, though. I did two school musicals because I sang in the choir, and I spent time backstage doing lights and sound. But when I moved to Karlsruhe for university, it felt like everyone around me had done bigger shows and had more experience. For a while, I told myself: no more theatre.
 
 ## Loriotesk!
-After a two year hiatus, I was approached by a friend of mine, who asked me if I am interested in playing theatre. He thought I was a funny guy so he guessed comedy might suit me. I did not take me much to say yes so a couple of weeks later we, a team of six, went on to develop a play made up of Loriot pieces, directed and played by us.
-We completely reinterpreted and connected these broadly known sketches to tell a hilarious story of failing relationships, boredom, and media.
-So say at least I was hooked now. Immediately after playing the last show I went on to the next one.
+After a two-year hiatus, a friend asked if I wanted to join a theatre project. He said comedy might suit me, and he was right. A few weeks later, six of us were developing a play from Loriot sketches, directing and performing it ourselves.
+
+We reinterpreted and connected these well-known scenes into one story about relationships, boredom, and media. By the end of the run, I was completely hooked again.
 
 ![Loriotesk Production](../images/theatre/loriotesk.jpeg) *Loriotesk: The TV is not why our relationship is in shambles*
 
 ## Jugend Ohne Gott / The Age of Fishes
-The Age of Fishes was my first project with the Junges Staatstheater Karlsruhe and was directed by [Jakob Weiss](https://jakobweiss.de/). In this play, I was part of the speaking choir of pupils. The Age of Fishes by Horváth tells the story of a teacher and his fascist students.
-The Teacher is confronted with the unreflected ideology of the dictatorial system when the conflicts seething in camp get out of control and a murder is committed. This play depicts the coldness and mendacity of a fascist society, in which a lost youth grows up without freedom and ideals. The teacher's questions about responsibility, morality and the necessity of one's actions are more urgent today.
+The Age of Fishes was my first project with Junges Staatstheater Karlsruhe, directed by [Jakob Weiss](https://jakobweiss.de/). I was part of the pupils' speaking choir. Horvath's story follows a teacher facing the violent, unreflected ideology of his fascist students.
+
+The play asks urgent questions about responsibility, morality, and action in a society shaped by fear and lies.
 ![The teacher and his students in Age of Fishes](../images/theatre/jog.jpg) *The teacher and his students in Age of Fishes (Photo: Felix Grünschloß)*
 
-I was on stage for this piece over 30 times, while it was seen by more than 3000 viewers, including a guest performance in Pakistan. After many shows, I had the chance to discuss the topics of this piece and theatre in general with the viewers. To share my love and understanding regarding theatre as a living construct with visiting pupils meant a lot to me. This play, in combination with daily news and stories of senior visitors about their experiences with fascist systems, showed me the analogies to the more than one current event in Germany. This was alarming.
-Being on stage in this production thought me about group dynamics not only concerning fascist regimes but also in reflection on my daily life. It is so easy to get hooked on something or someone if they are just loud enough. Once you are with the bigger group, no matter what the topic is, you immediately feel empowered.
-Theatre is a safe space were these extreme topics can be discussed. While the play looks brutal and martial from an outside perspective backstage the atmosphere is very relaxed and positive. Maintaining the same quality of the speaking choir with changing cast needs very high empathy for the other actors and concentration on every single performance.
+I performed this piece more than 30 times for over 3,000 viewers, including a guest performance in Pakistan. After many shows, I got to discuss its themes with audiences, especially students, and those conversations meant a lot to me.
+
+The production taught me how group dynamics work, onstage and in everyday life. It is easy to get pulled in by loud voices and the comfort of the majority. Theatre gave us a safe space to explore these extremes. Onstage it looked harsh and militaristic; backstage it required empathy, precision, and deep trust.
 
 ## Woyzeck
-Woyzeck was a production directed by Manuel Schüler with twelve young actors from Karlsruhe. Woyzeck is a German classic written by Georg Büchner. Woyzeck is a young soldier who lives with his wife Marie and their child. With immense pressure coming not only from medical experiments but also from his peers and society makes his mental health deteriorates throughout this play.
+Woyzeck, directed by Manuel Schüler with twelve young actors from Karlsruhe, is one of those plays that cuts deep. Buchner's story shows how social pressure, humiliation, and medical abuse break a person down.
 
-I portrayed the Hauptmann, Woyzecks Chief, who is regularly shaved by him and also puts sexual pressure on him.
-Working on this role was challenging especially with a very short time for rehearsals. This play contained complex motives of oppression, mania and complicated relationships. Therefore a lot of character work and sensitivity were required to portrait this character naturally and truthfully. Getting an outside perspective is very unusual but Theater can be a way to learn how you appear to others.
+I played the Hauptmann, Woyzeck's superior. It was a demanding role, especially with limited rehearsal time, because the piece is full of oppression, dependency, and unstable relationships. It asked for careful character work and a lot of sensitivity.
+
+For me, theatre is one of the few places where you can truly see how you appear to others and what your presence does in a room.
 
 
 ## tick, tick... BOOM!
-tick, tick... BOOM! is a rock musical by the American Tony Award Winner and Pulitzer awardee Jonathan Larsons.
+tick, tick... BOOM! is a rock musical by Jonathan Larson.
 
-Over the time of almost two years, I developed and managed this project as a project lead and dramaturg. This musical consisted of a team of over 20 volunteers, including technicians, band, director and scenery. It was a tremendous challenge to bring (and keep) together this team of diverse people from different backgrounds. Producing theatre means that everything and everyone has to come together perfectly and at the same time.
+Over nearly two years, I developed and managed this project as project lead and dramaturg. More than 20 volunteers were involved: technicians, band, director, and set team. Keeping that many people aligned was hard and beautiful at the same time.
 
-The story hits the heart of my generation:
-Jon, an aspiring composer. Jon is on the edge of turning thirty and worries that he has made the wrong career choices. He tries to write music for a living but is not successful. His best friend since childhood Michael gave up arts and now has a lucrative marketing job and his girlfriend Susan wants to move away from New York for a better job.
-Jon sees turning thirty as the *"end of youth"* and must decide between his passion and being successful.
+The story hit close to home for my generation. Jon is about to turn thirty and feels torn between artistic purpose and financial security. That tension between passion and "success" felt very real.
 
 
 ![Jon and Micheal throwing paper over the band](../images/theatre/tick.JPG) *Jon and Micheal throwing paper over the band (Photo: Ramona Just)*
@@ -49,17 +47,28 @@ Jon sees turning thirty as the *"end of youth"* and must decide between his pass
 
 
 ## Honiefaith
-In the third height of the Corona-Pandemic I was asked to direct the European Premiere of Honiefaith by Monty DiPietro. Honiefaith explores the shadowy world of Japanese "hostess clubs" through the eyes of the foreign women who work there.
+During the third wave of the pandemic, I was asked to direct the European premiere of Honiefaith by Monty DiPietro. The play explores the world of Japanese "hostess clubs" through the eyes of foreign women working there.
 
 ![Reporter Balmori uncovers more of the background of the murder](../images/theatre/honiefaith.jpg) *Reporter Balmori uncovers more of the background of the murder (Photo: T. Schlinck)*
 
 
-When a Filipino hostess‘ dismembered body is discovered in a locker in Tokyo, journalist Victor Balmori is thrown into this turbulent scene. During his investigations, Balmori is confronted with the peculiarities of the Japanese police system and the everyday racism in Japan, Balmori is looking for a story, but he finds a nightmare.
+When a Filipino hostess's dismembered body is found in a locker in Tokyo, journalist Victor Balmori is pulled into a violent and unsettling world. He starts by chasing a story, but soon finds a nightmare shaped by systemic racism and the complexities of the Japanese police system.
 
 
+## Hamlet
+
+For years, I dreamed of directing Hamlet. The idea first took shape in 2019, then had to wait through the pandemic and the start of my day job, until it finally became reality in 2025.
+
+Together with a truly fabulous cast and crew, whom I cannot thank enough, we created an immersive, innovative, and funny version of the play. Our local newspaper wrote that it raised the bar for amateur productions and that "a city and university can be happy to have such a great student theatre."
+
+For me, it was the culmination of everything I had learned over the years in acting and directing and, at the same time, a real stretch. We worked with tons of material, built an in-the-round live-video setup, and pushed through long rehearsals full of sweat, tears, physical intensity, and emotional openness. In the end, it became exactly the kind of Hamlet I had hoped for.
+
+Now I am curious to see what comes next. Maybe this production will even win an award.
 
 ## Improvisation
-I love Improvisation. Together with a diverse cast of fabulous individuals I teach, train and present this art of spontaneous creation. Improvisation is a lot. It not only is a great way to learn about yourself and others by listening being present in an environment of trust and vulnerability. I think it is the spearhead of learning to lead and to follow.
+I love improvisation. Together with a diverse group of amazing people, I teach, train, and perform this art of spontaneous creation.
+
+For me, improvisation is more than performance. It is a way to practice listening, presence, trust, and vulnerability. It teaches you when to lead, when to follow, and how to build something meaningful together in the moment.
 
 ![Performance with the Improtheater Karlsruhe](../images/theatre/impro.jpg) *Performance with the Improtheater Karlsruhe (Photo: Arthur Leon)*
 
@@ -69,8 +78,9 @@ List of my Trainers:
 
 ## Recent Projects
 
-With the a day job, theatre has taken a secondary role. I shifted my focus from onstage to backstage, especially supporting directors.
-Here is a list of recent projects:
+With a day job, theatre has become a smaller part of my week. I shifted my focus from performing to backstage work, especially supporting directors.
+
+Here are some recent projects:
 
 
 | **Production**                                                                       | **Director/Theatre**            | **Role**                       |
@@ -81,20 +91,20 @@ Here is a list of recent projects:
 | Porträt einer jungen Frau in Flammen (Jul 24)                                        | Wagner/UniTheater               | Intimacy Coordination/Movement |
 | Das Bildnis des Dorian Gray  (Oct 24)                                                | Anton & Wachter/UniTheater      | Video Direction and Projection |
 | Momo  (Nov 24)                                                                       | Middel & Ott/UniTheater         | Ensemble                       |
-| [Der Rosenkavalier](https://www.staatstheater-karlsruhe.de/programm/info/3650/)  (Opera) | Homoki /Staatstheater Karlsruhe | Various (Statisterie)      |
-| [**Hamlet**](https://www.unitheater.de/produktion/hamlet/) (2025)                                                                        | UniTheater                      | Direction                      |
-|[Bunburry](https://www.unitheater.de/produktion/bunbury-ernst-sein-ist-alles/?) (2026) | Götzelmann/UniTheater | Fight & Intimacy Coordination |
-| [LSS 3.0](https://www.unitheater.de/produktion/long-story-short-3-0/) | UniTheater | Directing Workshop & Support |
+| [Der Rosenkavalier](https://www.staatstheater-karlsruhe.de/programm/info/3650/) (Opera) | Homoki /Staatstheater Karlsruhe | Various (Statisterie)           |
+| [**Hamlet**](https://www.unitheater.de/produktion/hamlet/) (2025)                        | UniTheater                      | Direction                       |
+| [Bunbury](https://www.unitheater.de/produktion/bunbury-ernst-sein-ist-alles/?) (2026)    | Götzelmann/UniTheater           | Fight & Intimacy Coordination   |
+| [LSS 4.0](https://www.unitheater.de/produktion/long-story-short-3-0/)                    | UniTheater                      | [[regie|Directing Workshop]] & Support |
 
-Let's see what else this year brings in new adventures.
+I am excited to see what this year brings next.
 
 ## Education
-Since theater helps me a lot to develop my personal and interpersonal skills, I want to pass on my experiences as much as possible. I am passionate about giving people a safe space to learn about themselves and others.
-The [UniTheater Karlsruhe](https://unitheater.de) conducts weekly workshops with a different topic every week. I had the opportunity to give multiple workshops for this format including topics like improvisation, directing, singing & speaking and mindfulness. I still get surprised about the tremendous impact some tips or an exercise can have on someone.
+Theatre has helped me develop both personally and socially, so I try to pass that on wherever I can. I care a lot about creating brave spaces where people can explore themselves and each other.
 
-To learn more about how to lead theatre groups I regularly go to workshops by theatre professionals. [[playing|I love to share my experiences with others.]]
-I still regulary train and support other in both directing and acting. My current focus is on physical theatre and the use of the body as a tool for expression.
+At [UniTheater Karlsruhe](https://unitheater.de), we run weekly workshops with changing topics. I have led sessions on improvisation, directing, singing and speaking, and mindfulness. I am still amazed by how much one small exercise or one practical note can unlock for someone.
+
+To keep growing as a group leader, I regularly train with theatre professionals. [[playing|I love sharing what I learn.]] I still train and support others in both directing and acting, with a current focus on physical theatre and the expressive potential of the body.
 
 ![Workshop at the UniTheater Karlsruhe](../images/theatre/ot.jpg) *Workshop at the UniTheater Karlsruhe*
 
-My personal directing style is naturalistic, fast, physical and expressive.
+My directing style is naturalistic, fast-paced, physical, and expressive.

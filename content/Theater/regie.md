@@ -486,3 +486,50 @@ Zum Abschluss vier kurze Gedanken:
 2. Einfach machen – erst ausprobieren, dann nachdenken, ohne sich selbst ständig zu bremsen.
 3. Im Moment bleiben – nicht alles zerdenken, sondern aus dem Spiel heraus entstehen lassen.
 4. Offen sein – Erwartungen loslassen und auch Ungewöhnliches als Möglichkeit begreifen.
+
+
+## Addendum: Dramaturgie für Amateurtheater
+
+Regie ist das Wie, Dramaturgie ist das Warum und Wozu. Wenn du eine einzelne Szene inszenierst, kannst du noch intuitiv arbeiten. Sobald du ein ganzes Stück verantwortest, brauchst du einen Blick auf die Struktur.
+
+Dramaturgie fragt: Welche Szenen braucht dieses Stück, in welcher Reihenfolge, mit welcher Gewichtung? Was hat das Publikum am Anfang gewusst oder gefühlt, und was soll am Ende anders sein? Theatralisch gesprochen: Wo liegt der Spannungsbogen?
+
+Im Amateurtheater übernimmt die Regie diese Rolle oft selbst. Das ist kein Problem, solange du weißt, welche Fragen du dir stellen musst.
+
+!!!note "Dramaturgische Grundfragen"
+    Stelle dir diese Fragen, bevor du anfängst zu proben:
+
+    - Was sagt mir der Anfang des Stücks, und was verspricht er dem Publikum?
+    - Was sagt mir das Stück *heute* und *hier*, in diesem Kontext, mit dieser Gruppe?
+    - Was war das ursprüngliche Interesse des Autors, und wo weiche ich davon ab?
+    - Wo liegen die echten Handlungen im Text, nicht nur die gesprochenen, sondern die, bei denen sich etwas verändert?
+    - Welche Szenen sind strukturell notwendig, welche könnten kürzer sein oder weg?
+    - Was & wie vermittle ich meinem Ensemble, damit alle in dieselbe Richtung arbeiten?
+
+    → Das Ergebnis dieser Fragen ist dein Regiekonzept.
+
+!!!note "Spannungsbogen"
+    Ein einfaches Werkzeug: Schreibe alle Szenen des Stücks auf Karten und ordne sie nach ihrer emotionalen Intensität. Dann frage dich:
+
+    - Gibt es Stellen, wo die Energie zu lange auf demselben Level bleibt?
+    - Wo ist der Höhepunkt, und was kommt danach?
+    - Welche Szene stellt die entscheidende Weiche, und wird sie als solche gespielt?
+
+    Ein guter Spannungsbogen braucht keine Kurve nach oben. Er braucht nur Veränderung.
+
+Die Verbindung zur Big Idea (s.o.) ist direkt: Jede Szene, die du behältst, muss auf deine Big Idea einzahlen. Wer dramaturgisch denkt, kürzt mutig und gewinnt Klarheit.
+
+
+!!!note "Historische Entwicklung der Dramaturgie"
+
+      - **Griechische Antike**: Theater entstand als Wettkampf, die Tragödie war gebunden an strenge Regeln und basierte auf epischen Vorlagen (Homer, Mythos). Aischylos, Sophokles, Euripides entwickelten das Drama als öffentliches, religiöses Ereignis.
+      - **Aristoteles (4. Jh. v. Chr.)** Mit seiner *Poetik* legte Aristoteles das erste dramaturgische Regelwerk vor. Theater soll schlechte und unehrenhafte Gefühle reinigen: *Katharsis*. Sein Modell: Drama in fünf Akten, mit einem Helden, der scheitert. Daraus entstand später das *Freytag'sche Dreieck* (Gustav Freytag, 1863): Exposition → Konflikt → Höhepunkt → Retardation → Lösung. Bis heute das meistgenutzte Strukturmodell.
+      - **Renaissance (14. Jh.)** Wiederentdeckung der Antike. Das aristotelische Prinzip der drei Einheiten (Ort, Zeit, Handlung) wird zur Norm. Shakespeare ignoriert sie bewusst und wird damit zum Sonderfall: offene Form, Parallelhandlungen, Zeitsprünge.
+      - **Sturm und Drang (18. Jh.)** Abkehr von Aristoteles. Gefühl schlägt Regel. Schiller und der junge Goethe brechen mit der Einheitslehre, der Held wird bürgerlich, fehlbar, menschlich.
+      - **20./21. Jahrhundert** Mehrere Modelle konkurrieren:
+        - **Episches Theater** (Brecht): Verfremdung statt Einfühlung, der Zuschauer soll denken, nicht fühlen
+        - **Heldenreise** (Campbell/Vogler): 12-stufiges Monomythos-Modell, stark in Film und populärem Erzählen
+        - **Erzählte Zeit vs. erzählende Zeit**: Wie lang dauert die Geschichte wirklich und wie lang wirkt sie auf der Bühne?
+        - **Performance / Postdramatisches Theater** (Lehmann): Text verliert die Führung, keine Handlung im klassischen Sinn, Körper und Raum übernehmen
+
+    → **Für die Praxis:** Kein Modell ist überlegen. Aber jede Regie sollte wissen, welches sie nutzt und warum.
