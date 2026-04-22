@@ -10,7 +10,7 @@ dependencies = [
     "pelican-katex>=1.8.4",
     "pelican-obsidian",
     "pelican-sitemap>=1.2.2",
-    "pelican[markdown]>=4.11.0.post0",
+    "pelican[markdown]>=4.12.0",
     "pybtex-author-year-label",
     "typogrify>=2.1.0",
 ]
