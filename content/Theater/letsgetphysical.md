@@ -355,7 +355,7 @@ Wichtige Konzepte sind:
     * **An der Wand laufen**. Die Bases erzeugen Kraft richtung Wand, nicht nach oben. (Sideplank) A: Hand auf Schulter und Hand in Achsel. B: Hüfte, Kraft in die WandC: Fuß bis nach oben. Flyer: Sideplank mit den Füßen an der Wand (Screenshot)
     * Überschläge, Seitlich etc. Mit vielen Leuten ist alles und mit allen Körpern möglich
 
-    [[Quelle]](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
+    [Quelle](https://www.youtube.com/watch?v=Q4mXhW7TXQ8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=2)
 
 
 !!!note "Lift Tips"
@@ -455,7 +455,9 @@ Wichtige Konzepte sind:
     * Dynamik über Gewicht des eigenen Körpers, Im Kontakt Kommunizieren den anderen Bewegen können, Findet wege für Lifts, Bewegen des anderen.
     * Beliebige simple Aufgaben (Anziehung Abstoßen) können genutzt werden
 
-    [[Quelle Over&Under]](https://www.youtube.com/watch?v=47QhuLMLDL8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG)[[Quelle Round, By, Through]](https://www.youtube.com/watch?v=gUqZPfGIX6U&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=3)
+    [Quelle Over&Under](https://www.youtube.com/watch?v=47QhuLMLDL8&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG)
+
+    [Quelle Round, By, Through](https://www.youtube.com/watch?v=gUqZPfGIX6U&list=PLJgBmjHpqgs4s6c0MrG-pniFOTtvKncpG&index=3)
 
 
 !!!note "Lied der Hände (sitzen)"
