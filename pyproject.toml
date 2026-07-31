@@ -7,7 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "minify-html>=0.18.1",
     "pelican-cite",
-    "pelican-katex>=1.8.7",
+    "pelican-katex>=1.8.8",
     "pelican-obsidian",
     "pelican-sitemap>=1.2.2",
     "pelican[markdown]>=4.12.0",

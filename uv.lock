@@ -49,7 +49,7 @@ requires-dist = [
     { name = "minify-html", specifier = ">=0.18.1" },
     { name = "pelican", extras = ["markdown"], specifier = ">=4.12.0" },
     { name = "pelican-cite", git = "https://github.com/VorpalBlade/pelican-cite.git" },
-    { name = "pelican-katex", specifier = ">=1.8.7" },
+    { name = "pelican-katex", specifier = ">=1.8.8" },
     { name = "pelican-obsidian", git = "https://github.com/jonathan-s/pelican-obsidian?rev=main" },
     { name = "pelican-sitemap", specifier = ">=1.2.2" },
     { name = "pybtex-author-year-label", git = "https://github.com/hno2/pybtex-author-year-label" },
@@ -324,15 +324,15 @@ dependencies = [
 
 [[package]]
 name = "pelican-katex"
-version = "1.8.7"
+version = "1.8.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils" },
     { name = "pelican" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9b/5f/5cf85e1a0c5192f8f3ced3ea6fbeb4bacc43ac11040f10a3b768aa164bc9/pelican_katex-1.8.7.tar.gz", hash = "sha256:6f39eca28fb23cc4529562ec493bd3b50ce2596b0427b580559f1b3912e5539b", size = 176953, upload-time = "2026-05-25T09:12:53.751Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/87/3a4761fda5cd674c88436d5d373b7602bb8f3aec416f78a2e11ee7367017/pelican_katex-1.8.8.tar.gz", hash = "sha256:b26ccee84b58802973ef1abeee479d6d446dda92b8b137d16c82325ae4c974a4", size = 177658, upload-time = "2026-07-20T07:33:37.577Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8b/fe/0862219e9dae8e16ceb00e4940dba35c1a2a9c4690e8bfddd93e6b9c9c5c/pelican_katex-1.8.7-py3-none-any.whl", hash = "sha256:e43f5c859bcc5b70a4884a4ad01394b1bad28b7759b3598b8f40e0fd6428a7b1", size = 179121, upload-time = "2026-05-25T09:12:52.122Z" },
+    { url = "https://files.pythonhosted.org/packages/82/a2/488ffd75b665e9afe211135e267d08bde5af6493f16c1384113d5dbbd8c9/pelican_katex-1.8.8-py3-none-any.whl", hash = "sha256:3264e5e3506fd66b5d15555a6894b9e7c060cdf47597987b0088e2a968071465", size = 179819, upload-time = "2026-07-20T07:33:36.26Z" },
 ]
 
 [[package]]
