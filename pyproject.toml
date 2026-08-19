@@ -22,7 +22,7 @@ pelican-obsidian = { git = "https://github.com/jonathan-s/pelican-obsidian", rev
 
 [dependency-groups]
 dev = [
-    "prek>=0.4.11",
+    "prek>=0.4.13",
 ]
 
 [tool.ruff]
