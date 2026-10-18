@@ -2,7 +2,7 @@
 author: Simon Klug
 title: Clean Code in Python
 date: 2020-01-23
-tags: coding, clean-code, programming, Python,
+tags: coding, clean-code, programming, Python
 ---
 [TOC]
 

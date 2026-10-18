@@ -45,6 +45,8 @@ DEFAULT_PAGINATION = False
 
 # Defaults
 DEFAULT_CATEGORY = "Random"
+# Draft rendering requires a category even when category pages are disabled.
+DEFAULT_METADATA = {"category": DEFAULT_CATEGORY}
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_DATE = "fs"
 ARTICLE_URL = "{slug}"

@@ -1,6 +1,6 @@
 ---
 title: Lecture Artificial Intelligence in Service Systems
-Tags: summary, lecture, ai, machine learning, artificial intelligence, exam, adaptive learning, neuronal network, concept drift, lecture-notes, kit, transfer learning, Machine Learning, service, karlsruhe, karlsruhe institute for technology,
+Tags: summary, lecture, ai, machine learning, artificial intelligence, exam, adaptive learning, neuronal network, concept drift, lecture-notes, kit, transfer learning, Machine Learning, service, karlsruhe, karlsruhe institute for technology
 slug: aiss
 summary: This is a lecture summary of Artificial Intelligence in Service Systems in the winter term 2019/2020.
 date: 2020-05-21 11:12
