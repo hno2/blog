@@ -3,12 +3,10 @@ author: Simon Klug
 title: Offering
 slug: offering
 layout: page
-description: Professional trainer and facilitator offering workshops, coaching, and talks.
+summary: Simon Klug offers workshops, talks, and theatre projects, including communication training, storytelling, and presentation coaching.
 date: 2025-12-12
 ---
-I'm here to share what I've learned and help you figure out what works for you. I won't tell you what to do, instead I'll give you the tools, ideas, and strategies, and you decide how to use them.
-I'm still learning too, and that curiosity drives everything I do. Whether it's running workshops, directing [[theatre]], exploring how AI is changing education, or just diving deep into ideas together, I want to help you get better at what matters to you.
-I work best with people who are genuinely interested in growing: who want to experiment, ask questions, and aren't afraid to challenge themselves and others. If that sounds like you, let's figure out what we can do together.
+I design and facilitate workshops, give talks, and work in theatre. The examples below show some of my work; each collaboration is shaped around its context. I also run workshops with Samuel Wagner through [Doppeldenken](https://doppeldenken.de).
 
 [Reach out!](mailto:simon@simonklug.de)
 

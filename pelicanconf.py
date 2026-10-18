@@ -34,6 +34,7 @@ PLUGINS = [
 ]
 SITEMAP = {
     "format": "xml",
+    "exclude": [r"404\.html$"],
     "priorities": {"articles": 0.5, "indexes": 0.5, "pages": 0.5},
     "changefreqs": {"articles": "monthly", "indexes": "daily", "pages": "monthly"},
 }
@@ -69,6 +70,7 @@ EXTRA_PATH_METADATA = {
     # "static/fonts": {"path": "fonts"},
     "static/favicon.ico": {"path": "favicon.ico"},
     "static/robots.txt": {"path": "robots.txt"},
+    "static/llms.txt": {"path": "llms.txt"},
 }
 # EXTRA_PATH_METADATA = {"extra/_redirects": {"path": "_redirects"}}
 
@@ -80,13 +82,13 @@ CATEGORY_SAVE_AS = ""
 USE_SHORTCUT_ICONS = True
 
 # SEO
-SITE_DESCRIPTION = "Explore the personal blog of Simon Klug where everyday experiences transform into valuable lessons. Join me as I delve into the worlds of theatre, master the art of leading a good workshop, dive into AI topics, and unravel the mysteries of education. Follow along on my journey of continuous learning and discovery."
+SITE_DESCRIPTION = "Simon Klug writes about artificial intelligence, education, software, theatre, and learning. He works on AI and digitalisation at Bosch and gives workshops and talks."
 
 
 AUTHORS = {
     "Simon Klug": {
         "url": "https://simonklug.de/",
-        "blurb": "In the world of Artificial Intelligence and digitalization, I'm Simon Klug, a passionate explorer and a day-to-day learner, located in Karlsruhe. By day, I bring my love for AI to life at Bosch, leading the charge in training our teams for the future. But my journey doesn't stop there. When I am not immersed in the world of technology and work, you'll find me on a theatre stage, running, cooking or failing in new acrobatic skills.",
+        "blurb": "Simon Klug works on artificial intelligence and digitalisation at Bosch in Karlsruhe, Germany. He writes about AI, education, software, theatre, and learning, and gives workshops and talks.",
         "avatar": "/images/avatars/simonklug.jpeg",
     }
 }

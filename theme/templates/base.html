@@ -34,6 +34,14 @@
     }
 } %}
 {% set t = ui[lang] if lang in ui else ui['en'] %}
+{% if article or page %}
+{% set content_title = article.title if article else page.title %}
+{% set content_subtitle = article.subtitle if article else page.subtitle %}
+{% set seo_title = content_title ~ (' - ' ~ content_subtitle if content_subtitle else '') ~ ' | Simon Klug' %}
+{% else %}
+{% set seo_title = 'Simon Klug | AI, Education, Theatre and Learning' %}
+{% endif %}
+{% set seo_description = article.summary if article and article.summary else page.summary if page and page.summary else SITE_DESCRIPTION %}
 <html lang="{{ lang }}">
 
 <head>
@@ -50,9 +58,67 @@
     <meta name="author" content="{{ AUTHOR }}" />
     {% endif %}
 
-    <meta name="description"
-        content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
-    <title>{% block title %}{% endblock title %}</title>
+    <meta name="description" content="{{ seo_description|striptags|e }}">
+    <title>{% block title %}{{ seo_title|e }}{% endblock title %}</title>
+    {% block head_robots %}{% endblock head_robots %}
+    {% block head_canonical %}
+    {% if SITEURL %}
+    {% if article %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
+    {% elif page %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}">
+    {% else %}
+    <link rel="canonical" href="{{ SITEURL }}/">
+    {% endif %}
+    {% endif %}
+    {% endblock head_canonical %}
+    <meta property="og:site_name" content="Simon Klug">
+    <meta property="og:title" content="{{ seo_title|striptags|e }}">
+    <meta property="og:description" content="{{ seo_description|striptags|e }}">
+    <meta property="og:type" content="{% if article %}article{% else %}website{% endif %}">
+    {% block head_og_url %}
+    {% if SITEURL %}
+    {% if article %}
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+    {% elif page %}
+    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}">
+    {% else %}
+    <meta property="og:url" content="{{ SITEURL }}/">
+    {% endif %}
+    {% endif %}
+    {% endblock head_og_url %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://simonklug.de/about#person",
+          "name": "Simon Klug",
+          "url": "https://simonklug.de/about",
+          "image": "https://simonklug.de/images/avatars/simonklug.jpeg",
+          "sameAs": ["https://www.linkedin.com/in/simon-klug/"],
+          "knowsAbout": [
+            "Artificial intelligence",
+            "Artificial intelligence in education",
+            "Machine learning",
+            "Science communication",
+            "Storytelling",
+            "Presentation skills",
+            "Improvisational theatre"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://simonklug.de/#website",
+          "name": "Simon Klug",
+          "url": "https://simonklug.de/",
+          "inLanguage": "en",
+          "publisher": {"@id": "https://simonklug.de/about#person"}
+        }
+      ]
+    }
+    </script>
     <style>
         {% include "style.css"%}
         {% if article and article.content and '<code>' in article.content or page and page.content and '<code>' in page.content%}
@@ -69,7 +135,7 @@
         <div class="container">
             <nav class="nav">
                 <div class="header main">
-                    <h1 style="line-height: 1.6;font-size: 1rem;margin: 0 0 0.25em 0;">Simon Klug</h1>
+                    <p style="line-height: 1.6;font-size: 1rem;margin: 0 0 0.25em 0;">Simon Klug</p>
                     <nav class="ft">
                         {% set root_arts = articles|selectattr('relative_dir','equalto','')|list %}
                         {% if root_arts %}

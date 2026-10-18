@@ -4,9 +4,11 @@
 Page not found · {{ super() }}
 {% endblock title %}
 
-{% block head_description %}
-Page does not exist at {{ SITENAME|striptags|e }} blog.
-{% endblock head_description %}
+{% block head_robots %}
+<meta name="robots" content="noindex, follow">
+{% endblock head_robots %}
+{% block head_canonical %}{% endblock head_canonical %}
+{% block head_og_url %}{% endblock head_og_url %}
 {% block content %}
 <h1>That page doesn't exist!</h1>
 

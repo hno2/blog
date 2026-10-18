@@ -1,0 +1,19 @@
+# Simon Klug
+
+> Simon Klug writes about artificial intelligence, education, software, theatre, and learning. He works on AI and digitalisation at Bosch in Karlsruhe, Germany, and offers workshops and talks.
+
+## About Simon
+
+- [About Simon](https://simonklug.de/about): Background and topics covered on this site.
+- [Work and AI](https://simonklug.de/working): Simon's work in AI and digitalisation.
+
+## Workshops and talks
+
+- [Workshops and communication training](https://simonklug.de/enabling): Examples include storytelling, presentation skills, stage confidence, science communication, and improvisation. Simon also runs workshops with Samuel Wagner through [Doppeldenken](https://doppeldenken.de).
+- [Work with Simon](https://simonklug.de/offering): Workshops, talks, theatre, and AI in education.
+
+## Writing
+
+The home page lists articles about AI, education, software, theatre, and learning.
+
+- [All writing](https://simonklug.de/)
