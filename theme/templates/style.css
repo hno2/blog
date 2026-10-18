@@ -16,6 +16,25 @@ h3 {
     margin-top: 0
 }
 
+.article-header {
+    margin-bottom: 1.5rem
+}
+
+.article-header h1 {
+    margin-bottom: 0.35rem
+}
+
+.article-published {
+    margin: 0;
+    color: #666;
+    font-size: 0.85rem
+}
+
+.article-published time {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap
+}
+
 body {
     font-family: var(--sans-font);
     line-height: 1.6;

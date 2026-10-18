@@ -16,6 +16,7 @@
 
 
 {% block content %}
+<header class="article-header">
 <h1>{{ article.title }}
     {% if article.subtitle %}
     <small class="subtitle">
@@ -23,6 +24,10 @@
     </small>
     {% endif %}
 </h1>
+<p class="article-published">{{ t.published_on }}
+    <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime(t.published_date_format) }}</time>
+</p>
+</header>
 {{ article.content }}
 {% if article.bibliography %}
 {{ article.bibliography.rendered }}
