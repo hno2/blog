@@ -59,7 +59,9 @@ When a Filipino hostess's dismembered body is found in a locker in Tokyo, journa
 
 For years, I dreamed of directing Hamlet. The idea first took shape in 2019, then had to wait through the pandemic and the start of my day job, until it finally became reality in 2025.
 
-Together with a truly fabulous cast and crew, whom I cannot thank enough, we created an immersive, innovative, and funny version of the play. Our local newspaper wrote that it raised the bar for amateur productions and that "a city and university can be happy to have such a great student theatre."
+Together with a truly fabulous cast and crew, whom I cannot thank enough, we created an immersive, innovative, and funny version of the play. Our local newspaper wrote that it raised the bar for amateur productions and that *"a city and university can be happy to have such a great student theatre."* ([Badische Neuste Nachrichten](https://bnn.de/karlsruhe/karlsruher-unitheater-interpretiert-hamlet-und-macht-das-stueck-so-verstaendlicher))
+
+![Hamlet faces the state](../images/theatre/hamlet.jpg) *Hamlet constantly confronts the pressures of power, public scrutiny, and surveillance.*
 
 For me, it was the culmination of everything I had learned over the years in acting and directing and, at the same time, a real stretch. We worked with tons of material, built an in-the-round live-video setup, and pushed through long rehearsals full of sweat, tears, physical intensity, and emotional openness. In the end, it became exactly the kind of Hamlet I had hoped for.
 
@@ -83,18 +85,19 @@ With a day job, theatre has become a smaller part of my week. I shifted my focus
 Here are some recent projects:
 
 
-| **Production**                                                                       | **Director/Theatre**            | **Role**                       |
-| ------------------------------------------------------------------------------------ | ------------------------------- | ------------------------------ |
-| Verschwörung gegen die Liebe                                                         | Frank/GeisozTheater             | Intimacy Coordination          |
-| Ein Stück vom Abendstern                                                             | Azarfar/UniTheater              | Directing Support              |
-| Nabucco (Opera)                                                                      | Strassberger/Staatstheater KA   | Various (Statisterie)          |
-| Porträt einer jungen Frau in Flammen (Jul 24)                                        | Wagner/UniTheater               | Intimacy Coordination/Movement |
-| Das Bildnis des Dorian Gray  (Oct 24)                                                | Anton & Wachter/UniTheater      | Video Direction and Projection |
-| Momo  (Nov 24)                                                                       | Middel & Ott/UniTheater         | Ensemble                       |
-| [Der Rosenkavalier](https://www.staatstheater-karlsruhe.de/programm/info/3650/) (Opera) | Homoki /Staatstheater Karlsruhe | Various (Statisterie)           |
-| [**Hamlet**](https://www.unitheater.de/produktion/hamlet/) (2025)                        | UniTheater                      | Direction                       |
-| [Bunbury](https://www.unitheater.de/produktion/bunbury-ernst-sein-ist-alles/?) (2026)    | Götzelmann/UniTheater           | Fight & Intimacy Coordination   |
-| [LSS 4.0](https://www.unitheater.de/produktion/long-story-short-3-0/)                    | UniTheater                      | [[regie|Directing Workshop]] & Support |
+| **Production**                                                                          | **Director/Theatre**            | **Role**                       |
+| --------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------ |
+| Verschwörung gegen die Liebe                                                            | Frank/GeisozTheater             | Intimacy Coordination          |
+| Ein Stück vom Abendstern                                                                | Azarfar/UniTheater              | Directing Support              |
+| Nabucco (Opera)                                                                         | Strassberger/Staatstheater KA   | Various (Statisterie)          |
+| Porträt einer jungen Frau in Flammen (Jul 24)                                           | Wagner/UniTheater               | Intimacy Coordination/Movement |
+| Das Bildnis des Dorian Gray  (Oct 24)                                                   | Anton & Wachter/UniTheater      | Video Direction and Projection |
+| Momo  (Nov 24)                                                                          | Middel & Ott/UniTheater         | Ensemble                       |
+| [Der Rosenkavalier](https://www.staatstheater-karlsruhe.de/programm/info/3650/) (Opera) | Homoki /Staatstheater Karlsruhe | Various (Statisterie)          |
+| [**Hamlet**](https://www.unitheater.de/produktion/hamlet/) (2025)                       | UniTheater                      | Direction                      |
+| [Bunbury](https://www.unitheater.de/produktion/bunbury-ernst-sein-ist-alles/?) (2026)   | Götzelmann/UniTheater           | Fight & Intimacy Coordination  |
+| [LSS 4.0](https://www.unitheater.de/produktion/long-story-short-3-0/) (2026)            | UniTheater                      | [[regie|Directing Workshop]] & Support |
+| [Helges Leben](https://www.unitheater.de/produktion/helges-leben/) (2026)               | Klug, Lauter/UniTheater         | Director                       |
 
 I am excited to see what this year brings next.
 
